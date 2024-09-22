@@ -6,6 +6,10 @@ export default defineConfig({
   title: "Lee's blog",
   description: "偶尔的废话和些许经验",
   cleanUrls: true,
+
+  head: [
+    ['link', { rel: 'icon', href: '/logo.png' }] // 替换为您图标的路径
+  ],
   
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
