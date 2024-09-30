@@ -77,6 +77,7 @@ const themeConfig: ThemeContext = {
   sidebarOptions,
   /** 文档所在目录（用于GitHub编辑链接） */
   sitePattern: `docs`,
+  enableSuggestionBox: false,
 }
 
 // https://vitepress.dev/reference/site-config
