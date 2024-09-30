@@ -1,4 +1,11 @@
-# 关于
+---
+title: 关于
+icon: creative
+author: Lee
+category:
+  - about
+index: false
+---
 
 ## 你好 👋 
 
