@@ -38,7 +38,7 @@ const sidebarOptions = [
     // 首页
   {
     ...baseConfig,
-    scanStartPath: '',
+    scanStartPath: '/',
     resolvePath: '/',
   },
   // 关于
