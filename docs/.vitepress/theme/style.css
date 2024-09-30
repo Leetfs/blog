@@ -8,7 +8,7 @@
  *
  * Each colors have exact same color scale system with 3 levels of solid
  * colors with different brightness, and 1 soft color.
- * 
+ *
  * - `XXX-1`: The most solid color used mainly for colored text. It must
  *   satisfy the contrast ratio against when used on top of `XXX-soft`.
  *
@@ -139,5 +139,10 @@
 
 /* 英雄区图片背景渐变的调整 */
 .image-bg {
-  margin-top: 60px;
+  margin-top: 13% !important;;
+}
+
+
+.main {
+  margin-top: 8% !important;
 }

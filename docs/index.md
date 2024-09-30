@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "\nLee's blog"
+  name: "Lee's blog"
   text: "欢迎来到我的 blog~"
   tagline: "\n偶尔的废话和些许经验"
   image:
     src: /logo.png
     alt: Lee's blog
-    style: "margin-top: 65px;"
+    style: "margin-top: 13%;"
   actions:
     - theme: brand
       text: 关于
