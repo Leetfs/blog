@@ -146,3 +146,17 @@
 .main {
   margin-top: 8% !important;
 }
+
+@font-face {
+  font-family: 'LXGWWenKai-Regular';
+  src: url('../../public/LXGWWenKai-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'LXGWWenKaiMono-Regular';
+  src: url('../../public/LXGWWenKaiMono-Regular.ttf') format('truetype');
+}
+
+:root {
+--vp-font-family-base: "LXGWWenKai-Regular";/* normal text font */
+--vp-font-family-mono: "LXGWWenKaiMono-Regular";/* code font */
+}
