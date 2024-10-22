@@ -11,13 +11,14 @@ export const fontMap = {
 
   // 添加全局字体切换事件监听
   export const addFontSwitchListener = () => {
-    const fontSwitchItems = document.querySelectorAll('.items span'); // 选择所有导航项的 span
-    console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
+    const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 span
+    // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
     fontSwitchItems.forEach(item => {
       item.addEventListener('click', (e) => {
         e.preventDefault();
         const target = e.target;
         const selectedFont = target.innerText; // 获取点击的字体名称
+        // console.log(`${selectedFont}`);
         switchFont(selectedFont); // 切换字体
       });
     });
