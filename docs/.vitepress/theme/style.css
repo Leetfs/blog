@@ -148,15 +148,18 @@
 }
 
 @font-face {
-  font-family: 'LXGWWenKai-Regular';
+  font-family: '霞鹜文楷';
   src: url('../../public/LXGWWenKai-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'LXGWWenKaiMono-Regular';
+  font-family: '霞鹜文楷-等宽';
   src: url('../../public/LXGWWenKaiMono-Regular.ttf') format('truetype');
 }
-
+@font-face {
+  font-family: '霞鹜新晰黑';
+  src: url('../../public/LXGWNeoXiHei.ttf') format('truetype');
+}
 :root {
---vp-font-family-base: "LXGWWenKai-Regular";/* normal text font */
---vp-font-family-mono: "LXGWWenKaiMono-Regular";/* code font */
+--vp-font-family-base: var(--main-font, '霞鹜文楷');/* normal text font */
+--vp-font-family-mono: "霞鹜文楷-等宽";/* code font */
 }

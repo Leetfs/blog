@@ -23,6 +23,19 @@ const nav: NavConfig = [
     text: '生活琐事',
     link: '/life/',
   },
+  {
+    text: "切换字体",
+    items: [
+      {
+        text: "霞鹜文楷",
+        link: "#",
+      },
+      {
+        text: "霞鹜新晰黑",
+        link: "#",
+      },
+    ],
+  },
 ]
 
 const baseConfig = {
