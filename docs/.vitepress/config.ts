@@ -33,7 +33,7 @@ const nav: NavConfig = [
       {
         text: "思源宋体",
         link: "#",
-      }
+      },
       {
         text: "霞鹜文楷",
         link: "#",
