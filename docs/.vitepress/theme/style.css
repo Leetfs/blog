@@ -149,15 +149,15 @@
 
 @font-face {
   font-family: '霞鹜文楷';
-  src: url('../LXGWWenKai-Regular.ttf') format('truetype');
+  src: url('/LXGWWenKai-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: '霞鹜文楷-等宽';
-  src: url('../LXGWWenKaiMono-Regular.ttf') format('truetype');
+  src: url('/LXGWWenKaiMono-Regular.ttf') format('truetype');
 }
 @font-face {
   font-family: '霞鹜新晰黑';
-  src: url('../LXGWNeoXiHei.ttf') format('truetype');
+  src: url('/LXGWNeoXiHei.ttf') format('truetype');
 }
 :root {
 --vp-font-family-base: var(--main-font, '霞鹜文楷');/* normal text font */
