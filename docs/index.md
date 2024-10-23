@@ -9,7 +9,7 @@ hero:
   image:
     src: /logo.png
     alt: Lee's blog
-    style: "margin-top: 15%;"
+    style: "margin-top: 14%;"
   actions:
     - theme: brand
       text: 关于
