@@ -1,7 +1,8 @@
-// fontSwitcher.js
 export const fontMap = {
-  '霞鹜文楷': "'霞鹜文楷', serif",
-  '霞鹜新晰黑': "'霞鹜新晰黑', serif",
+  // '霞鹜文楷': "'霞鹜文楷', serif",
+  // 字体映射表
+  '霞鹜文楷': '霞鹜文楷',
+  '霞鹜新晰黑': '霞鹜新晰黑',
   };
 
   // 字体切换函数
@@ -11,7 +12,7 @@ export const fontMap = {
 
   // 添加全局字体切换事件监听
   export const addFontSwitchListener = () => {
-    const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 span
+    const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 a 标签
     // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
     fontSwitchItems.forEach(item => {
       item.addEventListener('click', (e) => {

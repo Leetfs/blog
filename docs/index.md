@@ -21,8 +21,6 @@ hero:
       text: 生活琐事
       link: /life
 
-  image?: ThemeableImage
-
 # features:
 #   - title: 我认为：
 #     details: 没有未来的未来不是我想要的未来
