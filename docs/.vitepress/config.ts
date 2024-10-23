@@ -27,11 +27,23 @@ const nav: NavConfig = [
     text: "切换字体",
     items: [
       {
+        text: "更纱黑体",
+        link: "#",
+      },
+      {
+        text: "思源宋体",
+        link: "#",
+      }
+      {
         text: "霞鹜文楷",
         link: "#",
       },
       {
         text: "霞鹜新晰黑",
+        link: "#",
+      },
+      {
+        text: "使用系统字体",
         link: "#",
       },
     ],
