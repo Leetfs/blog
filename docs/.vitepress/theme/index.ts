@@ -9,9 +9,9 @@ import './style.css'
 
 export default {
   extends: PtjsTheme,
-  setup() {
-    onMounted(() => {
-      addFontSwitchListener(); // 添加字体切换的事件监听器
-    });
-  },
+  // setup() {
+  //   onMounted(() => {
+  //     addFontSwitchListener(); // 添加字体切换的事件监听器
+  //   });
+  // },
 }

@@ -30,8 +30,6 @@ author: Lee
 
 ## 在 CSS 中导入字体
 
-将字体文件放入 `docs/public` 下
-
 ```css
 @font-face {
   font-family: '霞鹜文楷';
@@ -83,6 +81,68 @@ export const fontMap = {
       });
     });
 };
+```
+
+> 上方为错误案例，vitepress 移动视图下的折叠导航栏默认处于折叠状态，只有当用户展开导航栏时，相关的资源才会被加载，而监听器创建在此事件之前，导致无法监听。
+
+### 正确样例
+
+```ts
+export const fontMap = {
+  // 字体映射表
+  '霞鹜文楷': 'LXGW WenKai',
+  '霞鹜文楷 Mono': 'LXGW WenKai Mono',
+  '霞鹜新晰黑': 'LXGW Neo XiHei',
+  '新晰黑 Code': 'NeoXiHei Code',
+  '默认字体': 'system-ui',
+  '更纱黑体': 'Sarasa UI SC',
+  '思源宋体': 'Source Han Serif CN',
+  '黑体': 'sans',
+  '宋体': 'serif',
+};
+
+// 字体切换函数
+export const switchFont = (font) => {
+  document.documentElement.style.setProperty('--main-font', fontMap[font]);
+};
+
+// 添加全局字体切换事件监听
+export const addFontSwitchListener = () => {
+  // 选择汉堡菜单
+  const hamburger = document.querySelector('.VPNavBarHamburger');
+  const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 a 标签
+      // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
+
+      fontSwitchItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = e.target;
+          const selectedFont = target.innerText; // 获取点击的字体名称
+          // console.log(`${selectedFont}`);
+          switchFont(selectedFont); // 切换字体
+        });
+      });
+
+  // 添加汉堡菜单事件监听
+  if (hamburger) {
+    hamburger.addEventListener('click', () => {
+      // 在汉堡菜单打开时添加字体切换事件监听
+      const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 a 标签
+      // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
+
+      fontSwitchItems.forEach(item => {
+        item.addEventListener('click', (e) => {
+          e.preventDefault();
+          const target = e.target;
+          const selectedFont = target.innerText; // 获取点击的字体名称
+          // console.log(`${selectedFont}`);
+          switchFont(selectedFont); // 切换字体
+        });
+      });
+    });
+  }
+};
+
 ```
 
 ## 在 index.ts/index.js 内导入脚本
