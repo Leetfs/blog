@@ -1,4 +1,4 @@
-name: Auto Approve and Merge Specified User's PRs
+name: 自动批准 PR
 
 on:
   pull_request:
