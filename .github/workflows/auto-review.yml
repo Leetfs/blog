@@ -3,10 +3,6 @@ name: 自动批准 PR
 on:
   pull_request:
     types: [opened, reopened, synchronize, labeled]
-  pull_request_review:
-    types: [submitted]
-  check_suite:
-    types: [completed]
 
 jobs:
   auto-approve-and-merge:
