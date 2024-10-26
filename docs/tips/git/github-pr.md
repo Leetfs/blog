@@ -28,3 +28,17 @@ author: Lee
 
 ![](github-img/image12.png)
 ![](github-img/image13.png)
+
+## 提交以后如何修改
+
+PR 合并前分支和 PR 是绑定的，直接在对应分支修改即可。
+
+## 如何审核 PR
+
+进入 PR，点击 `Files changed`
+
+![](github-img/image14.png)
+
+点击 `Review changes`
+
+![](github-img/image15.png)
