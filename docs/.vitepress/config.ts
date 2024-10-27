@@ -60,7 +60,7 @@ const baseConfig = {
 } satisfies Partial<SidebarOptions>
 
 const sidebarOptions = [
-    // 首页
+  // 首页
   {
     ...baseConfig,
     scanStartPath: '/',
@@ -78,7 +78,7 @@ const sidebarOptions = [
     scanStartPath: 'tips',
     resolvePath: '/tips/',
   },
-    // 生活琐事
+  // 生活琐事
   {
     ...baseConfig,
     scanStartPath: 'life',
@@ -89,9 +89,9 @@ const sidebarOptions = [
 const themeConfig: ThemeContext = {
   siteTitle: "Lee's blog",
   siteDescription: "偶尔的废话和些许经验",
-  siteLogo: '/logo.png',
+  siteLogo: '/old.png',
   // SiteTitle值为false时，logo位置不显示标题。未定义SiteTitle时，显示标题。SiteTitle值为abcd时，显示abcd。
-    //   SiteTitle: false,
+  //   SiteTitle: false,
   /** Repo */
   githubRepoLink: 'https://github.com/Leetfs/blog',
   /** vitepress 根目录 */
