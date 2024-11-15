@@ -52,7 +52,7 @@ author: Lee
 
 ### 配置 dockerfile
 
-让我们观测这个容器的 dockerfile，ports下方的 `- 443:4443` 代表监听服务器的 443 端口，并将收到的请求 docker 容器所使用的 4443 端口上。
+让我们观测这个容器的 dockerfile，ports下方的 `- 443:4443` 代表监听服务器的 443 端口，并将收到的请求转发到这个 docker 容器所使用的 4443 端口上。
 
 ```yaml
 services:
