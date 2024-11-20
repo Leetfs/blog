@@ -54,11 +54,14 @@ jobs:
           branch-suffix: timestamp
           commit-message: Compress Images
           body: ${{ steps.calibre.outputs.markdown }}
-      - name: Add label to PR
+      - name: 添加 label 并通过 PR
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ github.token }}
         if: |
           github.event_name != 'pull_request' &&
           steps.calibre.outputs.markdown != ''
         run: |
           gh pr edit ${{ github.event.pull_request.number }} --add-label "Actions"
+          gh pr review ${{ github.event.pull_request.number }} --approve
+          # 执行自动合并并删除分支
+          gh pr merge ${{ github.event.pull_request.number }} --merge --delete-branch
