@@ -71,4 +71,4 @@ jobs:
         run: |
           gh pr review ${{ github.event.pull_request.number }} --approve
           # 执行自动合并并删除分支
-          gh pr merge ${{ github.event.pull_request.number }} --merge --delete-branch
+          gh pr merge ${{ github.event.pull_request.number }} --squash --delete-branch
