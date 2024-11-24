@@ -52,4 +52,4 @@ export GPG_TTY=$(tty)
 
 ![](./pubilc/gpg-sign-4.png)
 
-成功弹出校验框，至此 问题解决。
+成功弹出校验框，至此问题解决。
