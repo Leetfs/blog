@@ -9,7 +9,7 @@ author: Lee
 
 ![](./pubilc/gpg-sign-1.png)
 
-验证是否有有效私钥：
+验证是否有有效私钥：1
 
 ```bash
 gpg --list-secret-keys --keyid-format LONG
