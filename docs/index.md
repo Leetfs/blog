@@ -26,6 +26,6 @@ hero:
 #     details: 没有未来的未来不是我想要的未来
 #   - title: 我喜欢：
 #     details: 交友/
-#   - title: 我擅长：
+#   - title: 我擅长：1
 #     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
