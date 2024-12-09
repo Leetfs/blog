@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Lee's blog"
+  name: "Lee's blog"1
   text: "欢迎来到我的 blog~"
   tagline: "\n偶尔的废话和些许经验"
   image:
