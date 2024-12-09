@@ -12,7 +12,7 @@ net.core.default_qdisc=fq
 net.ipv4.tcp_congestion_control=bbr
 ```
 
-执行 `sysctl -p` 保存并生效
+执行 `sysctl -p` 保存并生效2
 
 ### 自动挡
 
