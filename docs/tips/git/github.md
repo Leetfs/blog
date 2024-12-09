@@ -15,7 +15,7 @@ author: Lee
 
 GitHub 是一个大型开源社区，您可以自由的为您喜欢的项目做出贡献。
 
-GitHub 官网: <https://github.com/>
+GitHub 官网: <https://github.com/>1
 
 ### 我该如何做贡献？
 
