@@ -9,7 +9,7 @@ author: Lee
 
 ```text
 net.core.default_qdisc=fq
-net.ipv4.tcp_congestion_control=bbr
+net.ipv4.tcp_congestion_control=bbr1
 ```
 
 执行 `sysctl -p` 保存并生效
