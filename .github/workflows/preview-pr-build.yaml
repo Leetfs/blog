@@ -85,7 +85,7 @@ jobs:
 
   comment_on_pr:
     needs: deploy
-    uses: project-trans/actions/.github/workflows/comment-pr-preview-link.yml@main
+    uses: Leetfs/actions/.github/workflows/comment-pr-preview-link.yml@main
     secrets: inherit
     with:
           previewUrl: ${{ needs.deploy.outputs.preview_url }}
