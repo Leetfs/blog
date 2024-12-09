@@ -13,6 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       preview_url: ${{ steps.deploy.outputs.deployment-url }}
+      pageUrls: ${{ steps.url.outputs.all_file_urls }}
     steps:
       # 第一步：检出主仓库代码
       - name: 检出主仓库代码
@@ -55,6 +56,7 @@ jobs:
           command: pages deploy docs/.vitepress/dist --project-name=blog
 
       - name: List PR files using GitHub CLI
+        id: url
         run: |
             # 使用 GitHub CLI 获取 PR 文件列表并提取文件路径
             files=$(gh api \
@@ -74,15 +76,17 @@ jobs:
                 all_file_urls="${all_file_urls}\n${file_url}"
               fi
             done
+            echo "::set-output name=all_file_urls::$all_file_urls"
             echo -e "All File URLs: $all_file_urls"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
 
-  # comment_on_pr:
-  #   needs: deploy
-  #   uses: project-trans/actions/.github/workflows/comment-pr-preview-link.yml@main
-  #   secrets: inherit
-  #   with:
-  #         previewUrl: ${{ needs.deploy.outputs.preview_url }}
+  comment_on_pr:
+    needs: deploy
+    uses: project-trans/actions/.github/workflows/comment-pr-preview-link.yml@main
+    secrets: inherit
+    with:
+          previewUrl: ${{ needs.deploy.outputs.preview_url }}
+          pageUrls: ${{ needs.deploy.outputs.pageUrls }}
