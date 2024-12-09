@@ -76,7 +76,7 @@ jobs:
                 all_file_urls="${all_file_urls}\n${file_url}"
               fi
             done
-            echo "{all_file_urls}={all_file_urls}" >> $GITHUB_OUTPUT
+            echo "all_file_urls=$all_file_urls" >> $GITHUB_OUTPUT
             echo -e "All File URLs: $all_file_urls"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
