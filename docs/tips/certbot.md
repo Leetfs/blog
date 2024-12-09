@@ -10,7 +10,7 @@ sudo apt update
 sudo apt install certbot
 ```
 
-如使用 nginx，需同步安装插件：
+如使用 nginx，需同步安装插件：2
 
 ```bash
 sudo apt install certbot python3-certbot-nginx
