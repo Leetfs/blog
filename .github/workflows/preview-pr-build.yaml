@@ -56,26 +56,29 @@ jobs:
 
       - name: List PR files using GitHub CLI
         run: |
-          gh api \
-            -H "Accept: application/vnd.github+json" \
-            /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files \
-            | jq '.[].filename'
+            # 使用 GitHub CLI 获取 PR 文件列表并提取文件路径
+            files=$(gh api \
+              -H "Accept: application/vnd.github+json" \
+              /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files \
+              | jq -r '.[].filename')  # 使用 -r 获取原始文本输出
+
             base_url="https://rle.wiki/"
 
-          # 处理文件路径，拼接成完整的 URL
-          for file in $files; do
-            # 去掉路径前的 "docs/" 和后缀 ".md"
-            modified_file="${file#docs/}"   # 删除路径前的 "docs/"
-            modified_file="${modified_file%.md}"  # 删除路径后面的 ".md"
+            # 处理文件路径，拼接成完整的 URL
+            for file in $files; do
+              # 去掉路径前的 "docs/" 和后缀 ".md"
+              modified_file="${file#docs/}"   # 删除路径前的 "docs/"
+              modified_file="${modified_file%.md}"  # 删除路径后面的 ".md"
 
-            # 拼接 URL
-            file_url="${base_url}${modified_file}"
+              # 拼接 URL
+              file_url="${base_url}${modified_file}"
 
-            # 输出每个文件的完整 URL
-            echo "File URL: ${file_url}"
-          done
+              # 输出每个文件的完整 URL
+              echo "File URL: ${file_url}"
+            done
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
   # comment_on_pr:
