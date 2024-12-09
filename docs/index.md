@@ -12,7 +12,7 @@ hero:
     style: "margin-top: 7%;"
   actions:
     - theme: brand
-      text: 关于
+      text: 关于1
       link: /about
     - theme: alt
       text: 一些经验
