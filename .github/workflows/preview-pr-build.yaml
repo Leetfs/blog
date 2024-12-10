@@ -51,7 +51,7 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
           command: pages deploy docs/.vitepress/dist --project-name=blog
 
-      - id: foo
+      - name: bot
         uses: Leetfs/Display-Preview-URL-in-PR
         with:
           previewUrl: ${{ steps.deploy.outputs.deployment-url }}
