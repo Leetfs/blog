@@ -52,9 +52,11 @@ jobs:
           command: pages deploy docs/.vitepress/dist --project-name=blog
 
       - name: bot
-        uses: Leetfs/Display-Preview-URL-in-PR@212d031f9647b50731dd5693eb121eb399664779
+        uses: Leetfs/Display-Preview-URL-in-PR@684d58bd96be7be4368bf084e90b349adeee83dc
         with:
           previewUrl: ${{ steps.deploy.outputs.deployment-url }}
           BOT_APP_ID: ${{ vars.BOT_APP_ID }}
           BOT_APP_SECRET: ${{ secrets.BOT_APP_SECRET }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REMOVE_PREFIX: docs
+          REMOVE_SUFFIX: .md
