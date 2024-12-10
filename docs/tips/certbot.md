@@ -7,7 +7,7 @@ author: Lee
 
 ```bash
 sudo apt update
-sudo apt install certbot
+sudo apt install certbot1
 ```
 
 如使用 nginx，需同步安装插件：
