@@ -43,10 +43,6 @@ jobs:
       - name: 构建项目
         run: pnpm build # 构建 VitePress 项目
 
-      # 第六步：安装 Wrangler
-      - name: 安装 Wrangler
-        run: pnpm add -g wrangler@3 # 安装 Wrangler v3
-
       - name: Deploy to Cloudflare Pages
         id: deploy
         uses: cloudflare/wrangler-action@v3
@@ -85,7 +81,7 @@ jobs:
 
   comment_on_pr:
     needs: deploy
-    uses: Leetfs/actions/.github/workflows/comment-pr-preview-link.yml@main
+    uses: project-trans/actions/.github/workflows/comment-pr-preview-link.yml@main
     secrets: inherit
     with:
           previewUrl: ${{ needs.deploy.outputs.preview_url }}
