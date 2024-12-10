@@ -51,38 +51,9 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
           command: pages deploy docs/.vitepress/dist --project-name=blog
 
-      - name: List PR files using GitHub CLI
-        id: url
-        run: |
-            # 使用 GitHub CLI 获取 PR 文件列表并提取文件路径
-            files=$(gh api \
-              -H "Accept: application/vnd.github+json" \
-              /repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files \
-              | jq -r '.[].filename')  # 使用 -r 获取原始文本输出
-
-            # 处理文件路径，拼接成完整的 URL
-            for file in $files; do
-              if [[ $file == *.md ]]; then
-                # 去掉路径前的 "docs/" 和后缀 ".md"
-                modified_file="${file#docs/}"   # 删除路径前的 "docs/"
-                modified_file="${modified_file%.md}"  # 删除路径后面的 ".md"
-
-                # 拼接 URL
-                file_url="${{ steps.deploy.outputs.deployment-url }}/${modified_file}"
-                all_file_urls="${all_file_urls}\n${file_url}"
-              fi
-            done
-            echo "all_file_urls=$all_file_urls" >> $GITHUB_OUTPUT
-            echo -e "All File URLs: $all_file_urls"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
-  comment_on_pr:
-    needs: deploy
-    uses: Leetfs/actions/.github/workflows/comment-pr-preview-link.yml@main
-    secrets: inherit
-    with:
-          previewUrl: ${{ needs.deploy.outputs.preview_url }}
-          pageUrls: ${{ needs.deploy.outputs.pageUrls }}
+      - id: foo
+        uses: Leetfs/Display-Preview-URL-in-PR
+        with:
+          previewUrl: ${{ steps.deploy.outputs.deployment-url }}
+          BOT_APP_ID: ${{ vars.BOT_APP_ID }}
+          BOT_APP_SECRET: ${{ secrets.BOT_APP_SECRET }}
