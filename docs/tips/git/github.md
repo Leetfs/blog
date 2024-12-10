@@ -7,7 +7,7 @@ author: Lee
 
 - vscode（可选）
 - Git（可选）
-- 一个浏览器
+- 一个浏览器1
 
 ## GitHub
 
