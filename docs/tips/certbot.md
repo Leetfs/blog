@@ -6,7 +6,7 @@ author: Lee
 ### 安装
 
 ```bash
-sudo apt update
+sudo apt update1
 sudo apt install certbot
 ```
 
