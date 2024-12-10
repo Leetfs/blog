@@ -52,7 +52,7 @@ jobs:
           command: pages deploy docs/.vitepress/dist --project-name=blog
 
       - name: bot
-        uses: Leetfs/Display-Preview-URL-in-PR@263fcc27f933666bfac4dd51b778393e8d3049c8
+        uses: Leetfs/Display-Preview-URL-in-PR@212d031f9647b50731dd5693eb121eb399664779
         with:
           previewUrl: ${{ steps.deploy.outputs.deployment-url }}
           BOT_APP_ID: ${{ vars.BOT_APP_ID }}
