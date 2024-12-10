@@ -5,7 +5,7 @@ author: Lee
 
 ### 手动挡
 
-编辑 `etc/sysctl.conf` 文件，在末尾加入：
+编辑 `etc/sysctl.conf` 文件，在末尾加入：1
 
 ```text
 net.core.default_qdisc=fq
