@@ -5,7 +5,7 @@ author: Lee
 
 ### 排查问题
 
-使用终端连接服务器，调 yubikey 内的 GPG 密钥签 Git 提交时提示错误，简要排查：
+使用终端连接服务器，调 yubikey 内的 GPG 密钥签 Git 提交时提示错误，简要排查：1
 
 ![](./pubilc/gpg-sign-1.png)
 
