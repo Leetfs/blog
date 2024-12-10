@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Lee's blog"
   text: "欢迎来到我的 blog~"
-  tagline: "\n偶尔的废话和些许经验"
+  tagline: "\n偶尔的废话和些许经验1"
   image:
     src: /logo.png
     alt: Lee's blog
