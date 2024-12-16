@@ -65,6 +65,8 @@ services:
 
 我们先将 443 这个标准 https 端口改为服务器没有被占用的其它端口，例如 `- 4443:4443`，修改后重载容器，应用更改。
 
+## 修改 nginx 配置文件
+
 切换到网站配置目录: `/etc/nginx/sites-available/`，新建一个配置文件，这里我取名叫 `weblate`
 
 配置文件内容参考以下代码：
@@ -74,7 +76,7 @@ server {
     listen 443 ssl; # ssl代表使用ssl加密
     listen [::]:443 ssl;
 
-    server_name weblate.leetfs.com; # 需要反代的域名
+    server_name leetfs.com; # 需要反代的域名
 
     ssl_certificate /var/lib/docker/volumes/weblate-docker_weblate-data/_data/ssl/fullchain.pem; # ssl证书
     ssl_certificate_key /var/lib/docker/volumes/weblate-docker_weblate-data/_data/ssl/privkey.pem; # ssl私钥
@@ -109,6 +111,10 @@ sudo ln -s /etc/nginx/sites-available/weblate /etc/nginx/sites-enabled/
 
 - 测试配置文件是否正确：`sudo nginx -t`
 - 重新加载 Nginx 配置: `sudo systemctl reload nginx`
+
+### 获取证书
+
+上文中 `ssl_certificate` 和 `ssl_certificate_key` 需填入证书和私钥路径，参考 [Certbot 自动获取 SSL 证书](https://leetfs.com/tips/certbot)
 
 ## 禁用站点配置
 

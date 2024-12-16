@@ -3,7 +3,7 @@ title: Linux 修改 DNS
 author: Lee
 ---
 
-### 临时修改 DNS（重启失效）
+## 临时修改 DNS（重启失效）
 
 打开 `etc/resolv.conf`, 修改 `nameserver` 参数，例：
 
@@ -14,7 +14,7 @@ nameserver 2606:4700:4700::1111
 nameserver 2606:4700:4700::1001
 ```
 
-### 永久修改 DNS
+## 永久修改 DNS
 
 打开 `etc/systemd/resolved.conf`,修改 `DNS=` 参数，例：
 
