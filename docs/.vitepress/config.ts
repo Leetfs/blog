@@ -23,6 +23,10 @@ const nav: NavConfig = [
     text: '生活琐事',
     link: '/life/',
   },
+  {
+    text: '喵德斯计划',
+    link: '/nyads/',
+  },
   // {
   //   text: "切换字体",
   //   items: [
@@ -84,6 +88,11 @@ const sidebarOptions = [
     scanStartPath: 'life',
     resolvePath: '/life/',
   },
+  {
+    ...baseConfig,
+    scanStartPath: 'nyads',
+    resolvePath: '/nyads/',
+  }
 ]
 
 const themeConfig: ThemeContext = {
