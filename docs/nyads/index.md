@@ -9,9 +9,9 @@ index: false
 
 ## 项目概要
 
-[喵德斯](https://nyads.net/zh-hans) 致力于孵化二次元文化及相关产业，为每一位热爱创作的作者大大提供经济支持与成长平台~
+![](./pubilc/logo.png)
 
-![](./logo.png)
+[喵德斯](https://nyads.nent/zh-hans) 致力于孵化二次元文化及相关产业，为每一位热爱创作的作者大大提供经济支持与成长平台~
 
 > 不仅限于二次元产业，三次元项目经内部评估通过后，**同样可以申请合作❤**
 
@@ -55,6 +55,44 @@ index: false
 ## 结算周期
 
 没有额外的服务费用，按季度结算版税。
+
+## 合作案例
+
+### Alice In Cradle
+
+Alice In Cradle Wiki: <https://aicwiki.com/zh/home>
+
+#### 商品展示
+
+[等身抱枕](http://e.tb.cn/h.TUXNXO0u1O18gfK?tk=q0n53CtQyEz)
+
+![](./pubilc/alice1.png)
+
+[鼠标垫](http://e.tb.cn/h.TU0ABHRvC6YMw4q?tk=G5Eg3Ctr1NF)
+
+![](./pubilc/alice2.jpg)
+
+[钥匙扣](http://e.tb.cn/h.TUXAzRkmrTXx9ys?tk=E2EK3CtvpI8)
+
+![](./pubilc/alice3.jpg)
+
+### 咸鱼喵喵
+
+steam: <https://store.steampowered.com/app/1478160/>
+
+#### 商品展示
+
+[立牌](http://e.tb.cn/h.TU0iBOywItGT8mB?tk=Z7eC3CtcCAR)
+
+![](./pubilc/miaomiao1.png)
+
+[钥匙扣](http://e.tb.cn/h.TU8O6wsx4aiIXlc?tk=u7vk3Ct88Wa)
+
+![](./pubilc/miaomiao3.jpg)
+
+[像素钥匙扣](http://e.tb.cn/h.TUXTHxWrio3th5O?tk=6TZI3Ct4DrP)
+
+![](./pubilc/miaomiao2.jpg)
 
 ## 让我们一起点亮二次元
 
