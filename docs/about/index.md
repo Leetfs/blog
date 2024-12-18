@@ -9,7 +9,7 @@ index: false
 
 ## 你好 👋
 
-✨ **欢迎来到我的 GitHub 主页！** ✨
+✨ **欢迎来到我的 Blog~** ✨
 
 - Telegram: [@Leetfs](https://t.me/leetfs)
 - Email：lee@mtftm.com

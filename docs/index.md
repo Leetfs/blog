@@ -20,6 +20,9 @@ hero:
     - theme: alt
       text: 生活琐事
       link: /life
+    - theme: alt
+      text: 喵德斯计划
+      link: /nyads
 
 # features:
 #   - title: 我认为：
