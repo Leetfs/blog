@@ -3,7 +3,7 @@ name: 部署到 Cloudflare Pages
 on:
   push:
     branches:
-      - 'main' # 当推送到 main 分支时触发
+      - 'nya' # 当推送到 main 分支时触发
     paths:
       - 'docs/**'
       - '.github/workflows/cf.yml'
