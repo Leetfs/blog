@@ -17,4 +17,10 @@ PubkeyAuthentication yes
 PasswordAuthentication no
 ```
 
+## 重启 ssh 服务
+
+```bash
+sudo systemctl restart sshd
+```
+
 如不生效，删除 `etc/ssh/sshd_config.d` 内的所有文件。
