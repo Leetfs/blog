@@ -16,6 +16,12 @@ sudo apt install certbot
 sudo apt install certbot python3-certbot-nginx
 ```
 
+如使用 DNS 申请通配符证书，需安装插件：
+
+```bash
+sudo apt install python3-certbot-dns-cloudflare
+```
+
 ## 申请证书
 
 未使用任何 web 服务:
@@ -24,11 +30,22 @@ sudo apt install certbot python3-certbot-nginx
 sudo certbot certonly -d 你的域名
 ```
 
-使用 nginx:
+### 使用 nginx
 
 ```bash
 sudo certbot --nginx -d 你的域名
 ```
+
+### 使用 DNS
+
+以 cloudflare 为例:
+
+1. cloudflare 管理账户 > 帐户 API 令牌 > API 令牌模板 > 编辑区域 DNS
+1. 安装插件 `sudo apt install python3-certbot-dns-cloudflare`
+1. 新建文件 `etc/letsencrypt/cloudflare.ini` ，将此参数放入文件 `dns_cloudflare_api_token = 你的token`
+1. 执行 `sudo certbot certonly -d 你的域名` ，根据提示选择使用 dns 验证。
+
+> 申请后不建议移除 `cloudflare.ini`, certbot 需依据此文件自动续期。
 
 ## 使用证书
 

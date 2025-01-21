@@ -6,7 +6,7 @@
   "description": "偶尔的废话和些许经验",
   "license": "CC-BY-SA-4.0",
   "scripts": {
-    "dev": "vitepress dev docs",
+    "dev": "vitepress dev docs --host 0.0.0.0",
     "dev:wrangler": "wrangler pages dev ./docs/.vitepress/dist/",
     "build": "vitepress build docs",
     "preview": "vitepress preview docs",
