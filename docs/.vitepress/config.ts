@@ -23,6 +23,10 @@ const nav: NavConfig = [
     text: '生活琐事',
     link: '/life/',
   },
+  {
+    text: '友情链接',
+    link: '/friendly/',
+  },
   // {
   //   text: "切换字体",
   //   items: [
@@ -83,6 +87,11 @@ const sidebarOptions = [
     ...baseConfig,
     scanStartPath: 'life',
     resolvePath: '/life/',
+  },
+  {
+    ...baseConfig,
+    scanStartPath: 'friendly',
+    resolvePath: '/friendly/'
   },
 ]
 

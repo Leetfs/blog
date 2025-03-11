@@ -20,6 +20,9 @@ hero:
     - theme: alt
       text: 生活琐事
       link: /life
+    - theme: alt
+      text: 友情链接
+      link: /friendly
 
 # features:
 #   - title: 我认为：
