@@ -10,7 +10,7 @@ import {
 
 const members = [
   {
-    avatar: './public/nhui.jpg',
+    avatar: '/nhui.jpg',
     name: '玲雨兰夜',
     title: '诶嘿嘿...',
     links: [
