@@ -12,7 +12,7 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.steam.svg
+          filename: docs/public/metrics.plugin.steam.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
           plugin_steam: yes
