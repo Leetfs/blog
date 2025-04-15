@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: '0 3 * * 1'  # 每周一 UTC 时间 3 点执行
+    - cron: '0 3 * * *'  # 每天 UTC 时间 3 点执行
   workflow_dispatch:
 
 jobs:
