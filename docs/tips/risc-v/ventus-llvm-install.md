@@ -18,12 +18,12 @@ sudo apt install -y git build-essential clang cmake ninja-build ccache zlib1g-de
 创建一个文件夹，将所有仓库克隆到该目录中，以下取 `J142` 为文件名。
 :::
 
-- llvm-ventus : git clone https://github.com/THU-DSP-LAB/llvm-project.git
-- pocl : git clone https://github.com/THU-DSP-LAB/pocl.git
-- ocl-icd : git clone https://github.com/OCL-dev/ocl-icd.git
-- isa-simulator(spike) : git clone https://github.com/THU-DSP-LAB/ventus-gpgpu-isa-simulator.git
-- driver : git clone https://github.com/THU-DSP-LAB/ventus-driver.git
-- rodinia : git clone https://github.com/THU-DSP-LAB/gpu-rodinia.git (The method to download the dataset is in the .)ventus_readme.md
+- llvm-ventus : `git clone https://github.com/THU-DSP-LAB/llvm-project.git`
+- pocl : `git clone https://github.com/THU-DSP-LAB/pocl.git`
+- ocl-icd : `git clone https://github.com/OCL-dev/ocl-icd.git`
+- isa-simulator(spike) : `git clone https://github.com/THU-DSP-LAB/ventus-gpgpu-isa-simulator.git`
+- driver : `git clone https://github.com/THU-DSP-LAB/ventus-driver.git`
+- rodinia : `git clone https://github.com/THU-DSP-LAB/gpu-rodinia.git`
 
 ## 设置环境变量
 
