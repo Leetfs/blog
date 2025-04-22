@@ -3,6 +3,8 @@ title: Vitepress 自定义字体
 author: Lee
 ---
 
+## 方法
+
 将字体文件放入 `pubilc` 或 `assets` 文件夹。
 
 修改 `.vitepress/theme/style.css`, 在末尾加入：

@@ -3,6 +3,8 @@ title: 乘影 GPGPU LLVM 编译器安装手记
 author: Lee
 ---
 
+## 简介
+
 乘影 GPGPU 是一个**面向 RISC-V 的 GPGPU** 架构。\
 本文参考此仓库：<https://github.com/THU-DSP-LAB/llvm-project>。
 
