@@ -13,22 +13,15 @@ hero:
   actions:
     - theme: brand
       text: 关于
-      link: /about
+      link: /about/
     - theme: alt
       text: 一些经验
-      link: /tips
+      link: /tips/
     - theme: alt
       text: 生活琐事
-      link: /life
+      link: /life/
     - theme: alt
       text: 友情链接
-      link: /friendly
+      link: /friendly/
 
-# features:
-#   - title: 我认为：
-#     details: 没有未来的未来不是我想要的未来
-#   - title: 我喜欢：
-#     details: 交友/
-#   - title: 我擅长：
-#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
