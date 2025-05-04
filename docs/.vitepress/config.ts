@@ -112,6 +112,7 @@ const themeConfig: ThemeContext = {
   /** 文档所在目录（用于GitHub编辑链接） */
   sitePattern: `docs`,
   enableSuggestionBox: false,
+  hostName: 'https://leetfs.com',
 }
 
 // https://vitepress.dev/reference/site-config
