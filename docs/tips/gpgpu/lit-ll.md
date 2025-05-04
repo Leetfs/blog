@@ -30,6 +30,8 @@ FileCheck 校验输出
 
 ## 执行语句
 
+可指定某一文件，也可指定某文件夹。
+
 ```bash
 llvm-lit llvm/test/CodeGen/RISCV/VentusGPGPU/float.ll
 ```
