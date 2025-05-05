@@ -1,11 +1,11 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
-
 hero:
-  name: "Lee's blog"
-  text: "欢迎来到我的 blog~"
-  tagline: "\n偶尔的废话和些许经验"
+  name: Lee's blog
+  text: 欢迎来到我的 blog~
+  tagline: |-
+    
+    偶尔的废话和些许经验
   image:
     src: /logo.png
     alt: Lee's blog
@@ -23,5 +23,4 @@ hero:
     - theme: alt
       text: 友情链接
       link: /friendly/
-
 ---
