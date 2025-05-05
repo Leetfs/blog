@@ -13,7 +13,7 @@ During development, to use SSH keys more securely on remote servers, it is recom
 
 First, ensure that your local ssh is running correctly. You can use the `ssh-add -l` command to list all ssh keys, or use `ssh -T` to test if access works properly.
 
-![](./pubilc/ssh-agent-1.png)
+![](/tips/system/linux/pubilc/ssh-agent-1.png)
 
 ### Set up ssh agent forwarding
 
