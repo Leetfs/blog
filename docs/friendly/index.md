@@ -30,12 +30,8 @@ const members = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>
-      友情链接
-    </template>
-    <template #lead>
-      这里是我的朋友们~(ฅ´ω`ฅ)
-    </template>
+    <template #title>友情链接</template>
+    <template #lead>这里是我的朋友们~(ฅ´ω`ฅ)</template>
   </VPTeamPageTitle>
   <VPTeamMembers
     :members="members"
