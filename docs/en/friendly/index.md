@@ -9,14 +9,14 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
-const title = '友情链接'
-const lead = '这里是我的朋友们~(ฅ´ω`ฅ)'
+const title = 'Friends Links'
+const lead = 'Here are my friends~(ฅ´ω`ฅ)'
 
 const members = [
   {
     avatar: '/nhui.jpg',
     name: '玲雨兰夜',
-    title: '诶嘿嘿...',
+    title: 'Nya!',
     links: [
       { icon: 'rss', link: 'http://nhui.top/' },
     ]
@@ -24,7 +24,7 @@ const members = [
   {
     avatar: '/xiangcai.png',
     name: '香菜',
-    title: '香菜的博客',
+    title: "Xiangcai's blog",
     links: [
       { icon: 'rss', link: 'https://mdzz.pro/' },
     ]
