@@ -27,31 +27,6 @@ const nav: NavConfig = [
     text: '友情链接',
     link: '/friendly/',
   },
-  // {
-  //   text: "切换字体",
-  //   items: [
-  //     {
-  //       text: "更纱黑体",
-  //       link: "#",
-  //     },
-  //     {
-  //       text: "思源宋体",
-  //       link: "#",
-  //     },
-  //     {
-  //       text: "霞鹜文楷",
-  //       link: "#",
-  //     },
-  //     {
-  //       text: "霞鹜新晰黑",
-  //       link: "#",
-  //     },
-  //     {
-  //       text: "使用系统字体",
-  //       link: "#",
-  //     },
-  //   ],
-  // },
 ]
 
 const baseConfig = {
@@ -95,7 +70,7 @@ const sidebarOptions = [
   },
 ]
 
-const themeConfig: ThemeContext = {
+const themeConfig = {
   siteTitle: "Lee's blog",
   siteDescription: "偶尔的废话和些许经验",
   siteLogo: '/old.png',
@@ -113,6 +88,20 @@ const themeConfig: ThemeContext = {
   sitePattern: `docs`,
   enableSuggestionBox: false,
   hostName: 'https://leetfs.com',
+  // i18n
+  locales: {
+    root: {
+      label: '简体中文',
+      lang: 'zh',
+    },
+    en: {
+      label: 'English',
+      lang: 'en', // 可选，将作为 `lang` 属性添加到 `html` 标签中
+      link: '/en/', // 默认 /fr/ -- 显示在导航栏翻译菜单上，可以是外部的
+
+      // 其余 locale 特定属性...
+    },
+  },
 }
 
 // https://vitepress.dev/reference/site-config
