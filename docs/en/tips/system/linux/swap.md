@@ -1,52 +1,52 @@
 ---
-title: debian 配置 swap
+title: Debian Configure Swap
 author: Lee
 ---
 
-## 创建
+## Create
 
-可使用 `free -h` 检查当前 swap 分区的使用情况
+You can use `free -h` to check the current swap usage
 
-### 创建一个新的交换文件（大小自己填）
+### Create a new swap file (set the size as needed)
 
 ```bash
 sudo fallocate -l 1G /swapfile
 ```
 
-### 设置文件权限为仅root（可选）
+### Set file permissions to root only (optional)
 
 ```bash
 sudo chmod 600 /swapfile
 ```
 
-### 格式化文件为交换空间
+### Format the file as swap space
 
 ```bash
 sudo mkswap /swapfile
 ```
 
-### 启用 swap
+### Enable swap
 
 ```bash
 sudo swapon /swapfile
 ```
 
-### 启用自动挂载
+### Enable automatic mounting
 
-进入 etc/fstab 文件，在末尾加入：
+Open the etc/fstab file and add at the end:
 
 ```bash
 /swapfile none swap sw 0 0
 ```
 
-## 修改
+## Modify
 
-### 修改 swap 触发阈值
+### Change swap activation threshold
 
-进入 etc/sysctl.conf 文件，修改 `vm.swappiness=80` 后面的值。如果没有自己加一条进去。
+Open etc/sysctl.conf and modify the value after `vm.swappiness=80`.If it does not exist, add a new line.
 
-### 修改 swap 空间大小
+### Change swap size
 
-- 使用 `swapoff -a` 关闭 swap
-- 删掉之前创建的 `swapfile`
-- 重新执行创建流程
+- Use `swapoff -a` to turn off swap
+- Delete the previously created `swapfile`
+- Repeat the creation steps
