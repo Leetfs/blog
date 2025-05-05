@@ -77,7 +77,7 @@ const members = [
   }
 </style>
 
-<div class="promo-wrapper" id="promoBox"><button class=\"promo-close\" onclick=\"document.getElementById('promoBox').style.display='none'\">×</button>\n  <div class="promo-zoom">
+<div class="promo-wrapper" id="promoBox"><button class="promo-close" onclick="document.getElementById('promoBox').style.display='none'">×</button>  <div class="promo-zoom">
     <iframe src="https://support.nodeget.com/page/promotion?id=Leetfs" scrolling="no"></iframe>
   </div>
 </div>
