@@ -1,44 +1,44 @@
 ---
-title: GitHub PR 常见问题
+title: GitHub PR FAQ
 author: Lee
 ---
 
-## 概述
+## Overview
 
-本章用于存放新手容易出现的问题，如有疑问，欢迎[联系作者](https://github.com/Leetfs)。
+This chapter is for common issues beginners may encounter. If you have any questions, feel free to [contact the author](https://github.com/Leetfs).
 
-## 在我的 PR 被合并前仓库内有了新的提交怎么办？
+## What should I do if there are new commits in the repository before my PR is merged?
 
-如果没有合并冲突，可以不理会；如果有合并冲突，需要先解决合并冲突。
+If there are no merge conflicts, you can ignore it; if there are merge conflicts, you need to resolve them first.
 
-## 当我的 PR 被合并后，我想发起新的 PR
+## After my PR is merged, I want to submit a new PR
 
-切记不可在原分支上直接提交，会导致合并冲突。
+Be sure not to commit directly to the original branch, as this may cause merge conflicts.
 
-### 方案1
+### Solution 1
 
-可以将分支更新到最新版本
+You can update the branch to the latest version
 
-(这两个按钮都有效，第一个为更新到最新版本并舍弃你本地仓库上的提交，第二个为更新到最新版本)
+(Both buttons are effective. The first one updates to the latest version and discards your local commits, while the second updates to the latest version)
 ![](github-img/image11.png)
 
-### 方案2
+### Solution 2
 
-基于上游仓库开一个新的分支，在新的分支进行提交
+Create a new branch based on the upstream repository and commit in the new branch
 
 ![](github-img/image12.png)
 ![](github-img/image13.png)
 
-## 提交以后如何修改
+## How to modify after submission
 
-PR 合并前分支和 PR 是绑定的，直接在对应分支修改即可。
+Before the PR is merged, the branch and PR are bound together; just modify the corresponding branch directly.
 
-## 如何审核 PR
+## How to review a PR
 
-进入 PR，点击 `Files changed`
+Go into the PR and click on `Files changed`
 
 ![](github-img/image14.png)
 
-点击 `Review changes`
+Click on `Review changes`
 
 ![](github-img/image15.png)
