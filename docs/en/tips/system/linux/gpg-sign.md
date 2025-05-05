@@ -23,7 +23,7 @@ Test whether the smart card can be read correctly:
 gpg --card-status
 ```
 
-![](./pubilc/gpg-sign-img/gpg-sign-3.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-3.png)
 
 Test signing directly with GPG:
 
@@ -45,6 +45,6 @@ export GPG_TTY=$(tty)
 
 Retest signing:
 
-![](./pubilc/gpg-sign-img/gpg-sign-4.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-4.png)
 
 The verification prompt appears successfully, and the issue is resolved.
