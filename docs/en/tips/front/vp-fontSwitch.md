@@ -1,26 +1,26 @@
 ---
-title: Vitepress 导航栏切换字体
+title: Vitepress Navbar Font Switching
 author: Lee
 ---
 
-## 实现原理
+## Principle of Implementation
 
-定义一个 css 变量，在导航栏按钮被点击时更新 css 变量
+Define a CSS variable and update the CSS variable when the navbar button is clicked
 
-## 添加按钮
+## Add Button
 
 ```ts
 // docs/.vitepress/config.ts
 // nav ...
 {
-    text: "切换字体",
+    text: "Switch Font",
     items: [
       {
-        text: "霞鹜文楷",
-        link: "#", // 因为不需要跳转，所以我们使用空链接
+        text: "LXGW WenKai",
+        link: "#", // Since no jump is needed, we use an empty link
       },
       {
-        text: "霞鹜新晰黑",
+        text: "LXGW Neo XiHei",
         link: "#",
       },
     ],
@@ -28,115 +28,115 @@ author: Lee
 
 ```
 
-## 在 CSS 中导入字体
+## Import Fonts in CSS
 
 ```css
 @font-face {
-  font-family: '霞鹜文楷';
+  font-family: 'LXGW WenKai';
   src: url('/LXGWWenKai-Regular.ttf') format('truetype');
 }
 ```
 
-## 在 CSS 中引入 CSS 变量
+## Introduce CSS Variables in CSS
 
-由于 `--main-font` 被赋值前的初值为空，我们可以将备用字体选项作为 `默认字体` 来使用
+Since the initial value of `--main-font` is empty before being assigned, we can use fallback font options as the `default font`
 
 ```css
 :root {
-/* var(--main-font, '备用字体') */
---vp-font-family-base: var(--main-font, '霞鹜文楷');/* 文本字体 */
---vp-font-family-mono: "霞鹜文楷-等宽";/* 代码字体 */
+/* var(--main-font, 'Fallback Font') */
+--vp-font-family-base: var(--main-font, 'LXGW WenKai');/* Text font */
+--vp-font-family-mono: "LXGW WenKai Mono";/* Code font */
 }
 ```
 
-## 监听按钮并传递字体名给 CSS 变量
+## Listen to Button and Pass Font Name to CSS Variable
 
-这里我们新建一个 js 脚本，用于监听按钮和更新 CSS 变量
+Here we create a new JS script to listen for button clicks and update the CSS variable
 
 ```js
 // docs/.vitepress/theme/fontSwitcher.js
 export const fontMap = {
-  '霞鹜文楷': "'霞鹜文楷', serif", // '按钮名':'字体名',备用字体(可选)
-  '霞鹜新晰黑': "'霞鹜新晰黑', serif",
+  'LXGW WenKai': "'LXGW WenKai', serif", // 'Button Name':'Font Name', Fallback font (optional)
+  'LXGW Neo XiHei': "'LXGW Neo XiHei', serif",
   };
 
-  // 字体切换函数
+  // Font switching function
   export const switchFont = (font) => {
     document.documentElement.style.setProperty('--main-font', fontMap[font]);
   };
 
-  // 添加全局字体切换事件监听
+  // Add global font switching event listener
   export const addFontSwitchListener = () => {
-    // 通常情况下 vitepress 下拉栏内容默认包裹在 span 标签，请替换为('.items span')，本站点下拉栏包裹在 a 标签内故使用 a
-    const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 a 标签
-    // 此处日志用于调试，如果不生效可取消下方代码的注释
-    // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
+    // Normally, in Vitepress, dropdown content is wrapped in a span tag, please replace with ('.items span'), in this site, dropdowns are wrapped in a tag so use a
+    const fontSwitchItems = document.querySelectorAll('.items a'); // Select all 'a' tags in navbar items
+    // The following log is for debugging, if not effective you can uncomment the code below
+    // console.log(`Found ${fontSwitchItems.length} font switching items`);
     fontSwitchItems.forEach(item => {
       item.addEventListener('click', (e) => {
         e.preventDefault();
         const target = e.target;
-        const selectedFont = target.innerText; // 获取点击的字体名称
+        const selectedFont = target.innerText; // Get the clicked font name
         // console.log(`${selectedFont}`);
-        switchFont(selectedFont); // 切换字体
+        switchFont(selectedFont); // Switch font
       });
     });
 };
 ```
 
-> 上方为错误案例，vitepress 移动视图下的折叠导航栏默认处于折叠状态，只有当用户展开导航栏时，相关的资源才会被加载，而监听器创建在此事件之前，导致无法监听。
+> The above is an incorrect example. In Vitepress mobile view, the collapsed navbar is by default in a folded state. Only when the user expands it, the relevant resources are loaded; but the listener is created before this event, which leads to it not being able to listen successfully.
 
-### 正确样例
+### Correct Example
 
 ```ts
 export const fontMap = {
-  // 字体映射表
-  '霞鹜文楷': 'LXGW WenKai',
-  '霞鹜文楷 Mono': 'LXGW WenKai Mono',
-  '霞鹜新晰黑': 'LXGW Neo XiHei',
-  '新晰黑 Code': 'NeoXiHei Code',
-  '默认字体': 'system-ui',
-  '更纱黑体': 'Sarasa UI SC',
-  '思源宋体': 'Source Han Serif CN',
-  '黑体': 'sans',
-  '宋体': 'serif',
+  // Font mapping table
+  'LXGW WenKai': 'LXGW WenKai',
+  'LXGW WenKai Mono': 'LXGW WenKai Mono',
+  'LXGW Neo XiHei': 'LXGW Neo XiHei',
+  'NeoXiHei Code': 'NeoXiHei Code',
+  'Default Font': 'system-ui',
+  'Sarasa UI SC': 'Sarasa UI SC',
+  'Source Han Serif CN': 'Source Han Serif CN',
+  'Sans': 'sans',
+  'Serif': 'serif',
 };
 
-// 字体切换函数
+// Font switching function
 export const switchFont = (font) => {
   document.documentElement.style.setProperty('--main-font', fontMap[font]);
 };
 
-// 添加全局字体切换事件监听
+// Add global font switching event listener
 export const addFontSwitchListener = () => {
-  // 选择汉堡菜单
+  // Select hamburger menu
   const hamburger = document.querySelector('.VPNavBarHamburger');
-  const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 a 标签
-      // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
+  const fontSwitchItems = document.querySelectorAll('.items a'); // Select all 'a' tags in navbar items
+      // console.log(`Found ${fontSwitchItems.length} font switching items`);
 
       fontSwitchItems.forEach(item => {
         item.addEventListener('click', (e) => {
           e.preventDefault();
           const target = e.target;
-          const selectedFont = target.innerText; // 获取点击的字体名称
+          const selectedFont = target.innerText; // Get the clicked font name
           // console.log(`${selectedFont}`);
-          switchFont(selectedFont); // 切换字体
+          switchFont(selectedFont); // Switch font
         });
       });
 
-  // 添加汉堡菜单事件监听
+  // Add hamburger menu event listener
   if (hamburger) {
     hamburger.addEventListener('click', () => {
-      // 在汉堡菜单打开时添加字体切换事件监听
-      const fontSwitchItems = document.querySelectorAll('.items a'); // 选择所有导航项的 a 标签
-      // console.log(`找到 ${fontSwitchItems.length} 个字体切换项`);
+      // Add font switching event listener when hamburger menu opens
+      const fontSwitchItems = document.querySelectorAll('.items a'); // Select all 'a' tags in navbar items
+      // console.log(`Found ${fontSwitchItems.length} font switching items`);
 
       fontSwitchItems.forEach(item => {
         item.addEventListener('click', (e) => {
           e.preventDefault();
           const target = e.target;
-          const selectedFont = target.innerText; // 获取点击的字体名称
+          const selectedFont = target.innerText; // Get the clicked font name
           // console.log(`${selectedFont}`);
-          switchFont(selectedFont); // 切换字体
+          switchFont(selectedFont); // Switch font
         });
       });
     });
@@ -145,28 +145,28 @@ export const addFontSwitchListener = () => {
 
 ```
 
-## 在 index.ts/index.js 内导入脚本
+## Import Script in index.ts/index.js
 
 ```ts
 // docs/.vitepress/theme/index.ts
 // https://vitepress.dev/guide/custom-theme
 import PtjsTheme from '@project-trans/vitepress-theme-project-trans/theme'
 import { onMounted } from 'vue'
-import { addFontSwitchListener } from './fontSwitcher' // 导入脚本
+import { addFontSwitchListener } from './fontSwitcher' // Import script
 
 import 'uno.css'
 import './style.css'
 
 export default {
-  extends: PtjsTheme, // 这里是我导入的自定义主题
+  extends: PtjsTheme, // This is my imported custom theme
   setup() {
     onMounted(() => {
-      addFontSwitchListener(); // 添加字体切换的事件监听器
+      addFontSwitchListener(); // Add font switching event listener
     });
   },
 }
 ```
 
-## 结尾
+## Conclusion
 
-如不生效，请善用控制台检查css文件的访问路径是否正确，脚本是否正常执行，是否正确的获取到了按钮内容（参考注释）
+If it does not work, use the console to check whether the css file access path is correct, whether the script runs properly, and whether the button content is correctly obtained (see comments).
