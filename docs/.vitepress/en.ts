@@ -3,30 +3,29 @@ import type { SidebarOptions } from '@project-trans/vitepress-theme-project-tran
 import type { ThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
 import { withThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
 import type { DefaultTheme } from 'vitepress'
-import enConfig from './en'
 
 type NavConfig = DefaultTheme.Config['nav']
 
 const nav: NavConfig = [
   {
     text: '首页',
-    link: '/',
+    link: '/en/',
   },
   {
     text: '关于',
-    link: '/about/',
+    link: '/en/about/',
   },
   {
     text: '一些经验',
-    link: '/tips/',
+    link: '/en/tips/',
   },
   {
     text: '生活琐事',
-    link: '/life/',
+    link: '/en/life/',
   },
   {
     text: '友情链接',
-    link: '/friendly/',
+    link: '/en/friendly/',
   },
 ]
 
@@ -36,38 +35,38 @@ const baseConfig = {
   useFolderLinkFromIndexFile: true,
   excludeFilesByFrontmatterFieldName: true,
   collapsed: true,
-  documentRootPath: '/docs',
+  documentRootPath: '/docs/',
 } satisfies Partial<SidebarOptions>
 
 const sidebarOptions = [
   // 首页
   {
     ...baseConfig,
-    scanStartPath: '/',
-    resolvePath: '/',
+    scanStartPath: 'en',
+    resolvePath: '/en/',
   },
   // 关于
   {
     ...baseConfig,
-    scanStartPath: 'about',
-    resolvePath: '/about/',
+    scanStartPath: 'en/about',
+    resolvePath: '/en/about/',
   },
   // 一些经验
   {
     ...baseConfig,
-    scanStartPath: 'tips',
-    resolvePath: '/tips/',
+    scanStartPath: 'en/tips',
+    resolvePath: '/en/tips/',
   },
   // 生活琐事
   {
     ...baseConfig,
-    scanStartPath: 'life',
-    resolvePath: '/life/',
+    scanStartPath: 'en/life',
+    resolvePath: '/en/life/',
   },
   {
     ...baseConfig,
-    scanStartPath: 'friendly',
-    resolvePath: '/friendly/'
+    scanStartPath: 'en/friendly',
+    resolvePath: '/en/friendly/',
   },
 ]
 
@@ -89,20 +88,6 @@ const themeConfig = {
   sitePattern: `docs`,
   enableSuggestionBox: false,
   hostName: 'https://leetfs.com',
-  // i18n
-  locales: {
-    root: {
-      label: '简体中文',
-      lang: 'zh',
-    },
-    en: {
-      label: 'English',
-      lang: 'en', // 可选，将作为 `lang` 属性添加到 `html` 标签中
-      link: '/en/', // 默认 /fr/ -- 显示在导航栏翻译菜单上，可以是外部的
-      ...enConfig,
-      // 其余 locale 特定属性...
-    },
-  },
 }
 
 // https://vitepress.dev/reference/site-config
