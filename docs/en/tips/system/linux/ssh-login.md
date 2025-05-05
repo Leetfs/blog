@@ -1,26 +1,26 @@
 ---
-title: 使用 ssh 密钥登陆服务器并禁用密码登陆
+title: Log in to the server using SSH keys and disable password login
 author: Lee
 ---
 
-## 配置 ssh 密钥登陆
+## Configure SSH key login
 
-- 使用指令 `ssh-keygen` 生成密钥，或使用已有密钥
-- 将对应公钥拷贝到 `root/.ssh/authorized_keys` 文件内。
+- Generate a key pair using the command `ssh-keygen` or use an existing key pair
+- Copy the corresponding public key to the `root/.ssh/authorized_keys` file.
 
-## 禁用密码登陆
+## Disable password login
 
-编辑 /etc/ssh/sshd_config 文件，修改以下参数：
+Edit the /etc/ssh/sshd_config file and modify the following parameters:
 
 ```text
 PubkeyAuthentication yes
 PasswordAuthentication no
 ```
 
-## 重启 ssh 服务
+## Restart the SSH service
 
 ```bash
 sudo systemctl restart sshd
 ```
 
-如不生效，删除 `etc/ssh/sshd_config.d` 内的所有文件。
+If it does not take effect, delete all files in `etc/ssh/sshd_config.d`.
