@@ -1,58 +1,58 @@
 ---
-title: Certbot 自动获取 SSL 证书
+title: Certbot Automatic SSL Certificate Acquisition
 author: Lee
 ---
 
-## 安装
+## Installation
 
 ```bash
 sudo apt update
 sudo apt install certbot
 ```
 
-如使用 nginx，需同步安装插件：
+If using nginx, also install the plugin:
 
 ```bash
 sudo apt install certbot python3-certbot-nginx
 ```
 
-如使用 DNS 申请通配符证书，需安装插件：
+If applying for a wildcard certificate using DNS, install the plugin:
 
 ```bash
 sudo apt install python3-certbot-dns-cloudflare
 ```
 
-## 申请证书
+## Request Certificate
 
-未使用任何 web 服务:
-
-```bash
-sudo certbot certonly -d 你的域名
-```
-
-### 使用 nginx
+No web server used:
 
 ```bash
-sudo certbot --nginx -d 你的域名
+sudo certbot certonly -d yourdomain
 ```
 
-### 使用 DNS
+### Using nginx
 
-以 cloudflare 为例:
+```bash
+sudo certbot --nginx -d yourdomain
+```
 
-1. cloudflare 管理账户 > 帐户 API 令牌 > API 令牌模板 > 编辑区域 DNS
-2. 安装插件 `sudo apt install python3-certbot-dns-cloudflare`
-3. 新建文件 `etc/letsencrypt/cloudflare.ini` ，将此参数放入文件 `dns_cloudflare_api_token = 你的token`
-4. 执行 `sudo certbot certonly -d 你的域名` ，根据提示选择使用 dns 验证。
+### Using DNS
 
-> 申请后不建议移除 `cloudflare.ini`, certbot 需依据此文件自动续期。
+Taking Cloudflare as an example:
 
-## 使用证书
+1. Cloudflare management account > Account API Tokens > API Token Templates > Edit Zone DNS
+2. Install plugin `sudo apt install python3-certbot-dns-cloudflare`
+3. Create the file `etc/letsencrypt/cloudflare.ini` and place the parameter inside: `dns_cloudflare_api_token = yourtoken`
+4. Run `sudo certbot certonly -d yourdomain` and choose DNS authentication when prompted.
 
-配置成功后会在终端输出证书和私钥路径，可填入 `ssl_certificate` 和 `ssl_certificate_key` 使用。
+> It is not recommended to remove `cloudflare.ini` after applying. Certbot needs this file for automatic renewal.
 
-其余配置部分参考 [nginx 反代入门](./nginx.md)
+## Using the Certificate
 
-## 注意
+After configuration, the terminal will display the paths for the certificate and private key, which can be set in `ssl_certificate` and `ssl_certificate_key` for use.
 
-certbot 会自动向 nginx 的 `etc/nginx/sites-available/default` 文件添加相关配置，这可能与站点配置文件冲突，可注释掉标有 `# managed by Certbot` 的行。
+For other configuration parts, refer to [nginx reverse proxy basics](./nginx.md)
+
+## Note
+
+Certbot will automatically add relevant configurations to nginx's `etc/nginx/sites-available/default` file. This may conflict with your site configuration file. You can comment out lines marked with `# managed by Certbot`.
