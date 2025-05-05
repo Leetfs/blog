@@ -1,17 +1,17 @@
 ---
-title: 持久化环境变量
+title: Persist environment variables
 author: Lee
 ---
 
-## 配置
+## Configuration
 
-打开 `.bashrc`
+Open `.bashrc`
 
 ```bash
 nano ~/.bashrc
 ```
 
-在最后面加上 `export` 语句
+Add the `export` statements at the end
 
 ```bash
 export VENTUS_INSTALL_PREFIX=/root/J142/llvm-project/install
