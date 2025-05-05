@@ -8,6 +8,9 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
+const title = '友情链接'
+const lead = '这里是我的朋友们~(ฅ´ω`ฅ)'
+
 const members = [
   {
     avatar: '/nhui.jpg',
@@ -30,12 +33,8 @@ const members = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>
-      友情链接
-    </template>
-    <template #lead>
-      这里是我的朋友们~(ฅ´ω`ฅ)
-    </template>
+    <template #title>{{ title }}</template>
+    <template #lead>{{ lead }}</template>
   </VPTeamPageTitle>
   <VPTeamMembers
     :members="members"
