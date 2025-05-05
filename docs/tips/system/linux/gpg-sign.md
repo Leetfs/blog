@@ -23,7 +23,7 @@ gpg --list-secret-keys --keyid-format LONG
 gpg --card-status
 ```
 
-![](./pubilc/gpg-sign-img/gpg-sign-3.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-3.png)
 
 直接使用 GPG 测试签名：
 
@@ -50,6 +50,6 @@ export GPG_TTY=$(tty)
 
 重新测试签名：
 
-![](./pubilc/gpg-sign-img/gpg-sign-4.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-4.png)
 
 成功弹出校验框，至此问题解决。
