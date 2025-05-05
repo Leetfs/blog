@@ -7,7 +7,7 @@ author: Lee
 
 When connecting to the server via terminal and using the GPG key within Yubikey to sign Git commits, an error appears. Brief troubleshooting steps:
 
-![](./pubilc/gpg-sign-img/gpg-sign-1.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-1.png)
 
 Verify if there is a valid private key:
 
@@ -15,7 +15,7 @@ Verify if there is a valid private key:
 gpg --list-secret-keys --keyid-format LONG
 ```
 
-![](./pubilc/gpg-sign-img/gpg-sign-2.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-2.png)
 
 Test whether the smart card can be read correctly:
 
