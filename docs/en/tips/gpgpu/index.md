@@ -3,10 +3,10 @@ title: GPGPU
 author: Lee
 ---
 
-## 简介
+## Introduction
 
-用 GPU 做通用计算。
+Use the GPU for general-purpose computing.
 
-## 目录
+## Table of Contents
 
 <ArticlesMenu />
