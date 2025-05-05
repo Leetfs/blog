@@ -1,73 +1,73 @@
 ---
-title: uv 包管理器
+title: uv package manager
 author: Lee
 ---
 
-## 简介
+## Introduction
 
-[uv](https://docs.astral.sh/uv/) 是**新一代** Python 包管理工具
+[uv](https://docs.astral.sh/uv/) is a **next-generation** Python package management tool
 
-## 安装
+## Installation
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-## 创建虚拟环境
+## Create a virtual environment
 
 ```bash
 uv venv
 ```
 
-## 安装/卸载包
+## Install/Uninstall packages
 
-在 pip 命令前 + uv
+Add uv before the pip command
 
 ```bash
 uv pip install triton
 uv pip uninstall triton
 ```
 
-## 管理依赖包
+## Manage dependencies
 
-### 安装/卸载依赖包
+### Install/Uninstall dependencies
 
 ```bash
 uv pip install requests
 uv pip uninstall requests
 ```
 
-### 按 requirements.txt 安装
+### Install from requirements.txt
 
 ```bash
 uv pip install -r requirements.txt
 ```
 
-### 冻结依赖列表
+### Freeze dependency list
 
 ```bash
 uv pip freeze > requirements.txt
 ```
 
-### 更新所有依赖
+### Update all dependencies
 
 ```bash
 uv pip install -U -r requirements.txt
 ```
 
-## 运行 Python 脚本
+## Run Python script
 
 ```bash
 uv run script.py
 ```
 
-## 启动 REPL
+## Start REPL
 
 ```bash
 uv
 ```
 
-## 清理缓存
+## Clean cache
 
 ```bash
 uv cache clean
