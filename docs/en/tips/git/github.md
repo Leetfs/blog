@@ -23,27 +23,27 @@ Register an account (details omitted here)
 
 Go to the homepage and use the search bar to find the repository you want to contribute to, or jump directly via a repository link.
 
-![](github-img/image.png)
+![](/tips/git/github-img/image.png)
 
 On the repository code page (homepage), click Fork to copy the repository to your account.
 
-![](github-img/image1.png) ![](github-img/image2.png)
+![](/tips/git/github-img/image1.png) ![](/tips/git/github-img/image2.png)
 
 Go to your forked repository
 
-![](github-img/image3.png)
+![](/tips/git/github-img/image3.png)
 
 Find the file you want to edit, make your changes, and then click Save in the upper right corner.
 
-![](github-img/image4.png) ![](github-img/image5.png)
+![](/tips/git/github-img/image4.png) ![](/tips/git/github-img/image5.png)
 
 After all files have been modified, return to the repository homepage and initiate a pull request.
 
-![](github-img/image6.png) ![](github-img/image7.png)
+![](/tips/git/github-img/image6.png) ![](/tips/git/github-img/image7.png)
 
 Enter your title (required) and description (optional), then click Send.
 
-![](github-img/image8.png)
+![](/tips/git/github-img/image8.png)
 
 Wait for the upstream repository maintainer to merge your pull request
 
@@ -61,11 +61,11 @@ These are questions commonly encountered when teaching newcomers. This section i
 
 Click your avatar in the upper right corner, then select `Your repositories` from the sidebar that appears.
 
-![](github-img/image9.png)
+![](/tips/git/github-img/image9.png)
 
 On the page, select the repository you want to switch to.
 
-![](github-img/image10.png)
+![](/tips/git/github-img/image10.png)
 
 **Note:**
 
