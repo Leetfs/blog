@@ -1,12 +1,12 @@
 ---
-title: 生活琐事
+title: Daily Life
 icon: creative
 author: Lee
 category:
-  - 生活琐事
+  - Daily Life
 index: false
 ---
 
-## 目录
+## Table of Contents
 
 <ArticlesMenu />
