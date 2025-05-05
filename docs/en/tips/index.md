@@ -1,12 +1,12 @@
 ---
-title: 一些经验
+title: Some Experience
 icon: creative
 author: Lee
 category:
-  - 一些经验
+  - Some Experience
 index: false
 ---
 
-## 目录
+## Contents
 
 <ArticlesMenu />
