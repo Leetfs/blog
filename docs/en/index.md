@@ -1,13 +1,13 @@
 ---
 layout: home
 hero:
-  name: "\"Lee's blog\""
-  text: '"Welcome to my blog~"'
-  tagline: '"Occasional Nonsense and Some Experience"'
+  name: Lee's blog
+  text: Welcome to my blog~
+  tagline: Occasional Nonsense and Some Experience
   image:
     src: /logo.png
     alt: Lee's blog
-    style: '"margin-top: 7%;"'
+    style: "margin-top: 7%;"
   actions:
     - theme: brand
       text: About
