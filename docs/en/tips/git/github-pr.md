@@ -19,15 +19,15 @@ Be sure not to commit directly to the original branch, as this may cause merge c
 
 You can update the branch to the latest version
 
-(Both buttons are effective. The first one updates to the latest version and discards your local commits, while the second updates to the latest version)
-![](github-img/image11.png)
+(这两个按钮都有效，第一个为更新到最新版本并舍弃你本地仓库上的提交，第二个为更新到最新版本)
+![](/tips/git/github-img/image11.png)
 
 ### Solution 2
 
 Create a new branch based on the upstream repository and commit in the new branch
 
-![](github-img/image12.png)
-![](github-img/image13.png)
+![](/tips/git/github-img/image12.png)
+![](/tips/git/github-img/image13.png)
 
 ## How to modify after submission
 
@@ -37,8 +37,8 @@ Before the PR is merged, the branch and PR are bound together; just modify the c
 
 Go into the PR and click on `Files changed`
 
-![](github-img/image14.png)
+![](/tips/git/github-img/image14.png)
 
 Click on `Review changes`
 
-![](github-img/image15.png)
+![](/tips/git/github-img/image15.png)
