@@ -52,7 +52,7 @@ cd J142/pocl/build/bin
 ./poclcc -l
 ```
 
-![](./images/llvm-img/poclcc.png)
+![](/tips/gpgpu/images/llvm-img/poclcc.png)
 
 ## 运行测试用例
 
@@ -61,4 +61,4 @@ cd J142/pocl/build/examples/vecadd
 ./vecadd
 ```
 
-![](./images/llvm-img/vecadd.png)
+![](/tips/gpgpu/images/llvm-img/vecadd.png)
