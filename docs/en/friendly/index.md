@@ -34,8 +34,8 @@ const members = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title></template> <!-- title: Friendly Links -->
-    <template #lead></template> <!-- lead: Lead -->
+    <template #title></template>
+    <template #lead></template>
   </VPTeamPageTitle>
   <VPTeamMembers
     :members="members"
