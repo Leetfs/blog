@@ -16,7 +16,7 @@ hero:
       text: Some experience
       link: /en/tips/
     - theme: alt
-      text: Lifestyle
+      text: Daily Life
       link: /en/life/
     - theme: alt
       text: Friendly links

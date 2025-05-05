@@ -8,23 +8,23 @@ type NavConfig = DefaultTheme.Config['nav']
 
 const nav: NavConfig = [
   {
-    text: '首页',
+    text: 'Home',
     link: '/en/',
   },
   {
-    text: '关于',
+    text: 'About',
     link: '/en/about/',
   },
   {
-    text: '一些经验',
+    text: 'Some experience',
     link: '/en/tips/',
   },
   {
-    text: '生活琐事',
+    text: 'Daily Life',
     link: '/en/life/',
   },
   {
-    text: '友情链接',
+    text: 'Friendly links',
     link: '/en/friendly/',
   },
 ]
@@ -81,7 +81,7 @@ const themeConfig = {
   /** vitepress 根目录 */
   rootDir: 'docs',
   /** 文档所在目录（目前似未使用此项） */
-  include: ['about', 'tips', 'life'],
+  // include: ['about', 'tips', 'life'],
   nav,
   sidebarOptions,
   /** 文档所在目录（用于GitHub编辑链接） */

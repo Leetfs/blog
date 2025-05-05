@@ -1,5 +1,5 @@
 ---
-title: 关于
+title: About
 icon: creative
 author: Lee
 category:
