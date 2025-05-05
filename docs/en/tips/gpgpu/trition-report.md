@@ -28,8 +28,8 @@ import triton
 
 #### vecadd: BLOCK_SIZE = 16
 
-![](./images/trition-report/vector-add-performance-16.png)
+![](/tips/gpgpu/images/trition-report/vector-add-performance-16.png)
 
 #### vecadd: BLOCK_SIZE = 32
 
-![](./images/trition-report/vector-add-performance-32.png)
+![](/tips/gpgpu/images/trition-report/vector-add-performance-32.png)
