@@ -9,14 +9,11 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
-const title = 'Friends Links'
-const lead = 'Here are my friends~(ฅ´ω`ฅ)'
-
 const members = [
   {
     avatar: '/nhui.jpg',
     name: '玲雨兰夜',
-    title: 'Ehehe...',
+    title: '诶嘿嘿...',
     links: [
       { icon: 'rss', link: 'http://nhui.top/' },
     ]
