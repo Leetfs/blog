@@ -9,6 +9,9 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
+const title = '友情链接'
+const lead = '这里是我的朋友们~(ฅ´ω`ฅ)'
+
 const members = [
   {
     avatar: '/nhui.jpg',
