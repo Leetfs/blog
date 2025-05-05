@@ -7,5 +7,3 @@ files:
     translation: /docs/%two_letters_code%/life/%original_file_name%
   - source: /docs/*.md
     translation: /docs/%two_letters_code%/%original_file_name%
-  - source: /docs/.vitepress/config.ts
-    translation: /docs/.vitepress/%two_letters_code%.ts
