@@ -20,14 +20,14 @@ author: Lee
 可以将分支更新到最新版本
 
 (这两个按钮都有效，第一个为更新到最新版本并舍弃你本地仓库上的提交，第二个为更新到最新版本)
-![](github-img/image11.png)
+![](/tips/git/github-img/image11.png)
 
 ### 方案2
 
 基于上游仓库开一个新的分支，在新的分支进行提交
 
-![](github-img/image12.png)
-![](github-img/image13.png)
+![](/tips/git/github-img/image12.png)
+![](/tips/git/github-img/image13.png)
 
 ## 提交以后如何修改
 
@@ -37,8 +37,8 @@ PR 合并前分支和 PR 是绑定的，直接在对应分支修改即可。
 
 进入 PR，点击 `Files changed`
 
-![](github-img/image14.png)
+![](/tips/git/github-img/image14.png)
 
 点击 `Review changes`
 
-![](github-img/image15.png)
+![](/tips/git/github-img/image15.png)

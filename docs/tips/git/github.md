@@ -23,27 +23,27 @@ GitHub 官网: <https://github.com/>
 
 打开首页，通过搜索栏找到想要做出贡献的仓库，也可以通过仓库链接直接跳转。
 
-![](github-img/image.png)
+![](/tips/git/github-img/image.png)
 
 在仓库代码页（首页），点击 Fork，复制仓库到你的账号下。
 
-![](github-img/image1.png) ![](github-img/image2.png)
+![](/tips/git/github-img/image1.png) ![](/tips/git/github-img/image2.png)
 
 进入你分叉出的仓库
 
-![](github-img/image3.png)
+![](/tips/git/github-img/image3.png)
 
 找到想要编辑的文件进行编辑，编辑后点击右上角保存。
 
-![](github-img/image4.png) ![](github-img/image5.png)
+![](/tips/git/github-img/image4.png) ![](/tips/git/github-img/image5.png)
 
 所有文件修改完毕后，返回仓库主页，并发起一个拉取请求。
 
-![](github-img/image6.png) ![](github-img/image7.png)
+![](/tips/git/github-img/image6.png) ![](/tips/git/github-img/image7.png)
 
 填写你的标题（必选）和 简介（可选），点击发送。
 
-![](github-img/image8.png)
+![](/tips/git/github-img/image8.png)
 
 等待上游仓库管理员合并你的拉取请求
 
@@ -61,11 +61,11 @@ GitHub 官网: <https://github.com/>
 
 点击右上角你的头像，在弹出的侧边栏内选择 `Your repositories`
 
-![](github-img/image9.png)
+![](/tips/git/github-img/image9.png)
 
 在页面内选择你想切换到的仓库
 
-![](github-img/image10.png)
+![](/tips/git/github-img/image10.png)
 
 **注意：**
 
