@@ -1,22 +1,22 @@
 ---
-title: Vitepress 自定义字体
+title: Vitepress Custom Font
 author: Lee
 ---
 
-## 方法
+## Method
 
-将字体文件放入 `pubilc` 或 `assets` 文件夹。
+Place the font file in the `public` or `assets` folder.
 
-修改 `.vitepress/theme/style.css`, 在末尾加入：
+Edit `.vitepress/theme/style.css` and add the following at the end:
 
 ```css
 @font-face {
-  font-family: '字体名';
-  src: url('字体文件路径') format('truetype');
+  font-family: 'FontName';
+  src: url('PathToFontFile') format('truetype');
 }
 
 :root {
---vp-font-family-base: "字体名";/* 其他文字字体 */
---vp-font-family-mono: "字体名";/* 代码块字体 */
+--vp-font-family-base: "FontName";/* Other text font */
+--vp-font-family-mono: "FontName";/* Code block font */
 }
 ```
