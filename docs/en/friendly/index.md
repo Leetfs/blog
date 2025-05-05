@@ -13,7 +13,7 @@ const members = [
   {
     avatar: '/nhui.jpg',
     name: '玲雨兰夜',
-    title: '诶嘿嘿...',
+    title: 'Ehehe...',
     links: [
       { icon: 'rss', link: 'http://nhui.top/' },
     ]
@@ -36,7 +36,7 @@ const members = [
     position: fixed;
     bottom: 3%;
     right: 2%;
-    width: 185px;          /* 显示区尺寸 */
+    width: 185px;          /* Visible area size */
     height: 140px;
     overflow: hidden;
     z-index: 9999;
@@ -46,9 +46,9 @@ const members = [
   }
 
   .promo-zoom {
-    width: 310px;          /* 原始内容宽度 */
-    height: 250px;         /* 原始内容高度 */
-    transform: scale(0.6); /* 缩放显示比例 */
+    width: 310px;          /* Original content width */
+    height: 250px;         /* Original content height */
+    transform: scale(0.6); /* Display scale */
     transform-origin: top left;
     pointer-events: auto;
   }
@@ -77,8 +77,7 @@ const members = [
   }
 </style>
 
-<div class="promo-wrapper" id="promoBox"><button class="promo-close" onclick="document.getElementById('promoBox').style.display='none'">×</button>
-  <div class="promo-zoom">
+<div class="promo-wrapper" id="promoBox"><button class=\"promo-close\" onclick=\"document.getElementById('promoBox').style.display='none'\">×</button>\n  <div class="promo-zoom">
     <iframe src="https://support.nodeget.com/page/promotion?id=Leetfs" scrolling="no"></iframe>
   </div>
 </div>
