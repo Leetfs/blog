@@ -7,7 +7,7 @@ author: Lee
 
 使用终端连接服务器，调 yubikey 内的 GPG 密钥签 Git 提交时提示错误，简要排查：
 
-![](./pubilc/gpg-sign-img/gpg-sign-1.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-1.png)
 
 验证是否有有效私钥：
 
@@ -15,7 +15,7 @@ author: Lee
 gpg --list-secret-keys --keyid-format LONG
 ```
 
-![](./pubilc/gpg-sign-img/gpg-sign-2.png)
+![](/tips/system/linux/pubilc/gpg-sign-img/gpg-sign-2.png)
 
 测试是否正确读取智能卡：
 
