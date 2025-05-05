@@ -1,15 +1,15 @@
 ---
-title: Triton 使用体验与性能分析
+title: Triton Usage Experience and Performance Analysis
 author: Lee
 ---
 
-## 概述
+## Overview
 
-Triton 是为深度学习优化的 GPGPU 编程框架，**简洁、高性能**，使用 python 环境高效编写~
+Triton is a GPGPU programming framework optimized for deep learning. **Simple and high-performance**, efficiently developed using the Python environment~
 
-## 安装及使用
+## Installation and Usage
 
-使用 pip。
+Use pip.
 
 ```bash
 uv pip install triton
@@ -22,9 +22,9 @@ import triton
 ...
 ```
 
-## 性能优化
+## Performance Optimization
 
-### 调整线程块大小
+### Adjust Thread Block Size
 
 #### vecadd: BLOCK_SIZE = 16
 
