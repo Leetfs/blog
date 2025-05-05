@@ -19,7 +19,7 @@ Be sure not to commit directly to the original branch, as this may cause merge c
 
 You can update the branch to the latest version
 
-(这两个按钮都有效，第一个为更新到最新版本并舍弃你本地仓库上的提交，第二个为更新到最新版本)
+(Both buttons are effective. The first one updates to the latest version and discards your local commits, while the second updates to the latest version)
 ![](/tips/git/github-img/image11.png)
 
 ### Solution 2
