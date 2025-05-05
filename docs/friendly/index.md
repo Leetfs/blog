@@ -33,7 +33,7 @@ const members = [
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <span><template #title><span>{{ title }}</span></template></span>
+    <template #title><span>{{ title }}</span></template>
     <template #lead>这里是我的朋友们~(ฅ´ω`ฅ)</template>
   </VPTeamPageTitle>
   <VPTeamMembers
