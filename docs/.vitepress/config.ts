@@ -3,6 +3,7 @@ import type { SidebarOptions } from '@project-trans/vitepress-theme-project-tran
 import type { ThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
 import { withThemeContext } from '@project-trans/vitepress-theme-project-trans/utils'
 import type { DefaultTheme } from 'vitepress'
+import enConfig from './en'
 
 type NavConfig = DefaultTheme.Config['nav']
 
@@ -98,7 +99,7 @@ const themeConfig = {
       label: 'English',
       lang: 'en', // 可选，将作为 `lang` 属性添加到 `html` 标签中
       link: '/en/', // 默认 /fr/ -- 显示在导航栏翻译菜单上，可以是外部的
-
+      ...enConfig,
       // 其余 locale 特定属性...
     },
   },
