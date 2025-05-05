@@ -3,6 +3,6 @@ title: RISC-V
 author: Lee
 ---
 
-## 目录
+## Table of Contents
 
 <ArticlesMenu />
