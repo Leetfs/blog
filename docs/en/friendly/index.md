@@ -33,7 +33,8 @@ const members = [
 </script>
 
 <VPTeamPage>
-  <VPTeamPageTitle><span><template #title><span>{{ title }}</span></template></span>
+  <VPTeamPageTitle>
+    <template #title></template>
     <template #lead></template>
   </VPTeamPageTitle>
   <VPTeamMembers
