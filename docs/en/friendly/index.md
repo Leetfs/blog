@@ -13,9 +13,17 @@ const members = [
   {
     avatar: '/nhui.jpg',
     name: '玲雨兰夜',
-    title: 'Ehehe...',
+    title: '诶嘿嘿...',
     links: [
       { icon: 'rss', link: 'http://nhui.top/' },
+    ]
+  },
+  {
+    avatar: '/xiangcai.png',
+    name: '香菜',
+    title: '香菜的博客',
+    links: [
+      { icon: 'rss', link: 'https://mdzz.pro/' },
     ]
   },
 ]
