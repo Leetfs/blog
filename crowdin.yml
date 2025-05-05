@@ -7,3 +7,5 @@ files:
     translation: /docs/%two_letters_code%/life/%original_file_name%
   - source: /docs/*.md
     translation: /docs/%two_letters_code%/%original_file_name%
+  - source: /docs/tips/**/*.md
+    translation: /docs/%two_letters_code%/tips/**/%original_file_name%
