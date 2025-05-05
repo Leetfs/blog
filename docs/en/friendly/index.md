@@ -18,14 +18,6 @@ const members = [
       { icon: 'rss', link: 'http://nhui.top/' },
     ]
   },
-  {
-    avatar: '/xiangcai.png',
-    name: '香菜',
-    title: '香菜的博客',
-    links: [
-      { icon: 'rss', link: 'https://mdzz.pro/' },
-    ]
-  },
 ]
 </script>
 
