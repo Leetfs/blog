@@ -32,10 +32,12 @@ const members = [
 </script>
 
 <VPTeamPage>
-  <VPTeamPageTitle>
-    <span><template #title>{{ title }}</template></span>
-    <span><template #lead>{{ lead }}</template></span>
-  </VPTeamPageTitle>
+  <span>
+    <VPTeamPageTitle>
+      <template #title>{{ title }}</template>
+      <template #lead>{{ lead }}</template>
+    </VPTeamPageTitle>
+  </span>
   <VPTeamMembers
     :members="members"
   />
