@@ -13,7 +13,7 @@ author: Lee
 
 首先应确保本地ssh已正常运行，可使用 `ssh-add -l` 指令查询所有ssh密钥，也可运行 `ssh -T` 测试是否可以正确访问。
 
-![](./pubilc/ssh-agent-1.png)
+![](/tips/system/linux/pubilc/ssh-agent-1.png)
 
 ### 设置 ssh agent forwarding
 
