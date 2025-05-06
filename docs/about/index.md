@@ -7,28 +7,28 @@ category:
 index: false
 ---
 
-## Hi there, I'm Lee 👋
+## 你好，我是 Lee 👋
 
-**Passionate about open-source, technology, and equality.**
+**热爱开源、技术与平等。**
 
-A 20-year-old university student currently interning at the **Institute of Software, Chinese Academy of Sciences**, and an active member of **Project Trans**.
-
----
-
-### 📫 Contact
-
-- 📧 Email: `lee (at) mtftm [dot] com`
-- 🔑 PGP Key: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+一名 20 岁的大学生，目前在**中国科学院软件研究所**实习，也是 **Project Trans** 的活跃成员。欢迎查看我的 [简历](https://leetfs.com/about/resume)，了解更多关于我的信息。
 
 ---
 
-### 🕹️ Recently played games
+### 📫 联系我
+
+- 📧 邮箱: <lee@mtftm.com>
+- 🔑 PGP 密钥: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+
+---
+
+### 🕹️ 最近玩过的游戏
 
 ![](/metrics.plugin.steam.svg)
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub 统计
 
 <a href="https://github.com/Leetfs/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Leetfs&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews" width="49%" />
@@ -39,6 +39,8 @@ A 20-year-old university student currently interning at the **Institute of Softw
 
 ---
 
-### 🚀 Tech Stack
+### 🚀 技术栈
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+[![我的技能](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+
+---
