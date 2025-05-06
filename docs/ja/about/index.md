@@ -1,9 +1,9 @@
 ---
 title: 概要
-icon: クリエイティブ
+icon: creative
 author: Lee
 category:
-  - 概要
+  - about
 index: false
 ---
 
@@ -30,11 +30,11 @@ index: false
 
 ### 📊 GitHub統計
 
-<a href=\"https://github.com/Leetfs/\">
-  <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api?username=Leetfs&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews\" width=\"49%\" />
+<a href="https://github.com/Leetfs/">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Leetfs&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews" width="49%" />
 </a>
-<a href=\"https://github.com/Leetfs/\">
-  <img align=\"center\" src=\"https://github-readme-stats.vercel.app/api/top-langs?username=Leetfs&layout=compact&langs_count=8&theme=transparent&hide_border=true\" width=\"49%\" />
+<a href="https://github.com/Leetfs/">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=Leetfs&layout=compact&langs_count=8&theme=transparent&hide_border=true" width="49%" />
 </a>
 
 ---
