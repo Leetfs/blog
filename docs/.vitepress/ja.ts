@@ -8,23 +8,23 @@ type NavConfig = DefaultTheme.Config['nav']
 
 const nav: NavConfig = [
   {
-    text: 'Home',
+    text: 'ホーム',
     link: '/ja/',
   },
   {
-    text: 'About',
+    text: 'について',
     link: '/ja/about/',
   },
   {
-    text: 'Some experience',
+    text: 'いくつかの経験',
     link: '/ja/tips/',
   },
   {
-    text: 'Daily Life',
+    text: '日常の雑事',
     link: '/ja/life/',
   },
   {
-    text: 'Friendly links',
+    text: '友達のリンク',
     link: '/ja/friendly/',
   },
 ]
