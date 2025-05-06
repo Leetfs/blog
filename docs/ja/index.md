@@ -1,5 +1,5 @@
 ---
-layout: ホーム
+layout: home
 hero:
   name: Leeのブログ
   text: 私のブログへようこそ~
@@ -9,16 +9,16 @@ hero:
     alt: Leeのブログ
     style: "margin-top: 7%;"
   actions:
-    - theme: ブランド
+    - theme: brand
       text: について
-      link: /about/
+      link: /ja/about/
     - theme: alt
       text: いくつかの経験
-      link: /tips/
+      link: /ja/tips/
     - theme: alt
       text: 日常の雑事
-      link: /life/
+      link: /ja/life/
     - theme: alt
       text: 友達のリンク
-      link: /friendly/
+      link: /ja/friendly/
 ---
