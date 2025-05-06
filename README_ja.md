@@ -1,41 +1,41 @@
-# Lee's blog
+# Leeのブログ
 
 [中文](README.md) | [English](README_en.md) | [日本語](README_ja.md)
 
-## 欢迎
+## ようこそ
 
-你好，欢迎来到我的博客。
+こんにちは、私のブログへようこそ。
 
-本站点基于 [vitepress](https://vitepress.dev/zh/), 使用 [VitePress Theme Project Trans](https://github.com/project-trans/vitepress-theme-project-trans) 主题。
+このサイトは [vitepress](https://vitepress.dev/zh/) に基づいており、[VitePress Theme Project Trans](https://github.com/project-trans/vitepress-theme-project-trans) テーマを使用しています。
 
-## 构建流程
+## ビルドプロセス
 
-### 前置条件
+### 前提条件
 
-- 安装 [Node.js](https://nodejs.org/zh-cn)
-- 安装 pnpm `npm install -g pnpm`
+- [Node.js](https://nodejs.org/zh-cn) をインストール
+- pnpm をインストール `npm install -g pnpm`
 
-### 安装依赖
+### 依存関係のインストール
 
-执行 `pnpm install` 安装所有依赖。
+`pnpm install` を実行してすべての依存関係をインストールします。
 
-### 升级主题包版本
+### テーマパッケージのバージョンをアップグレード
 
-本仓库始终使用 `VitePress Theme Project Trans` 的最新预览版本，而非使用仓库中 `package.json` 声明的版本，使用以下命令升级将 `VitePress Theme Project Trans` 升级至最新版本。
+このリポジトリは、リポジトリ内の `package.json` で宣言されたバージョンではなく、常に `VitePress Theme Project Trans` の最新プレビューバージョンを使用します。以下のコマンドを使用して `VitePress Theme Project Trans` を最新バージョンにアップグレードしてください。
 
 ```bash
 pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 ```
 
-### 运行/构建
+### 実行/ビルド
 
-启动预览页面。
+プレビューページを起動します。
 
 ```bash
 pnpm dev
 ```
 
-构建站点。
+サイトを構築します。
 
 ```bash
 pnpm build
