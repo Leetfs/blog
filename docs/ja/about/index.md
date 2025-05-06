@@ -7,28 +7,28 @@ category:
 index: false
 ---
 
-## 你好，我是 Lee 👋
+## こんにちは、私はLeeです👋
 
-**热爱开源、技术与平等。**
+**オープンソース、技術、平等を愛しています。**
 
-一名 20 岁的大学生，目前在**中国科学院软件研究所**实习，也是 **Project Trans** 的活跃成员。欢迎查看我的 [简历](https://leetfs.com/about/resume)，了解更多关于我的信息。
-
----
-
-### 📫 联系我
-
-- 📧 邮箱: <lee@mtftm.com>
-- 🔑 PGP 密钥: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+20歳の大学生で、現在**中国科学院软件研究所**でインターンをしており、**Project Trans**の活発なメンバーでもあります。私の[履歴書](https://leetfs.com/about/resume)をご覧になり、私についてもっと知ってください。
 
 ---
 
-### 🕹️ 最近玩过的游戏
+### 📫 連絡先
+
+- 📧 メール: <lee@mtftm.com>
+- 🔑 PGPキー: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+
+---
+
+### 🕹️ 最近プレイしたゲーム
 
 ![](/metrics.plugin.steam.svg)
 
 ---
 
-### 📊 GitHub 统计
+### 📊 GitHub統計
 
 <a href="https://github.com/Leetfs/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Leetfs&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews" width="49%" />
@@ -39,8 +39,8 @@ index: false
 
 ---
 
-### 🚀 技术栈
+### 🚀 技術スタック
 
-[![我的技能](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+[![私のスキル](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
 
 ---
