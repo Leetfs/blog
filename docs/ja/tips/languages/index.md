@@ -1,6 +1,6 @@
 ---
 title: 言語
-author: リー
+author: Lee
 ---
 
 ## 目次
