@@ -1,43 +1,43 @@
 ---
-title: 简历
+title: Resume
 author: Lee
 ---
 
-## 个人简介
+## Personal Profile
 
-热爱开源社区，立志做出有意义的技术贡献。具备扎实的前端和后端开发技能，熟悉持续集成/持续交付（CI/CD）流程，且对新兴技术充满热情，特别是在 LLVM、 RISC-V 等领域。
+Passionate about the open-source community, committed to making meaningful technical contributions.Possesses solid front-end and back-end development skills, familiar with continuous integration/continuous delivery (CI/CD) processes, and enthusiastic about emerging technologies, especially in areas such as LLVM and RISC-V.
 
-## 技能
+## Skills
 
-- **编程语言：** Python, JavaScript, C/C++, Groovy
-- **框架与工具：** Vue, React, Node.js, Docker, Jenkins, FastAPI
-- **操作系统：** Linux, Windows
-- **其他：** Git, CI/CD, LLVM
+- **Programming Languages:** Python, JavaScript, C/C++, Groovy
+- **Frameworks & Tools:** Vue, React, Node.js, Docker, Jenkins, FastAPI
+- **Operating Systems:** Linux, Windows
+- **Others:** Git, CI/CD, LLVM
 
-## 项目经历
+## Project Experience
 
-### 乘影 GPGPU LLVM 工具链开发
+### Chengying GPGPU LLVM Toolchain Development
 
-_中国科学院软件研究所_ | 2025.05 - 至今
+_Institute of Software, Chinese Academy of Sciences_ | 2025.05 - Present
 
-- 参与乘影 GPGPU 项目的开源生态建设，支持 RISC-V 自定义指令集的实现。
-- 深入参与乘影 GPGPU LLVM 工具链的开发，解决 RISC-V 指令集的适配问题，完成编译器的功能验证与调试。
+- Participated in the open-source ecosystem construction of the Chengying GPGPU project, supporting the implementation of RISC-V custom instruction sets.
+- Deeply involved in the development of the Chengying GPGPU LLVM toolchain, solving adaptation issues for the RISC-V instruction set, and completing functional verification and debugging of the compiler.
 
-### RISC-V 自动化测试与性能分析平台开发
+### RISC-V Automated Testing and Performance Analysis Platform Development
 
-_中国科学院软件研究所_ | 2025.02 - 2025.05
+_Institute of Software, Chinese Academy of Sciences_ | 2025.02 - 2025.05
 
-- 参与基于 Jenkins 的 RISC-V 自动化测试与性能分析平台的开发与维护，重点关注 RISC-V 向量扩展（RVV）的优化。
-- 负责构建自动化测试、性能对比分析功能，协助添加更多硬件设备与平台支持，提升测试平台的规模与性能。
-- 跟踪 OpenCV 在 RISC-V 平台上的性能变化，确保修改的准确性。
+- Participated in the development and maintenance of a Jenkins-based RISC-V automated testing and performance analysis platform, focusing on the optimization of RISC-V Vector Extension (RVV).
+- Responsible for building automated testing and performance comparison analysis features, assisting in adding more hardware devices and platform support, enhancing the scale and performance of the testing platform.
+- Tracked performance changes of OpenCV on the RISC-V platform to ensure the accuracy of modifications.
 
-### 开源组织成员
+### Open Source Organization Member
 
-_[Project Trans](https://github.com/project-trans)_ | 2024.09 - 至今
+_[Project Trans](https://github.com/project-trans)_ | 2024.09 - Present
 
-- 负责前端页面开发和 CI/CD 维护，贡献多个功能和修复。
-- 在 GitHub 上管理多个 pull requests，参与代码评审与优化，推动项目的持续发展。
+- Responsible for front-end page development and CI/CD maintenance, contributing multiple features and fixes.
+- Managed multiple pull requests on GitHub, participated in code reviews and optimizations, promoting the continuous development of the project.
 
-## 教育背景
+## Education
 
-本科在读。
+Undergraduate student.
