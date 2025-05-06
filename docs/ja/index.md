@@ -9,7 +9,7 @@ hero:
     alt: Leeのブログ
     style: "margin-top: 7%;"
   actions:
-    - theme: ブランド
+    - theme: brand
       text: について
       link: /about/
     - theme: alt
