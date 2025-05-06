@@ -14,26 +14,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 第一步：检出代码
       - name: 检出代码
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      # 第二步：安装 pnpm
       - name: 安装 pnpm
         uses: pnpm/action-setup@v3
         with:
           version: 9.12.3
 
-      # 第三步：安装依赖
       - name: 安装依赖
         run: pnpm install
 
       - name: 更新主题包
         run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 
-      # 第四步：构建项目
       - name: 构建项目
         run: pnpm run build # 构建 VitePress 项目
 
@@ -45,19 +41,10 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }}
           command: pages deploy docs/.vitepress/dist --project-name=blog
 
-      - name: 使用 wrangler 命令输出
-        env:
-          CMD_OUTPUT: ${{ steps.deploy.outputs.command-output }}
-        run: echo $CMD_OUTPUT
+      # - name: 使用 wrangler 命令输出
+      #   env:
+      #     CMD_OUTPUT: ${{ steps.deploy.outputs.command-output }}
+      #   run: echo $CMD_OUTPUT
 
-      - name: 单独输出预览URL
-        run: echo ${{ steps.deploy.outputs.deployment-url }}
-
-      # # 第六步：发布到 Cloudflare Pages
-      # - name: 发布到 Cloudflare Pages
-      #   uses: cloudflare/pages-action@v1
-      #   with:
-      #     apiToken: ${{ secrets.CLOUDFLARE_PAGES_TOKEN }} # Cloudflare Pages API Token
-      #     accountId: ${{ secrets.CLOUDFLARE_PAGES_ACCOUNT }} # Cloudflare 账户 ID
-      #     projectName: blog # Cloudflare Pages 项目名称
-      #     directory: docs/.vitepress/dist # 构建输出目录
+      # - name: 单独输出预览URL
+      #   run: echo ${{ steps.deploy.outputs.deployment-url }}
