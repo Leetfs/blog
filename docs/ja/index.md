@@ -1,5 +1,5 @@
 ---
-layout: ホーム
+layout: home
 hero:
   name: Leeのブログ
   text: 私のブログへようこそ~
