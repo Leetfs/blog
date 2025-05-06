@@ -7,17 +7,17 @@ category:
 index: false
 ---
 
-## こんにちは、Leeです 👋
+## こんにちは、私はLeeです👋
 
-**オープンソース、技術、そして平等に情熱を持っています。**
+**オープンソース、技術、平等を愛しています。**
 
-20歳の大学生であり、現在は**中国科学院ソフトウェア研究所**でインターンをしています。また、**Project Trans**の積極的なメンバーです。
+20歳の大学生で、現在**中国科学院软件研究所**でインターンをしており、**Project Trans**の活発なメンバーでもあります。私の[履歴書](https://leetfs.com/about/resume)をご覧になり、私についてもっと知ってください。
 
 ---
 
 ### 📫 連絡先
 
-- 📧 メール：`lee (at) mtftm [dot] com`
+- 📧 メール: <lee@mtftm.com>
 - 🔑 PGPキー: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
 
 ---
@@ -41,4 +41,6 @@ index: false
 
 ### 🚀 技術スタック
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+[![私のスキル](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+
+---

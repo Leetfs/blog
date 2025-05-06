@@ -11,13 +11,13 @@ index: false
 
 **Passionate about open-source, technology, and equality.**
 
-A 20-year-old university student currently interning at the **Institute of Software, Chinese Academy of Sciences**, and an active member of **Project Trans**.
+A 20-year-old university student currently interning at the **Institute of Software, Chinese Academy of Sciences**, and an active member of **Project Trans**.Welcome to view my [resume](https://leetfs.com/about/resume) to learn more about me.
 
 ---
 
 ### 📫 Contact
 
-- 📧 Email: `lee (at) mtftm [dot] com`
+- 📧 Email: <lee@mtftm.com>
 - 🔑 PGP Key: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
 
 ---
@@ -42,3 +42,5 @@ A 20-year-old university student currently interning at the **Institute of Softw
 ### 🚀 Tech Stack
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+
+---

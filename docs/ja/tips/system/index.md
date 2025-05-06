@@ -1,6 +1,6 @@
 ---
 title: システム
-author: リー
+author: Lee
 ---
 
 ## 目次

@@ -1,6 +1,6 @@
 ---
 title: DevOps
-author: リー
+author: Lee
 ---
 
 ## 目次

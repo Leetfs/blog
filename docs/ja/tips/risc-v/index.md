@@ -1,6 +1,6 @@
 ---
 title: RISC-V
-author: リー
+author: Lee
 ---
 
 ## 目次

@@ -1,6 +1,6 @@
 ---
 title: Linux
-author: リー
+author: Lee
 ---
 
 ## 目次
