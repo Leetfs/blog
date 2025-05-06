@@ -24,7 +24,7 @@ const members = [
   {
     avatar: '/xiangcai.png',
     name: '香菜',
-    title: "Xiangcai's blog",
+    title: "Xiangcai\'s blog",
     links: [
       { icon: 'rss', link: 'https://mdzz.pro/' },
     ]
