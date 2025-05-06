@@ -9,14 +9,14 @@ import {
   VPTeamMembers
 } from 'vitepress/theme'
 
-const title = 'Friends Links'
-const lead = 'Here are my friends~(ฅ´ω`ฅ)'
+const title = '友達リンク'
+const lead = 'ここは私の友人たちです～(ฅ´ω`ฅ)'
 
 const members = [
   {
     avatar: '/nhui.jpg',
     name: '玲雨兰夜',
-    title: 'Nya!',
+    title: 'えへへ...',
     links: [
       { icon: 'rss', link: 'http://nhui.top/' },
     ]
@@ -24,7 +24,7 @@ const members = [
   {
     avatar: '/xiangcai.png',
     name: '香菜',
-    title: "Xiangcai\'s blog",
+    title: '香菜のブログ',
     links: [
       { icon: 'rss', link: 'https://mdzz.pro/' },
     ]
@@ -48,7 +48,7 @@ const members = [
     position: fixed;
     bottom: 3%;
     right: 2%;
-    width: 185px;          /* Visible area size */
+    width: 185px;          /* 表示エリアのサイズ */
     height: 140px;
     overflow: hidden;
     z-index: 9999;
@@ -58,9 +58,9 @@ const members = [
   }
 
   .promo-zoom {
-    width: 310px;          /* Original content width */
-    height: 250px;         /* Original content height */
-    transform: scale(0.6); /* Display scale */
+    width: 310px;          /* 元のコンテンツの幅 */
+    height: 250px;         /* 元のコンテンツの高さ */
+    transform: scale(0.6); /* 表示縮尺 */
     transform-origin: top left;
     pointer-events: auto;
   }
@@ -89,7 +89,8 @@ const members = [
   }
 </style>
 
-<div class="promo-wrapper" id="promoBox"><button class="promo-close" onclick="document.getElementById('promoBox').style.display='none'">×</button>  <div class="promo-zoom">
+<div class="promo-wrapper" id="promoBox"><button class="promo-close" onclick="document.getElementById('promoBox').style.display='none'">×</button>
+  <div class="promo-zoom">
     <iframe src="https://support.nodeget.com/page/promotion?id=Leetfs" scrolling="no"></iframe>
   </div>
 </div>
