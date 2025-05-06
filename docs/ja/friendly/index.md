@@ -16,7 +16,7 @@ const members = [
   {
     avatar: '/nhui.jpg',
     name: '玲雨兰夜',
-    title: 'えへへ…',
+    title: 'えへへ...',
     links: [
       { icon: 'rss', link: 'http://nhui.top/' },
     ]
