@@ -1,5 +1,5 @@
 ---
-layout: ページ
+layout: page
 ---
 
 <script setup>
