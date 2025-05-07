@@ -16,12 +16,12 @@ Passionate about the open-source community, committed to making meaningful techn
 
 ## Project Experience
 
-### Chengying GPGPU LLVM Toolchain Development
+### Ventus GPGPU LLVM Toolchain Development
 
 _Institute of Software, Chinese Academy of Sciences_ | 2025.05 - Present
 
-- Participated in the open-source ecosystem construction of the Chengying GPGPU project, supporting the implementation of RISC-V custom instruction sets.
-- Deeply involved in the development of the Chengying GPGPU LLVM toolchain, solving adaptation issues for the RISC-V instruction set, and completing functional verification and debugging of the compiler.
+- Participated in the open-source ecosystem construction of the Ventus GPGPU project, supporting the implementation of RISC-V custom instruction sets.
+- Deeply involved in the development of the Ventus GPGPU LLVM toolchain, solving adaptation issues for the RISC-V instruction set, and completing functional verification and debugging of the compiler.
 
 ### RISC-V Automated Testing and Performance Analysis Platform Development
 
