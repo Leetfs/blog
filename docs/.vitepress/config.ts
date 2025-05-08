@@ -72,7 +72,7 @@ const sidebarOptions = [
   },
 ]
 
-const themeConfig = {
+const themeConfig: ThemeContext = {
   siteTitle: "Lee's blog",
   siteDescription: "偶尔的废话和些许经验",
   siteLogo: '/old.png',
