@@ -12,13 +12,14 @@ import {
 const title = '友情链接'
 const lead = '这里是我的朋友们~(ฅ´ω`ฅ)'
 
+// icon: <https://simpleicons.org/>
 const members = [
   {
     avatar: '/friendly/nhui.jpg',
     name: '玲雨兰夜',
     title: '诶嘿嘿...',
     links: [
-      { icon: 'rss', link: 'http://nhui.top/' },
+      { icon: 'devbox', link: 'http://nhui.top/' },
     ]
   },
   {
@@ -26,7 +27,7 @@ const members = [
     name: '香菜',
     title: '香菜的博客',
     links: [
-      { icon: 'rss', link: 'https://mdzz.pro/' },
+      { icon: 'devbox', link: 'https://mdzz.pro/' },
     ]
   },
   {
@@ -34,7 +35,7 @@ const members = [
     name: 'DokiDoki·大黄猫',
     title: '黄猫杂货店',
     links: [
-      { icon: 'rss', link: 'https://www.iacg.moe/' },
+      { icon: 'devbox', link: 'https://www.iacg.moe/' },
     ]
   },
 ]
