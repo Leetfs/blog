@@ -13,7 +13,7 @@ const lead = '这里是我的朋友们~(ฅ´ω`ฅ)'
 
 const members = [
   {
-    avatar: '/nhui.jpg',
+    avatar: '/friendly/nhui.jpg',
     name: '玲雨兰夜',
     title: '诶嘿嘿...',
     links: [
@@ -21,11 +21,19 @@ const members = [
     ]
   },
   {
-    avatar: '/xiangcai.png',
+    avatar: 'https://avatars.githubusercontent.com/u/85744569',
     name: '香菜',
     title: '香菜的博客',
     links: [
       { icon: 'rss', link: 'https://mdzz.pro/' },
+    ]
+  },
+  {
+    avatar: 'https://www.iacg.moe/upload/cat.png',
+    name: 'DokiDoki·大黄猫',
+    title: '黄猫杂货店',
+    links: [
+      { icon: 'rss', link: 'https://www.iacg.moe/' },
     ]
   },
 ]
