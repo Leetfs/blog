@@ -1,11 +1,11 @@
 ---
-title: 乗影 GPGPU LLVM コンパイラのインストールメモ
+title: Ventus GPGPU LLVM コンパイラのインストールメモ
 author: Lee
 ---
 
 ## 概要
 
-乗影 GPGPU は**RISC-V 向けの GPGPU** アーキテクチャです。\
+Ventus GPGPU は**RISC-V 向けの GPGPU** アーキテクチャです。\
 本記事はこのリポジトリを参考にしています：<https://github.com/THU-DSP-LAB/llvm-project>。
 
 ## 依存関係のインストール

@@ -1,11 +1,11 @@
 ---
-title: Chengying GPGPU LLVM Compiler Installation Notes
+title: Ventus GPGPU LLVM Compiler Installation Notes
 author: Lee
 ---
 
 ## Introduction
 
-Chengying GPGPU is a **GPGPU architecture for RISC-V**.\
+Ventus GPGPU is a **GPGPU architecture for RISC-V**.\
 This article references this repository: <https://github.com/THU-DSP-LAB/llvm-project>.
 
 ## Install dependencies
