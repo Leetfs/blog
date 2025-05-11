@@ -20,6 +20,20 @@ sudo apt install git
 
 安装后可在任意终端执行 Git 相关命令，也可使用 vscode 这样的自带 Git 插件的编辑器可视化管理 Git。
 
+## 设置用户名和邮箱
+
+```bash
+git config --global user.name "username" # 设置用户名
+git config --global user.email useremail@qq.com # 设置邮箱
+```
+
+## 检出分支
+
+```bash
+git branch # 查看当前有哪些分支
+git checkout 分支名 # 检出分支
+```
+
 ### 克隆仓库
 
 ```bash
