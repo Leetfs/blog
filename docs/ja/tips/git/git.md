@@ -20,6 +20,20 @@ sudo apt install git
 
 インストール後、任意のターミナルで Git 関連のコマンドを実行できます。また、vscode のように Git プラグインが組み込まれているエディタを使って、Git を視覚的に管理することも可能です。
 
+## 设置用户名和邮箱
+
+```bash
+git config --global user.name "username" # 设置用户名
+git config --global user.email useremail@qq.com # 设置邮箱
+```
+
+## 检出分支
+
+```bash
+git branch # 查看当前有哪些分支
+git checkout 分支名 # 检出分支
+```
+
 ### リポジトリのクローン
 
 ```bash
