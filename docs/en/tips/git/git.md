@@ -20,6 +20,20 @@ sudo apt install git
 
 After installation, you can run Git-related commands in any terminal, or use an editor like VS Code that has built-in Git plugins to visually manage Git.
 
+## 设置用户名和邮箱
+
+```bash
+git config --global user.name "username" # 设置用户名
+git config --global user.email useremail@qq.com # 设置邮箱
+```
+
+## 检出分支
+
+```bash
+git branch # 查看当前有哪些分支
+git checkout 分支名 # 检出分支
+```
+
 ### Clone Repository
 
 ```bash
