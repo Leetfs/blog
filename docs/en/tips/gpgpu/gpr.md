@@ -1,15 +1,15 @@
 ---
-title: RVRegisterClass、VGPR 与 RISCVReg VGPR
+title: RVRegisterClass, VGPR, and RISCVReg VGPR
 author: Lee
 ---
 
-## 示例
+## Example
 
 ```cpp
-// RVRegisterClass 定义，表示一种通用的寄存器类别
+// RVRegisterClass definition, representing a generic register class
 class RVRegisterClass <string n, list<ValueType> rTypes, int Align, dag rList>
   : RegisterClass <n, rTypes, Align, rList> {
-  // vALU 和 sALU 寄存器
+  // vALU and sALU registers
   field bit IsVGPR = 0;
   field bit IsSGPR = 0;
   field bit IsFGPR = 0;
@@ -19,8 +19,8 @@ class RVRegisterClass <string n, list<ValueType> rTypes, int Align, dag rList>
   let TSFlags{2} = IsFGPR;
 }
 
-// VGPR 继承自 RVRegisterClass，表示具体的向量寄存器
-// VGPR 32-bit 寄存器类
+// VGPR inherits from RVRegisterClass, representing a specific vector register
+// VGPR 32-bit register class
 def VGPR : RVRegisterClass<"RISCV",
                             !listconcat(Reg32Types.types, Reg16Types.types),
                             32,
@@ -29,9 +29,9 @@ def VGPR : RVRegisterClass<"RISCV",
   let IsVGPR = 1;
 }
 
-// RISCVReg: VGPR 是一个具体的寄存器类，表示 RISC-V 的向量寄存器
+// RISCVReg: VGPR is a specific register class, representing RISC-V's vector register
 def V0 : VGPR<"V0">;
 def V1 : VGPR<"V1">;
 ```
 
-在这个例子中，`VGPR` 继承自 `RVRegisterClass`，而 `V0` 和 `V1` 就是具体的寄存器实例。
+In this example, `VGPR` inherits from `RVRegisterClass`, and `V0` and `V1` are specific register instances.
