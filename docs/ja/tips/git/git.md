@@ -20,6 +20,20 @@ sudo apt install git
 
 インストール後、任意のターミナルで Git 関連のコマンドを実行できます。また、vscode のように Git プラグインが組み込まれているエディタを使って、Git を視覚的に管理することも可能です。
 
+## ユーザー名とメールアドレスの設定
+
+```bash
+git config --global user.name "username" # ユーザー名を設定
+git config --global user.email useremail@qq.com # メールアドレスを設定
+```
+
+## ブランチをチェックアウト
+
+```bash
+git branch # 現在のブランチを表示
+git checkout ブランチ名 # ブランチをチェックアウト
+```
+
 ### リポジトリのクローン
 
 ```bash

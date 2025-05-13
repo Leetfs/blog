@@ -12,21 +12,30 @@ import {
 const title = '友達リンク'
 const lead = 'ここは私の友人たちです～(ฅ´ω`ฅ)'
 
+// icon: <https://simpleicons.org/>
 const members = [
   {
-    avatar: '/nhui.jpg',
+    avatar: '/friendly/nhui.jpg',
     name: '玲雨兰夜',
     title: 'えへへ...',
     links: [
-      { icon: 'rss', link: 'http://nhui.top/' },
+      { icon: 'devbox', link: 'http://nhui.top/' },
     ]
   },
   {
-    avatar: '/xiangcai.png',
+    avatar: 'https://avatars.githubusercontent.com/u/85744569',
     name: '香菜',
     title: '香菜のブログ',
     links: [
-      { icon: 'rss', link: 'https://mdzz.pro/' },
+      { icon: 'devbox', link: 'https://mdzz.pro/' },
+    ]
+  },
+  {
+    avatar: 'https://www.iacg.moe/upload/cat.png',
+    name: 'DokiDoki・大黄猫',
+    title: '黄猫雑貨店',
+    links: [
+      { icon: 'devbox', link: 'https://www.iacg.moe/' },
     ]
   },
 ]

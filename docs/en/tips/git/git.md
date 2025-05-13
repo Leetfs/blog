@@ -20,6 +20,20 @@ sudo apt install git
 
 After installation, you can run Git-related commands in any terminal, or use an editor like VS Code that has built-in Git plugins to visually manage Git.
 
+## Set username and email
+
+```bash
+git config --global user.name "username" # Set username
+git config --global user.email useremail@qq.com # Set email
+```
+
+## Checkout branch
+
+```bash
+git branch # View current branches
+git checkout branch name # Checkout branch
+```
+
 ### Clone Repository
 
 ```bash
