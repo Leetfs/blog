@@ -20,14 +20,18 @@ sudo apt install git
 
 After installation, you can run Git-related commands in any terminal, or use an editor like VS Code that has built-in Git plugins to visually manage Git.
 
-## Set username and email
+When using Git, it's important to understand the concept of the [working directory](https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%9B%AE%E9%8C%84), which is the location where the current terminal or window is, and is also where some commands operate.
+
+For example, you can use `cd lee` to switch to the `lee` folder under the current directory. At this point, running `git clone` will clone the `blog` repository into the `lee` folder.
+
+### Set username and email
 
 ```bash
 git config --global user.name "username" # Set username
 git config --global user.email useremail@qq.com # Set email
 ```
 
-## Checkout branch
+### Checkout branch
 
 ```bash
 git branch # View current branches
@@ -54,11 +58,26 @@ By default, the cloned repository is placed in the current working directory, an
 
 > Tips: A path starting with / means starting from the root directory, for example, /lee means 'lee' under the root directory, and ./lee means 'lee' under the current working directory.
 
-### Working Directory
+### 远程仓库
 
-When using Git, it's important to understand the concept of the [working directory](https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%9B%AE%E9%8C%84), which is the location where the current terminal or window is, and is also where some commands operate.
+```bash
+git remote add 自定义远程仓库名 https://github.com/example/source.git # 添加远程仓库
+git fetch 远程仓库名 # 把远程仓库拉到本地
+git branch -a # 列出所有分支
+git checkout -b 新分支名 远程仓库名/远程分支名 # 基于远程分支检出一个本地新分支
+git switch feature # 基于远程分支检出一个本地新分支（简化操作）
+```
 
-For example, you can use `cd lee` to switch to the `lee` folder under the current directory. At this point, running `git clone` will clone the `blog` repository into the `lee` folder.
+### cherry-pick
+
+使用 `git cherry-pick` 可从其他分支/仓库挑选一个或多个提交，把这些提交“复制”到当前分支，产生新的提交。
+
+```bash
+git checkout 目标分支
+git cherry-pick <起始哈希>^..<结束哈希>
+git cherry-pick --skip # 跳过当前冲突的提交
+git cherry-pick --abort # 放弃 cherry-pick（回退到之前状态）
+```
 
 ### Stash / Push / Pull
 
