@@ -58,25 +58,25 @@ clone したリポジトリはデフォルトで現在の作業ディレクト�
 
 > ヒント: / で始まるパスはルートディレクトリから始まり、たとえば /lee はルート直下のlee、./lee は現在の作業ディレクトリ内のleeを示します。
 
-### 远程仓库
+### リモートリポジトリ
 
 ```bash
-git remote add 自定义远程仓库名 https://github.com/example/source.git # 添加远程仓库
-git fetch 远程仓库名 # 把远程仓库拉到本地
-git branch -a # 列出所有分支
-git checkout -b 新分支名 远程仓库名/远程分支名 # 基于远程分支检出一个本地新分支
-git switch feature # 基于远程分支检出一个本地新分支（简化操作）
+git remote add カスタムリモートリポジトリ名 https://github.com/example/source.git # リモートリポジトリを追加
+git fetch リモートリポジトリ名 # リモートリポジトリをローカルにプル
+git branch -a # すべてのブランチをリスト
+git checkout -b 新しいブランチ名 リモートリポジトリ名/リモートブランチ名 # リモートブランチに基づいて新しいローカルブランチをチェックアウト
+git switch feature # リモートブランチに基づいて新しいローカルブランチをチェックアウト（簡略化された操作）
 ```
 
 ### cherry-pick
 
-使用 `git cherry-pick` 可从其他分支/仓库挑选一个或多个提交，把这些提交“复制”到当前分支，产生新的提交。
+`git cherry-pick`を使用すると、他のブランチ/リポジトリから1つ以上のコミットを選択し、これらのコミットを現在のブランチに「コピー」して、新しいコミットを作成できます。
 
 ```bash
-git checkout 目标分支
-git cherry-pick <起始哈希>^..<结束哈希>
-git cherry-pick --skip # 跳过当前冲突的提交
-git cherry-pick --abort # 放弃 cherry-pick（回退到之前状态）
+git checkout ターゲットブランチ
+git cherry-pick <開始ハッシュ>^..<終了ハッシュ>
+git cherry-pick --skip # 現在の衝突コミットをスキップ
+git cherry-pick --abort # cherry-pickを放棄（以前の状態に戻る）
 ```
 
 ### ステージ／プッシュ／プル
