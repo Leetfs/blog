@@ -20,14 +20,18 @@ sudo apt install git
 
 インストール後、任意のターミナルで Git 関連のコマンドを実行できます。また、vscode のように Git プラグインが組み込まれているエディタを使って、Git を視覚的に管理することも可能です。
 
-## ユーザー名とメールアドレスの設定
+Git を使用する際は、[作業ディレクトリ](https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA)の概念を理解しておく必要があります。作業ディレクトリは現在ターミナルやウィンドウが位置している場所であり、一部のコマンドが作用する場所です。
+
+たとえば、`cd lee` を使って現在のフォルダー内の `lee` フォルダーに移動すると、この状態で `git clone` を実行すると、`blog` リポジトリが `lee` フォルダーにクローンされます。
+
+### ユーザー名とメールアドレスの設定
 
 ```bash
 git config --global user.name "username" # ユーザー名を設定
 git config --global user.email useremail@qq.com # メールアドレスを設定
 ```
 
-## ブランチをチェックアウト
+### ブランチをチェックアウト
 
 ```bash
 git branch # 現在のブランチを表示
@@ -54,11 +58,26 @@ clone したリポジトリはデフォルトで現在の作業ディレクト�
 
 > ヒント: / で始まるパスはルートディレクトリから始まり、たとえば /lee はルート直下のlee、./lee は現在の作業ディレクトリ内のleeを示します。
 
-### 作業ディレクトリ
+### 远程仓库
 
-Git を使用する際は、[作業ディレクトリ](https://ja.wikipedia.org/wiki/%E3%83%AF%E3%83%BC%E3%82%AF%E3%83%87%E3%82%A3%E3%83%AC%E3%82%AF%E3%83%88%E3%83%AA)の概念を理解しておく必要があります。作業ディレクトリは現在ターミナルやウィンドウが位置している場所であり、一部のコマンドが作用する場所です。
+```bash
+git remote add 自定义远程仓库名 https://github.com/example/source.git # 添加远程仓库
+git fetch 远程仓库名 # 把远程仓库拉到本地
+git branch -a # 列出所有分支
+git checkout -b 新分支名 远程仓库名/远程分支名 # 基于远程分支检出一个本地新分支
+git switch feature # 基于远程分支检出一个本地新分支（简化操作）
+```
 
-たとえば、`cd lee` を使って現在のフォルダー内の `lee` フォルダーに移動すると、この状態で `git clone` を実行すると、`blog` リポジトリが `lee` フォルダーにクローンされます。
+### cherry-pick
+
+使用 `git cherry-pick` 可从其他分支/仓库挑选一个或多个提交，把这些提交“复制”到当前分支，产生新的提交。
+
+```bash
+git checkout 目标分支
+git cherry-pick <起始哈希>^..<结束哈希>
+git cherry-pick --skip # 跳过当前冲突的提交
+git cherry-pick --abort # 放弃 cherry-pick（回退到之前状态）
+```
 
 ### ステージ／プッシュ／プル
 
