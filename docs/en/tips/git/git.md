@@ -58,25 +58,25 @@ By default, the cloned repository is placed in the current working directory, an
 
 > Tips: A path starting with / means starting from the root directory, for example, /lee means 'lee' under the root directory, and ./lee means 'lee' under the current working directory.
 
-### 远程仓库
+### Remote repository
 
 ```bash
-git remote add 自定义远程仓库名 https://github.com/example/source.git # 添加远程仓库
-git fetch 远程仓库名 # 把远程仓库拉到本地
-git branch -a # 列出所有分支
-git checkout -b 新分支名 远程仓库名/远程分支名 # 基于远程分支检出一个本地新分支
-git switch feature # 基于远程分支检出一个本地新分支（简化操作）
+git remote add custom-remote-repo-name https://github.com/example/source.git # Add a remote repository
+git fetch remote-repo-name # Pull the remote repository to local
+git branch -a # List all branches
+git checkout -b new-branch-name remote-repo-name/remote-branch-name # Check out a new local branch based on the remote branch
+git switch feature # Check out a new local branch based on the remote branch (simplified operation)
 ```
 
 ### cherry-pick
 
-使用 `git cherry-pick` 可从其他分支/仓库挑选一个或多个提交，把这些提交“复制”到当前分支，产生新的提交。
+Using `git cherry-pick`, you can select one or more commits from other branches/repositories, "copy" these commits to the current branch, and create new commits.
 
 ```bash
-git checkout 目标分支
-git cherry-pick <起始哈希>^..<结束哈希>
-git cherry-pick --skip # 跳过当前冲突的提交
-git cherry-pick --abort # 放弃 cherry-pick（回退到之前状态）
+git checkout target-branch
+git cherry-pick <start-hash>^..<end-hash>
+git cherry-pick --skip # Skip the current conflicting commit
+git cherry-pick --abort # Abort cherry-pick (roll back to the previous state)
 ```
 
 ### Stash / Push / Pull
