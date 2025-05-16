@@ -5,18 +5,17 @@ author: Lee
 
 ## 个人简介
 
-具备前端开发、CI/CD 流程优化与编译器开发经验，熟悉 Linux 环境下的开发与调试，能够胜任从开源社区项目到企业级平台开发的多样化任务。在RISC-V 生态、GPGPU 工具链、自动化测试平台等项目中积累了扎实的工程能力，具备良好的代码质量意识与协作能力。
+**热爱开源、技术与平等。**
 
-同时拥有丰富的用户增长与社区运营经验，曾参与小米社区 PK 台板块从 0 到 1 的冷启动与内容生态搭建，具备数据分析与活动策划能力，能够从用户视角推动产品与社区的良性发展。
-
-热爱开源与技术分享，乐于接受新挑战，持续拓展技术广度与工程深度，在解决问题中持续成长。
+具备前端开发、CI/CD 系统与编译器开发经验，熟悉 Linux 环境下的开发与调试。深度参与 RISC-V 生态与 GPGPU 工具链开发，注重代码质量与团队协作。
 
 ## 技能
 
-- **编程语言：** Python, JavaScript, C/C++, Groovy
-- **框架与工具：** Vue, React, Node.js, Docker, Jenkins, FastAPI
-- **操作系统：** Linux, Windows
-- **其他：** Git, CI/CD, LLVM
+- 编程语言：Python、JavaScript、C/C++、Groovy
+- 前端开发：Vue、React、Node.js、Electron
+- 后端与自动化：FastAPI、Jenkins Pipeline（Groovy）、CI/CD
+- 开发与运维工具：Docker、Git、Jenkins、Make、CMake
+- 系统与底层：Linux、LLVM
 
 ## 项目经历
 
