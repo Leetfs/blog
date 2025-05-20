@@ -20,14 +20,18 @@ sudo apt install git
 
 After installation, you can run Git-related commands in any terminal, or use an editor like VS Code that has built-in Git plugins to visually manage Git.
 
-## Set username and email
+When using Git, it's important to understand the concept of the [working directory](https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%9B%AE%E9%8C%84), which is the location where the current terminal or window is, and is also where some commands operate.
+
+For example, you can use `cd lee` to switch to the `lee` folder under the current directory. At this point, running `git clone` will clone the `blog` repository into the `lee` folder.
+
+### Set username and email
 
 ```bash
 git config --global user.name "username" # Set username
 git config --global user.email useremail@qq.com # Set email
 ```
 
-## Checkout branch
+### Checkout branch
 
 ```bash
 git branch # View current branches
@@ -54,11 +58,26 @@ By default, the cloned repository is placed in the current working directory, an
 
 > Tips: A path starting with / means starting from the root directory, for example, /lee means 'lee' under the root directory, and ./lee means 'lee' under the current working directory.
 
-### Working Directory
+### Remote repository
 
-When using Git, it's important to understand the concept of the [working directory](https://zh.wikipedia.org/wiki/%E5%B7%A5%E4%BD%9C%E7%9B%AE%E9%8C%84), which is the location where the current terminal or window is, and is also where some commands operate.
+```bash
+git remote add custom-remote-repo-name https://github.com/example/source.git # Add a remote repository
+git fetch remote-repo-name # Pull the remote repository to local
+git branch -a # List all branches
+git checkout -b new-branch-name remote-repo-name/remote-branch-name # Check out a new local branch based on the remote branch
+git switch feature # Check out a new local branch based on the remote branch (simplified operation)
+```
 
-For example, you can use `cd lee` to switch to the `lee` folder under the current directory. At this point, running `git clone` will clone the `blog` repository into the `lee` folder.
+### cherry-pick
+
+Using `git cherry-pick`, you can select one or more commits from other branches/repositories, "copy" these commits to the current branch, and create new commits.
+
+```bash
+git checkout target-branch
+git cherry-pick <start-hash>^..<end-hash>
+git cherry-pick --skip # Skip the current conflicting commit
+git cherry-pick --abort # Abort cherry-pick (roll back to the previous state)
+```
 
 ### Stash / Push / Pull
 

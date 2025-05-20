@@ -5,39 +5,57 @@ author: Lee
 
 ## Personal Profile
 
-Passionate about the open-source community, committed to making meaningful technical contributions.Possesses solid front-end and back-end development skills, familiar with continuous integration/continuous delivery (CI/CD) processes, and enthusiastic about emerging technologies, especially in areas such as LLVM and RISC-V.
+**Passionate about open-source, technology, and equality.**\*\*
+
+Experienced in front-end development, CI/CD systems, and compiler development, proficient in development and debugging in Linux environments.Deeply involved in the RISC-V ecosystem and GPGPU toolchain development, with a strong emphasis on code quality and teamwork.
 
 ## Skills
 
-- **Programming Languages:** Python, JavaScript, C/C++, Groovy
-- **Frameworks & Tools:** Vue, React, Node.js, Docker, Jenkins, FastAPI
-- **Operating Systems:** Linux, Windows
-- **Others:** Git, CI/CD, LLVM
+- Programming Languages: Python, JavaScript, C/C++, Groovy
+- Front-end development: Vue, React, Node.js, Electron
+- Back-end & Automation: FastAPI, Jenkins Pipeline (Groovy), CI/CD
+- Development and Operations Tools: Docker, Git, Jenkins, Make, CMake
+- Systems and Low-Level: Linux, LLVM
 
 ## Project Experience
 
-### Ventus GPGPU LLVM Toolchain Development
+### Shadow GPGPU LLVM Toolchain Development
 
-_Institute of Software, Chinese Academy of Sciences_ | 2025.05 - Present
+_Institute of Software, Chinese Academy of Sciences_ | May 2025 - Present
 
-- Participated in the open-source ecosystem construction of the Ventus GPGPU project, supporting the implementation of RISC-V custom instruction sets.
-- Deeply involved in the development of the Ventus GPGPU LLVM toolchain, solving adaptation issues for the RISC-V instruction set, and completing functional verification and debugging of the compiler.
+- Participated in the **open-source ecosystem construction of the Shadow GPGPU project**, supporting the implementation of RISC-V custom instruction sets.
+- Deeply involved in the **development and optimization of the Shadow GPGPU LLVM toolchain**, solving adaptation issues of RISC-V instruction sets, completing compiler function verification and debugging.
+- Resolved compatibility and correctness issues of RISC-V instruction sets in the CodeGen phase, completing **function verification, debugging, and performance testing** of the compiler.
 
 ### RISC-V Automated Testing and Performance Analysis Platform Development
 
-_Institute of Software, Chinese Academy of Sciences_ | 2025.02 - 2025.05
+_Institute of Software, Chinese Academy of Sciences_ | February 2025 - May 2025
 
-- Participated in the development and maintenance of a Jenkins-based RISC-V automated testing and performance analysis platform, focusing on the optimization of RISC-V Vector Extension (RVV).
-- Responsible for building automated testing and performance comparison analysis features, assisting in adding more hardware devices and platform support, enhancing the scale and performance of the testing platform.
-- Tracked performance changes of OpenCV on the RISC-V platform to ensure the accuracy of modifications.
+- Participated in the **development and maintenance of a Jenkins-based RISC-V automated testing and performance analysis platform**, focusing on performance optimization and data analysis in RISC-V Vector Extension (RVV) scenarios.
+- Responsible for implementing **automated testing processes and performance comparison analysis functions**, supporting the collection and visualization of performance data for multiple versions of OpenCV, improving testing efficiency and result accuracy.
+- Assisted in completing **adaptation and access of multiple hardware devices and platforms**, expanding the platform's testing coverage and concurrency capability, ensuring large-scale testing requirements.
+- Tracked performance changes of OpenCV on RISC-V platforms, conducted data monitoring and result verification, ensuring accurate capture and feedback of the impact of code modifications on performance.
+- Participated in **CI/CD process optimization and platform stability improvement**, contributing to the platform's iterative optimization from functionality to engineering.
 
 ### Open Source Organization Member
 
-_[Project Trans](https://github.com/project-trans)_ | 2024.09 - Present
+_[Project Trans](https://github.com/project-trans)_ | September 2024 - Present
 
-- Responsible for front-end page development and CI/CD maintenance, contributing multiple features and fixes.
-- Managed multiple pull requests on GitHub, participated in code reviews and optimizations, promoting the continuous development of the project.
+- Participated in **front-end page development and CI/CD process optimization**, responsible for function module implementation, bug fixes, and code quality improvement, promoting project iteration and experience optimization.
+- Participated in **multiple function iterations and code refactoring**, improving code maintainability and development efficiency by optimizing component reuse and improving state management.
+- Managed and reviewed Pull Requests, participated in community code reviews and issue fixes, ensuring code standards and project quality.
+- Actively participated in open-source collaboration and issue discussions, promoted function improvements based on community feedback, demonstrating good teamwork and communication skills.
 
-## Education
+### Xiaomi Community PK Platform Moderator
+
+_Xiaomi Community_ | August 2021 - December 2023
+
+- As a **founding member of the section**, participated in the **building and user growth of the PK Platform section from scratch**, responsible for content planning, activity execution, and user operation, establishing initial user awareness and activity.
+- Independently planned and organized **themed PKs, selection activities and other online activities**, with an average interaction volume of over 2.6k per event, frequently featured on the community's hot list, significantly increasing section exposure and user participation.
+- Through **data review and user feedback analysis**, continuously optimized content forms and interaction mechanisms, achieving an operational closed loop from cold start to stable growth.
+- Accumulated **470+ content creations, with a total interaction volume of 122w+, average interaction volume of 2600+, and a single post's highest interaction volume reaching 28k+**, creating multiple viral contents.
+- Participated in user needs research, proposed product optimization suggestions, collaborated with product and operation teams to improve community functions, enhancing user experience and platform value.
+
+## Education Background
 
 Undergraduate student.
