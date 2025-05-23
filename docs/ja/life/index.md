@@ -1,12 +1,8 @@
 ---
-title: 日常の些細なこと
-icon: クリエイティブ
+title: 年度总结
 author: Lee
-category:
-  - 日常の些細なこと
-index: false
 ---
 
-## 目次
+## 目录
 
 <ArticlesMenu />
