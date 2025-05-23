@@ -3,6 +3,6 @@ title: VRChat
 author: Lee
 ---
 
-## 目录
+## Table of Contents
 
 <ArticlesMenu />
