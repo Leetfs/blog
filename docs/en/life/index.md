@@ -1,12 +1,12 @@
 ---
-title: VRChat
+title: Daily Life
+icon: creative
 author: Lee
+category:
+  - Daily Life
+index: false
 ---
 
-## Overview
-
-Random thoughts and interesting daily life in VRChat, accidentally turning into memories.
-
-## Contents
+## Table of Contents
 
 <ArticlesMenu />
