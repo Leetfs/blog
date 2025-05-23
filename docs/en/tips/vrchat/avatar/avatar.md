@@ -13,7 +13,7 @@ Go to [Unity official website](https://unity.com/) to download Unity Hub, visit 
 
 ## Install Shaders
 
-访问 [lilToon](https://lilxyzw.github.io/lilToon/ja_JP/first.html#%E5%B0%8E%E5%85%A5%E6%89%8B%E9%A0%86%E3%81%A8%E7%B0%A1%E6%98%93%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9)，点击 `こちらをクリックしてlilToonをVCCまたはALCOMに追加し`，在弹出的 VCC 窗口中点击 Add。
+Visit [lilToon](https://lilxyzw.github.io/lilToon/ja_JP/first.html#%E5%B0%8E%E5%85%A5%E6%89%8B%E9%A0%86%E3%81%A8%E7%B0%A1%E6%98%93%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9), click `Click here to add lilToon to VCC or ALCOM`, then click Add in the popped-up VCC window.
 
 ## Create Project
 
