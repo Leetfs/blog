@@ -1,12 +1,8 @@
 ---
-title: Daily Life
-icon: creative
+title: Annual Summary
 author: Lee
-category:
-  - Daily Life
-index: false
 ---
 
-## Table of Contents
+## Contents
 
 <ArticlesMenu />
