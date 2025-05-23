@@ -1,12 +1,8 @@
 ---
-title: Daily Life
-icon: creative
+title: 年度总结
 author: Lee
-category:
-  - Daily Life
-index: false
 ---
 
-## Table of Contents
+## 目录
 
 <ArticlesMenu />
