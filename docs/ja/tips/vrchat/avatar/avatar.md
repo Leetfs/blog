@@ -1,43 +1,43 @@
 ---
-title: 1.模型的导入与发布
+title: 1.モデルのインポートと公開
 author: Lee
 ---
 
-## 安装 VCC
+## VCCのインストール
 
-访问[该网址](https://vrchat.com/home/download)，选择 `Download the Creator Companion`。
+[このURL](https://vrchat.com/home/download)にアクセスし、`Download the Creator Companion`を選択してください。
 
-## 安装 Unity
+## Unityのインストール
 
-前往[Unity 官网](https://unity.com/)下载 Unity Hub，访问[该网址](https://creators.vrchat.com/sdk/upgrade/current-unity-version/)获取 VCC 依赖的 Unity 版本。
+[Unity公式サイト](https://unity.com/)からUnity Hubをダウンロードし、[このURL](https://creators.vrchat.com/sdk/upgrade/current-unity-version/)でVCCが依存するUnityのバージョンを確認してください。
 
-## 安装着色器
+## シェーダーのインストール
 
-访问 [lilToon](https://lilxyzw.github.io/lilToon/ja_JP/first.html#%E5%B0%8E%E5%85%A5%E6%89%8B%E9%A0%86%E3%81%A8%E7%B0%A1%E6%98%93%E7%9A%84%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9)，点击 こちらをクリックしてlilToonをVCCまたはALCOMに追加し，在弹出的 VCC 窗口中点击 Add。
+[lilToon](https://lilxyzw.github.io/lilToon/ja_JP/first.html#%E5%B0%8E%E5%85%A5%E6%89%8B%E9%A0%86%E3%81%A8%E7%B0%A1%E6%98%93%E3%81%AA%E4%BD%BF%E3%81%84%E6%96%B9)にアクセスし、`こちらをクリックしてlilToonをVCCまたはALCOMに追加し`をクリックし、表示されたVCCウィンドウでAddをクリックしてください。
 
-## 创建工程
+## プロジェクトの作成
 
-打开 VCC，Projects -> Create New Projects -> Avatar Projects
+VCCを開き、Projects -> Create New Projects -> Avatar Projects
 
-![vcc-projects](./image/vcc-projects.png)
-![vcc-new-avatar](./image/vcc-new-avatar.png)
+![vcc-projects](/tips/vrchat/avatar/image/vcc-projects.png)
+![vcc-new-avatar](/tips/vrchat/avatar/image/vcc-new-avatar.png)
 
-安装下图所示插件，建议安装 `Gesture Manager`，可以在 Unity 中模拟出游戏的菜单页面。
+下図のプラグインをインストールし、`Gesture Manager`のインストールを推奨します。Unity内でゲームのメニューページをシミュレートできます。
 
-![](./image/vcc-manage-packages.png)
+![vcc-manage-packages](/tips/vrchat/avatar/image/vcc-manage-packages.png)
 
-## 导入模型
+## モデルのインポート
 
-双击 `.unitypackage` 文件，点 import。
+.unitypackageファイルをダブルクリックし、importをクリックしてください。
 
-![unity-model-import](./image/unity-model-import.png)
+![unity-model-import](/tips/vrchat/avatar/image/unity-model-import.png)
 
-找到 `.prefab` 文件拖到左上窗口。
+.prefabファイルを見つけ、左上のウィンドウにドラッグしてください。
 
-![unity-model-prefab.png](./image/unity-model-prefab.png)
+![unity-model-prefab.png](/tips/vrchat/avatar/image/unity-model-prefab.png)
 
-## 发布
+## 公開
 
-进入 VCC 菜单，登陆账号并设置模型封面和名称，点击 `Publish` 发布。
+VCCメニューに入り、アカウントにログインしてモデルのカバーと名前を設定し、`Publish`をクリックして公開してください。
 
-![unity-model-prefab.png](./image/unity-build-publish.png)
+![unity-model-prefab.png](/tips/vrchat/avatar/image/unity-build-publish.png)
