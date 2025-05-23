@@ -1,11 +1,11 @@
 ---
-title: VRChat
+title: 日常の些細なこと
+icon: クリエイティブ
 author: Lee
+category:
+  - 日常の些細なこと
+index: false
 ---
-
-## 概要
-
-VRChatでのつぶやきや面白い日常、いつの間にか思い出になっていました。
 
 ## 目次
 
