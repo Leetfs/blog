@@ -1,12 +1,12 @@
 ---
-title: VRChat
+title: Daily Life
+icon: creative
 author: Lee
+category:
+  - Daily Life
+index: false
 ---
 
-## 概述
-
-VRChat 里的碎碎念和有趣日常，不小心就变成回忆啦。
-
-## 目录
+## Table of Contents
 
 <ArticlesMenu />
