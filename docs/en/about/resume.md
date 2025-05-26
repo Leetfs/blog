@@ -46,16 +46,18 @@ _[Project Trans](https://github.com/project-trans)_ | September 2024 - Present
 - Managed and reviewed Pull Requests, participated in community code reviews and issue fixes, ensuring code standards and project quality.
 - Actively participated in open-source collaboration and issue discussions, promoted function improvements based on community feedback, demonstrating good teamwork and communication skills.
 
-### Xiaomi Community PK Platform Moderator
-
-_Xiaomi Community_ | August 2021 - December 2023
-
-- As a **founding member of the section**, participated in the **building and user growth of the PK Platform section from scratch**, responsible for content planning, activity execution, and user operation, establishing initial user awareness and activity.
-- Independently planned and organized **themed PKs, selection activities and other online activities**, with an average interaction volume of over 2.6k per event, frequently featured on the community's hot list, significantly increasing section exposure and user participation.
-- Through **data review and user feedback analysis**, continuously optimized content forms and interaction mechanisms, achieving an operational closed loop from cold start to stable growth.
-- Accumulated **470+ content creations, with a total interaction volume of 122w+, average interaction volume of 2600+, and a single post's highest interaction volume reaching 28k+**, creating multiple viral contents.
-- Participated in user needs research, proposed product optimization suggestions, collaborated with product and operation teams to improve community functions, enhancing user experience and platform value.
-
 ## Education Background
 
 Undergraduate student.
+
+<!-- 其他不重要的经历，仅作记录。 -->
+
+<!-- ### 小米社区 PK 台板块主持人
+
+_小米社区_ | 2021.08 - 2023.12
+
+- 作为**板块初始成员**，参与 **PK 台板块从 0 到 1 的搭建与用户增长**，负责内容策划、活动执行与用户运营，建立板块初期用户认知与活跃度。
+- 独立策划并组织**主题 PK、评选活动等线上活动**，单场活动平均互动量超 2.6k，多次登上社区热门，显著提升板块曝光与用户参与。
+- 通过**数据复盘与用户反馈分析**，持续优化内容形式与互动机制，实现从冷启动到稳定增长的运营闭环。
+- 累计**创作内容 470+ 篇，累计互动量 122w+，平均互动量 2600+，单帖最高互动量达 2.8w+**，多次打造爆款内容。
+- 参与用户需求调研，提出产品优化建议，协同产品与运营团队改进社区功能，提升用户体验与平台价值。 -->
