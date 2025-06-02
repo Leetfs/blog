@@ -125,3 +125,22 @@ sudo rm /etc/nginx/sites-enabled/filename
 ```
 
 After finishing, remember to reload the Nginx configuration: `sudo systemctl reload nginx`
+
+## Add concurrent connection/request rate limit
+
+Place under the http block.
+
+```bash
+# etc/nginx/nginx.conf
+
+# Concurrent connection limit (no more than 20 simultaneous connections per IP)
+limit_conn_zone $binary_remote_addr zone=per_ip_conn:10m;
+limit_conn per_ip_conn 20;
+
+# Request rate limit (maximum 20 requests per second per IP)
+limit_req_zone $binary_remote_addr zone=per_ip_req:10m rate=20r/s;
+
+# Burst parameter, improving user experience (no immediate rate limiting during burst access)
+limit_req zone=per_ip_req burst=40 nodelay;
+
+```

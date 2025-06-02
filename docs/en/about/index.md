@@ -24,7 +24,7 @@ A 20-year-old university student currently interning at the **Institute of Softw
 
 ### 🕹️ Recently played games
 
-![](/metrics.plugin.steam.svg)
+![](https://github.com/Leetfs/Leetfs/blob/main/metrics.plugin.steam.svg)
 
 ---
 
