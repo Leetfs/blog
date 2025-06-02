@@ -1,37 +1,39 @@
-name: 部署到 Cloudflare Pages
+name: Deploy to Cloudflare Pages
 
 on:
-  push:
-    branches:
-      - 'main' # 当推送到 main 分支时触发
-    paths:
-      - 'docs/**'
-      - '.github/workflows/cf.yml'
-      - 'package.json'
+  # push:
+  #   branches:
+  #     - 'main' # 当推送到 main 分支时触发
+  #   paths:
+  #     - 'docs/**'
+  #     - '.github/workflows/cf.yml'
+  #     - '.github/workflows/deploy-to-server.yml'
+  #     - 'package.json'
+  workflow_dispatch:
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 检出代码
+      - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: 安装 pnpm
+      - name: Install pnpm
         uses: pnpm/action-setup@v3
         with:
           version: 9.12.3
 
-      - name: 安装依赖
+      - name: Install dependencies
         run: pnpm install
 
-      - name: 更新主题包
+      - name: Update theme package
         run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
 
-      - name: 构建项目
-        run: pnpm run build # 构建 VitePress 项目
+      - name: Build project
+        run: pnpm run build
 
       - name: Deploy to Cloudflare Pages
         id: deploy

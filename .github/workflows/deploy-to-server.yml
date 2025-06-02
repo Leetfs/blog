@@ -1,0 +1,56 @@
+name: Deploy to server
+
+on:
+  push:
+    branches:
+      - 'main'
+    paths:
+      - 'docs/**'
+      - '.github/workflows/cf.yml'
+      - '.github/workflows/deploy-to-server.yml'
+      - 'package.json'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9.12.3
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Update theme package
+        run: pnpm update @project-trans/vitepress-theme-project-trans@prerelease
+
+      - name: Build project
+        run: pnpm run build
+
+      - name: Remove old files on server via SSH
+        uses: appleboy/ssh-action@v1.2.2
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          script: |
+            mkdir -p /var/www/blog
+            rm -rf /var/www/blog/*
+
+      - name: Deploy to Server via SSH
+        uses: appleboy/scp-action@v1.0.0
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_KEY }}
+          port: 22
+          source: "docs/.vitepress/dist/*"
+          target: "/var/www/blog/"
