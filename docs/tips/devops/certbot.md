@@ -27,7 +27,7 @@ sudo apt install python3-certbot-dns-cloudflare
 未使用任何 web 服务:
 
 ```bash
-sudo certbot certonly -d 你的域名
+sudo certbot certonly -d 域名.com -d '*.域名.com'
 ```
 
 ### 使用 nginx
@@ -42,7 +42,7 @@ sudo certbot --nginx -d 你的域名
 
 1. cloudflare 管理账户 > 帐户 API 令牌 > API 令牌模板 > 编辑区域 DNS
 1. 安装插件 `sudo apt install python3-certbot-dns-cloudflare`
-1. 新建文件 `etc/letsencrypt/cloudflare.ini` ，将此参数放入文件 `dns_cloudflare_api_token = 你的token`
+1. 新建文件 `/etc/letsencrypt/cloudflare.ini` ，将此参数放入文件 `dns_cloudflare_api_token = 你的token`
 1. 执行 `sudo certbot certonly -d 你的域名` ，根据提示选择使用 dns 验证。
 
 > 申请后不建议移除 `cloudflare.ini`, certbot 需依据此文件自动续期。
@@ -52,6 +52,18 @@ sudo certbot --nginx -d 你的域名
 配置成功后会在终端输出证书和私钥路径，可填入 `ssl_certificate` 和 `ssl_certificate_key` 使用。
 
 其余配置部分参考 [nginx 反代入门](./nginx.md)
+
+## 查看所有证书
+
+```bash
+sudo certbot certificates
+```
+
+## 删除证书
+
+```bash
+sudo certbot delete --cert-name 证书名
+```
 
 ## 注意
 
