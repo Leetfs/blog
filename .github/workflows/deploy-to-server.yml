@@ -33,22 +33,11 @@ jobs:
       - name: Build project
         run: pnpm run build
 
-      - name: Remove old files on server via SSH
-        uses: appleboy/ssh-action@v1.2.2
+      - name: Deploy to Server via SSH rsync
+        uses: easingthemes/ssh-deploy@v5.1.0
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          script: |
-            mkdir -p /var/www/blog
-            rm -rf /var/www/blog/*
-
-      - name: Deploy to Server via SSH
-        uses: appleboy/scp-action@v1.0.0
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_KEY }}
-          port: 22
-          source: "docs/.vitepress/dist/*"
-          target: "/var/www/blog/"
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USER }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+          SOURCE: "docs/.vitepress/dist/*"
+          TARGET: "/var/www/blog/"
