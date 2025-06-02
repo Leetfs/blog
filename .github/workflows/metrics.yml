@@ -1,8 +1,8 @@
 name: Metrics
 
 on:
-  schedule:
-    - cron: '0 0 * * 1'  # 每周1 UTC 时间 0 点执行
+  # schedule:
+  #   - cron: '0 0 * * 1'  # 每周1 UTC 时间 0 点执行
   workflow_dispatch:
 
 jobs:
