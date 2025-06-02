@@ -27,6 +27,10 @@ const nav: NavConfig = [
     text: '友達のリンク',
     link: '/ja/friendly/',
   },
+  {
+    text: '向かう',
+    link: 'https://www.travellings.cn/go.html',
+  },
 ]
 
 const baseConfig = {

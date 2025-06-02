@@ -27,6 +27,10 @@ const nav: NavConfig = [
     text: 'Friendly links',
     link: '/en/friendly/',
   },
+  {
+    text: 'Bound for',
+    link: 'https://www.travellings.cn/go.html',
+  },
 ]
 
 const baseConfig = {

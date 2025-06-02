@@ -29,6 +29,10 @@ const nav: NavConfig = [
     text: '友情链接',
     link: '/friendly/',
   },
+  {
+    text: '开往',
+    link: 'https://www.travellings.cn/go.html',
+  },
 ]
 
 const baseConfig = {
