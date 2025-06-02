@@ -126,21 +126,21 @@ sudo rm /etc/nginx/sites-enabled/ファイル名
 
 作業完了後は必ずNginx設定を再読み込みしてください: `sudo systemctl reload nginx`
 
-## 添加并发连接/请求速率限制
+## 同時接続/リクエストレート制限を追加
 
-放到 http 块下。
+httpブロックの下に配置します。
 
 ```bash
 # etc/nginx/nginx.conf
 
-# 并发连接限制（每 IP 同时连接数不超过 20）
+# 同時接続制限（1IPあたりの同時接続数は20を超えない）
 limit_conn_zone $binary_remote_addr zone=per_ip_conn:10m;
 limit_conn per_ip_conn 20;
 
-# 请求速率限制（每 IP 每秒最多 20 次请求）
+# リクエストレート制限（1IPあたりのリクエストは秒間20回まで）
 limit_req_zone $binary_remote_addr zone=per_ip_req:10m rate=20r/s;
 
-# 突发参数，提高用户体验（突发访问时不立即限流）
+# バーストパラメータ、ユーザーエクスペリエンスを向上（バーストアクセス時に即時制限しない）
 limit_req zone=per_ip_req burst=40 nodelay;
 
 ```
