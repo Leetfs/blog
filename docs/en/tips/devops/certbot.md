@@ -27,7 +27,7 @@ sudo apt install python3-certbot-dns-cloudflare
 No web server used:
 
 ```bash
-sudo certbot certonly -d 域名.com -d '*.域名.com'
+sudo certbot certonly -d domain.com -d '*.domain.com'
 ```
 
 ### Using nginx
@@ -42,7 +42,7 @@ Taking Cloudflare as an example:
 
 1. Cloudflare management account > Account API Tokens > API Token Templates > Edit Zone DNS
 2. Install plugin `sudo apt install python3-certbot-dns-cloudflare`
-3. 新建文件 `/etc/letsencrypt/cloudflare.ini` ，将此参数放入文件 `dns_cloudflare_api_token = 你的token`
+3. Create the file `/etc/letsencrypt/cloudflare.ini` and place the parameter inside: `dns_cloudflare_api_token = yourtoken`
 4. Run `sudo certbot certonly -d yourdomain` and choose DNS authentication when prompted.
 
 > It is not recommended to remove `cloudflare.ini` after applying. Certbot needs this file for automatic renewal.
@@ -53,16 +53,16 @@ After configuration, the terminal will display the paths for the certificate and
 
 For other configuration parts, refer to [nginx reverse proxy basics](./nginx.md)
 
-## 查看所有证书
+## View all certificates
 
 ```bash
 sudo certbot certificates
 ```
 
-## 删除证书
+## Delete certificate
 
 ```bash
-sudo certbot delete --cert-name 证书名
+sudo certbot delete --cert-name certificate name
 ```
 
 ## Note
