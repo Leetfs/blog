@@ -24,7 +24,7 @@ index: false
 
 ### 🕹️ 最近プレイしたゲーム
 
-![](https://github.com/Leetfs/Leetfs/blob/main/metrics.plugin.steam.svg)
+![](https://raw.githubusercontent.com/Leetfs/Leetfs/main/metrics.plugin.steam.svg)
 
 ---
 
