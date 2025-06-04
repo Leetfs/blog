@@ -7,7 +7,7 @@ author: Lee
 
 **Passionate about open-source, technology, and equality.**\*\*
 
-具备前端开发、CI/CD 系统与编译器开发经验，熟悉 Linux 环境下的开发与调试，深度参与 RISC-V 生态与 GPGPU 工具链开发，喜欢做一些 _有意义_ 的事。
+With experience in frontend development, CI/CD systems, and compiler development, familiar with development and debugging in Linux environments, deeply involved in the RISC-V ecosystem and GPGPU toolchain development, enjoys doing _meaningful_ things.
 
 ## Skills
 
@@ -23,29 +23,29 @@ author: Lee
 
 _Institute of Software, Chinese Academy of Sciences_ | May 2025 - Present
 
-- 参与乘影 GPGPU 项目的开源生态建设，支持 RISC-V 自定义指令集扩展。
-- 为乘影 LLVM 工具链新增向量下的半精度浮点型（half）支持。
-- 开发过程中解决 CodeGen 阶段 RISC-V 指令集的兼容性与代码生成问题。
+- Participated in the open-source ecosystem construction of the Ventus GPGPU project, supporting RISC-V custom instruction set extensions.
+- Added half-precision floating-point (half) support for vectors in the Ventus LLVM toolchain.
+- Resolved RISC-V instruction set compatibility and code generation issues during CodeGen in the development process.
 
 ### RISC-V Automated Testing and Performance Analysis Platform Development
 
 _Institute of Software, Chinese Academy of Sciences_ | February 2025 - May 2025
 
-- 参与基于 Jenkins 的 RISC-V 自动化测试与性能分析平台开发与维护，对启用 RISC-V 向量扩展（RVV）场景进行性能优化与数据分析。
-- 负责实现自动化测试流程、性能对比分析功能，并为测试结果自动生成 html 报告。
-- 自动跟踪 OpenCV 在 RISC-V 平台上的性能变化，对 PR 和 commit 进行性能检测，确保代码修改对性能的影响被准确捕捉与反馈。
+- Participated in the development and maintenance of a Jenkins-based RISC-V automated testing and performance analysis platform, focusing on performance optimization and data analysis in RISC-V Vector Extension (RVV) scenarios.
+- Responsible for implementing automated testing workflows, performance comparison analysis, and automatically generating HTML reports for test results.
+- Automatically tracked performance changes of OpenCV on RISC-V platforms, conducted performance testing on PRs and commits, ensuring accurate capture and feedback of the impact of code modifications on performance.
 
 ### Open Source Organization Member
 
 _[Project Trans](https://github.com/project-trans)_ | September 2024 - Present
 
-- 参与前端功能开发，独立完成多个模块的开发工作。
-- 负责部分 CI/CD 逻辑，并为组织下属仓库制作 bot。
-- 审核 Pull Request，参与代码评审，为贡献者提出修改建议。
+- Participated in frontend feature development, independently completed the development of multiple modules.
+- Responsible for part of the CI/CD logic and created bots for the organization's subordinate repositories.
+- Reviewed Pull Requests, participated in code reviews, and provided modification suggestions to contributors.
 
 ## Education Background
 
-计算机科学与技术，本科在读。
+Bachelor's degree in Computer Science and Technology, currently pursuing.
 
 <!-- 其他不重要的经历，仅作记录。 -->
 
