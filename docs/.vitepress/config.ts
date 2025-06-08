@@ -115,6 +115,20 @@ const themeConfig: ThemeContext = {
       // 其余 locale 特定属性...
     },
   },
+  additionalHead: [
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-VSLZG7DBKL' }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VSLZG7DBKL');`
+    ],
+  ],
 }
 
 // https://vitepress.dev/reference/site-config
