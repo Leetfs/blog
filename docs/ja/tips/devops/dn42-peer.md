@@ -1,34 +1,34 @@
 ---
-title: DN42 Peering 教程
-author: Lee
+title: DN42ピアリングチュートリアル
+author: リー
 ---
 
-## 概述
+## 概要
 
-DN42 是一个大型动态虚拟专用网络（VPN），它采用了多种互联网技术（如 BGP、whois 数据库、DNS 等）。参与者通过网络隧道（GRE、OpenVPN、WireGuard、Tinc、IPsec）相互连接，并借助边界网关协议（BGP）进行路由交换。
+DN42は、BGP、whoisデータベース、DNSなどのさまざまなインターネット技術を採用した大規模な動的仮想プライベートネットワーク（VPN）です。参加者は、ネットワークトンネル（GRE、OpenVPN、WireGuard、Tinc、IPsec）を介して相互に接続し、境界ゲートウェイプロトコル（BGP）を利用してルーティング交換を行います。
 
-DN42 可以用来学习网络知识以及连接私有网络，比如黑客空间或社区网络。但最重要的是，在 DN42 中进行路由实验非常有趣！
+DN42は、ハッカースペースやコミュニティネットワークなどのプライベートネットワークを接続するためのネットワーク知識を学ぶために使用できます。しかし、最も重要なのは、DN42でルーティング実験を行うことが非常に楽しいということです！
 
-## 安装 WireGuard
+## WireGuardのインストール
 
 ```bash
 sudo apt update
 sudo apt install wireguard
 ```
 
-## 创建 WireGuard 密钥
+## WireGuardキーの作成
 
 ```bash
 wg genkey | tee privatekey | wg pubkey > publickey
 ```
 
-## 配置 WireGuard 隧道
+## WireGuardトンネルの設定
 
 ```conf
 # /etc/wireguard/wg0.conf
 [Interface]
 PrivateKey = xxx
-Address = xxx.xxx.xxx/32  # 本地 tunnel 内部地址
+Address = xxx.xxx.xxx/32  # ローカルトンネル内部アドレス
 ListenPort = 51820
 
 [Peer]
@@ -38,18 +38,18 @@ AllowedIPs = xxx/32
 PersistentKeepalive = 25
 ```
 
-## 启动/停止/重载配置
+## 設定の開始/停止/再読み込み
 
 ```bash
-# 启动
+# 開始
 sudo wg-quick up wg0
 
 # 停止
 sudo wg-quick down wg0
 
-# 重载配置（启动再停止）
+# 再読み込み（開始してから停止）
 sudo wg-quick down wg0 && sudo wg-quick up wg0
 
-# 查看状态
+# ステータス表示
 sudo wg
 ```
