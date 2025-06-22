@@ -1,17 +1,17 @@
 ---
-title: Ubuntu 设置合盖不休眠
+title: Ubuntu settings to prevent sleep when lid is closed
 author: Lee
 ---
 
-## 修改文件
+## File modifications
 
 ```bash
 sudo nano /etc/systemd/logind.conf
 ```
 
-找到 `#HandleLidSwitch=suspend`，改为 `HandleLidSwitch=ignore`
+Find `#HandleLidSwitch=suspend` and change it to `HandleLidSwitch=ignore`
 
-## 重启服务
+## Restart service
 
 ```bash
 service systemd-logind restart
