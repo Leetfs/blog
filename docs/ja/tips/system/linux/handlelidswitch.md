@@ -1,17 +1,17 @@
 ---
-title: Ubuntu 设置合盖不休眠
-author: Lee
+title: Ubuntu 設定で蓋を閉じてもスリープしない
+author: リー
 ---
 
-## 修改文件
+## 変更ファイル
 
 ```bash
 sudo nano /etc/systemd/logind.conf
 ```
 
-找到 `#HandleLidSwitch=suspend`，改为 `HandleLidSwitch=ignore`
+`#HandleLidSwitch=suspend` を見つけて、`HandleLidSwitch=ignore` に変更する
 
-## 重启服务
+## サービスを再起動する
 
 ```bash
 service systemd-logind restart
