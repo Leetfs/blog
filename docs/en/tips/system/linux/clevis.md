@@ -1,13 +1,13 @@
 ---
-title: 使用 clevis + tpm2 自动解锁 LUKS 加密磁盘
+title: Automatically unlock LUKS encrypted disk using clevis + tpm2
 author: Lee
 ---
 
-## 引言
+## Introduction
 
-默认情况下每次开机均需手动输入密码，使用 tpm2 代替人工，自动授权。
+By default, you need to manually enter the password every time you boot. Use tpm2 to replace manual input and automatically authorize.
 
-## 查看加密分区名
+## View encrypted partition name
 
 ```bash
 lsblk
@@ -33,22 +33,22 @@ nvme0n1                     259:0    0 476.9G  0 disk
     └─ubuntu--vg-ubuntu--lv 252:1    0 473.9G  0 lvm   /
 ```
 
-得知分区名为 `/dev/nvme0n1p3`
+The partition name is `/dev/nvme0n1p3`
 
-## 安装 clevis 相关工具
+## Install clevis related tools
 
 ```bash
 sudo apt update
 sudo apt install clevis clevis-luks clevis-initramfs clevis-tpm2 tpm2-tools
 ```
 
-## 将 TPM 自动解锁绑定到 LUKS 分区
+## Bind TPM auto-unlock to LUKS partition
 
 ```bash
 sudo clevis luks bind -d /dev/nvme0n1p3 tpm2 '{}' -k
 ```
 
-## 验证 clevis 绑定状态
+## Verify clevis binding status
 
 ```bash
 sudo clevis luks list -d /dev/nvme0n1p3
@@ -58,7 +58,7 @@ sudo clevis luks list -d /dev/nvme0n1p3
 1: tpm2 '{"hash":"sha256","key":"ecc"}'
 ```
 
-## 更新 initramfs
+## Update initramfs
 
 ```bash
 sudo update-initramfs -u
