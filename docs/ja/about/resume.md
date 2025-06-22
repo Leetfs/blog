@@ -43,6 +43,10 @@ _[Project Trans](https://github.com/project-trans)_ | 2024.09 - 現在
 - 一部のCI/CDロジックを担当し、組織の下にあるリポジトリ向けにbotを作成しました。
 - Pull Requestの審査、コードレビューへの参加、貢献者への修正提案を行いました。
 
+_[开往](https://github.com/travellings-link/travellings)_ | 2025.06 - 至今
+
+- 待补充
+
 ## 教育背景
 
 コンピュータサイエンスと技術、学部在学中。
