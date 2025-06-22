@@ -43,6 +43,10 @@ _[Project Trans](https://github.com/project-trans)_ | 2024.09 - 至今
 - 负责部分 CI/CD 逻辑，并为组织下属仓库制作 bot。
 - 审核 Pull Request，参与代码评审，为贡献者提出修改建议。
 
+_[开往](https://github.com/travellings-link/travellings)_ | 2025.06 - 至今
+
+- 待补充
+
 ## 教育背景
 
 计算机科学与技术，本科在读。
