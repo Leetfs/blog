@@ -43,6 +43,10 @@ _[Project Trans](https://github.com/project-trans)_ | September 2024 - Present
 - Responsible for part of the CI/CD logic and created bots for the organization's subordinate repositories.
 - Reviewed Pull Requests, participated in code reviews, and provided modification suggestions to contributors.
 
+_[开往](https://github.com/travellings-link/travellings)_ | 2025.06 - 至今
+
+- 待补充
+
 ## Education Background
 
 Bachelor's degree in Computer Science and Technology, currently pursuing.
