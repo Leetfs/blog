@@ -1,9 +1,11 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
+
 hero:
-  name: Lee's blog
-  text: Welcome to my blog~
-  tagline: Occasional Nonsense and Some Experience
+  name: "Lee's blog"
+  text: "Welcome to my blog~"
+  tagline: "Occasional Nonsense and Some Experience"
   image:
     src: /logo.png
     alt: Lee's blog

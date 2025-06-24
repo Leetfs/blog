@@ -36,6 +36,7 @@ export LD_LIBRARY_PATH=${VENTUS_INSTALL_PREFIX}/lib
 export OCL_ICD_VENDORS=${VENTUS_INSTALL_PREFIX}/lib/libpocl.so
 export POCL_DEVICES="ventus"
 export PATH=/root/J142/llvm-project/build/bin:$PATH
+export BUILD_TYPE=Debug
 ```
 
 ## コンパイラのビルド
