@@ -45,7 +45,8 @@ _[Project Trans](https://github.com/project-trans)_ | September 2024 - Present
 
 _[Traveling](https://github.com/travellings-link/travellings)_ | 2025.06 - Present
 
-- To be supplemented
+- 参与 bot 开发，修复 CI 流
+- 参与前端开发及文档改进
 
 ## Education Background
 
