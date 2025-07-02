@@ -27,12 +27,12 @@ _Institute of Software, Chinese Academy of Sciences_ | May 2025 - Present
 - Added half-precision floating-point (half) support for vectors in the Ventus LLVM toolchain.
 - Resolved RISC-V instruction set compatibility and code generation issues during CodeGen in the development process.
 
-### 为 deepin RISC-V 移植 GCC 12 的 RISC-V Vector 扩展支持
+### Porting GCC 12's RISC-V Vector Extension Support for deepin RISC-V
 
-_中国科学院软件研究所 开源之夏（进阶难度）_ | 2025.07 - 2025.10
+_Institute of Software, Chinese Academy of Sciences_ Open Source Summer (Advanced Level) | 2025.07 - 2025.10
 
-- 系统性地将 GCC 13 或更高版本中稳定且关键的 RVV 扩展支持相关代码补丁，向后移植到 deepin 社区使用的 GCC 12 分支中。
-- 实现 RVV Intrinsics 与自动向量化支持，确保自动向量化功能在支持 RVV 的目标上生效。
+- Systematically backport stable and critical RVV extension support related code patches from GCC 13 or later versions to the GCC 12 branch used by the deepin community.
+- Implement RVV Intrinsics and auto-vectorization support, ensuring the auto-vectorization feature takes effect on targets supporting RVV.
 
 ### RISC-V Automated Testing and Performance Analysis Platform Development
 
