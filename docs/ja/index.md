@@ -1,9 +1,11 @@
 ---
+# https://vitepress.dev/reference/default-theme-home-page
 layout: home
+
 hero:
-  name: Leeのブログ
-  text: 私のブログへようこそ~
-  tagline: 時々の雑談と少しの経験
+  name: "Leeのブログ"
+  text: "私のブログへようこそ~"
+  tagline: "時々の雑談と少しの経験"
   image:
     src: /logo.png
     alt: Leeのブログ
