@@ -3,13 +3,8 @@
     "short_name": "Lee's blog",
     "icons": [
         {
-            "src": "/favicon-32x32.png",
-            "sizes": "32x32",
-            "type": "image/png"
-        },
-        {
-            "src": "/favicon-32x32.png",
-            "sizes": "32x32",
+            "src": "/logo.png",
+            "sizes": "1024x1024",
             "type": "image/png"
         }
     ],
