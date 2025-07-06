@@ -77,7 +77,7 @@ const sidebarOptions = [
 const themeConfig = {
   siteTitle: "Lee's blog",
   siteDescription: "偶尔的废话和些许经验",
-  siteLogo: '/old.png',
+  siteLogo: 'icon-1024x1024.png',
   // SiteTitle值为false时，logo位置不显示标题。未定义SiteTitle时，显示标题。SiteTitle值为abcd时，显示abcd。
   //   SiteTitle: false,
   /** Repo */
