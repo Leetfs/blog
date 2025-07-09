@@ -55,9 +55,9 @@ _[開往](https://github.com/travellings-link/travellings)_ | 2025.06 - 現在
 - ボット開発に参加し、CIフローを修正
 - フロントエンド開発とドキュメントの改善に参加
 
-## 活动经历
+## 活動経歴
 
-_[AdventureX 2025 黑客松](https://adventure-x.org/)_ | 杭州 | 2025.7.23 - 2025.7.27
+_[AdventureX 2025 ハッカソン](https://adventure-x.org/)_ | 杭州 | 2025.7.23 - 2025.7.27
 
 ## 教育背景
 
