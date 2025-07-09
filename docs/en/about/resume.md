@@ -55,6 +55,10 @@ _[Traveling](https://github.com/travellings-link/travellings)_ | 2025.06 - Prese
 - Participate in bot development, fix CI flow
 - Participate in frontend development and documentation improvements
 
+## 活动经历
+
+_[AdventureX 2025 黑客松](https://adventure-x.org/)_ | 杭州 | 2025.7.23 - 2025.7.27
+
 ## Education Background
 
 Bachelor's degree in Computer Science and Technology, currently pursuing.
