@@ -55,6 +55,10 @@ _[开往](https://github.com/travellings-link/travellings)_ | 2025.06 - 至今
 - 参与 bot 开发，修复 CI 流
 - 参与前端开发及文档改进
 
+## 活动经历
+
+_[AdventureX 2025 黑客松](https://adventure-x.org/)_ | 杭州 | 2025.7.23 - 2025.7.27
+
 ## 教育背景
 
 计算机科学与技术，本科在读。
