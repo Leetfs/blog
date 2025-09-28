@@ -11,14 +11,14 @@ index: false
 
 **Passionate about open-source, technology, and equality.**
 
-一名 20 岁的大学生，曾在**中国科学院软件研究所**实习，目前是 **Project Trans** 和 **开往 travellings** 的活跃成员。Welcome to view my [resume](./resume) to learn more about me.
+A 20-year-old university student who interned at the **Institute of Software, Chinese Academy of Sciences** and is currently an active member of **Project Trans** and **开往 travellings**.Welcome to view my [resume](./resume) to learn more about me.
 
 ---
 
 ### 📫 Contact
 
 - 📧 Email: <lee@mtftm.com>
-- 🔑 PGP 密钥: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
+- 🔑 PGP Key: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
 
 ---
 
