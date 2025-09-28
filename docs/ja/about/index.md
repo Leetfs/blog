@@ -11,14 +11,14 @@ index: false
 
 **オープンソース、技術、平等を愛しています。**
 
-20歳の大学生で、現在**中国科学院软件研究所**でインターンをしており、**Project Trans**の活発なメンバーでもあります。私の[履歴書](./resume)をご覧になり、私についてもっと知ってください。
+一名 20 岁的大学生，曾在**中国科学院软件研究所**实习，目前是 **Project Trans** 和 **开往 travellings** 的活跃成员。私の[履歴書](./resume)をご覧になり、私についてもっと知ってください。
 
 ---
 
 ### 📫 連絡先
 
 - 📧 メール: <lee@mtftm.com>
-- 🔑 PGPキー: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+- 🔑 PGP 密钥: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
 
 ---
 
