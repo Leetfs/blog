@@ -78,4 +78,4 @@ Simple and convenient, with no complicated `pipeline` framework, it uses node bl
 1. A pipeline can have multiple nodes. A node can be specified for multiple stages at once, and stages in the same node block will run on the same node.
 2. When managing Jenkinsfile with a version control system, the Scripted Pipeline will not check out the entire repository to the node, it only reads the Jenkinsfile. If you want to use the repository, you need to clone it manually.
 3. Within the same steps block, the context is not inherited from previous steps. For example, if the first line is `sh 'cd nya'`, the second line's working directory is still the default workspace path, not nya.
-    - This does not apply to multi-line scripts like `sh ''' I am the content ''' `, since all commands inside the multi-line block run in a single sh context.
+   - This does not apply to multi-line scripts like `sh ''' I am the content ''' `, since all commands inside the multi-line block run in a single sh context.
