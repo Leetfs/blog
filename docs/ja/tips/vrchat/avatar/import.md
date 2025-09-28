@@ -1,5 +1,5 @@
 ---
-title: 模型的导入与发布
+title: モデルのインポートと公開
 author: Lee
 ---
 
