@@ -1,5 +1,5 @@
 ---
-title: 1.模型的导入与发布
+title: 模型的导入与发布
 author: Lee
 ---
 
