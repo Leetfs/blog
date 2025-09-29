@@ -1,14 +1,14 @@
 name: Deploy to server
 
 on:
-  push:
-    branches:
-      - 'main'
-    paths:
-      - 'docs/**'
-      - '.github/workflows/cf.yml'
-      - '.github/workflows/deploy-to-server.yml'
-      - 'package.json'
+  # push:
+  #   branches:
+  #     - 'main'
+  #   paths:
+  #     - 'docs/**'
+  #     - '.github/workflows/cf.yml'
+  #     - '.github/workflows/deploy-to-server.yml'
+  #     - 'package.json'
   workflow_dispatch:
 
 jobs:
