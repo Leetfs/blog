@@ -27,13 +27,6 @@ _Institute of Software, Chinese Academy of Sciences_ | May 2025 - Present
 - Added half-precision floating-point (half) support for vectors in the Ventus LLVM toolchain.
 - Resolved RISC-V instruction set compatibility and code generation issues during CodeGen in the development process.
 
-### Porting GCC 12's RISC-V Vector Extension Support for deepin RISC-V
-
-_Institute of Software, Chinese Academy of Sciences_ Open Source Summer (Advanced Level) | 2025.07 - 2025.10
-
-- Systematically backport stable and critical RVV extension support related code patches from GCC 13 or later versions to the GCC 12 branch used by the deepin community.
-- Implement RVV Intrinsics and auto-vectorization support, ensuring the auto-vectorization feature takes effect on targets supporting RVV.
-
 ### RISC-V Automated Testing and Performance Analysis Platform Development
 
 _Institute of Software, Chinese Academy of Sciences_ | February 2025 - May 2025
@@ -55,10 +48,6 @@ _[Traveling](https://github.com/travellings-link/travellings)_ | 2025.06 - Prese
 - Participate in bot development, fix CI flow
 - Participate in frontend development and documentation improvements
 
-## Activity Experience
-
-_[AdventureX 2025 Hackathon](https://adventure-x.org/)_ | Hangzhou | 2025.7.23 - 2025.7.27
-
 ## Education Background
 
 Bachelor's degree in Computer Science and Technology, currently pursuing.
@@ -69,5 +58,5 @@ Bachelor's degree in Computer Science and Technology, currently pursuing.
 
 _小米社区_ | 2021.08 - 2023.12
 
-- 累计创作内容 470+ 篇，累计互动量 122w+，平均互动量 2600+，单帖最高互动量达 2.8w+，多次打造爆款内容。
+- 创作内容 470+ 篇，互动量 122w+，平均互动量 2600+，单帖最高互动量 2.8w+。
 -->
