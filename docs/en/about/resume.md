@@ -19,13 +19,13 @@ With experience in frontend development, CI/CD systems, and compiler development
 
 ## Project Experience
 
-### openEuler RISC-V SIG 软件包维护者（Package Maintainer）
+### openEuler RISC-V SIG Package Maintainer
 
-_中国科学院软件研究所_ | 2025.12 - 至今
+_Institute of Software, Chinese Academy of Sciences_ | 2025.12 - Present
 
-- 在 openEuler RISC-V（riscv64）平台上维护和构建 RPM 软件包，定位并解决跨架构构建失败问题。
-- 针对复杂构建问题，分析并优化 spec 文件与构建脚本，完成版本升级适配与依赖调整。
-- 进行源码级调试（gdb / 日志分析），修复运行时功能性 Bug 与 Crash 问题。
+- Maintain and build RPM packages on the openEuler RISC-V (riscv64) platform, identify and resolve cross-architecture build failures.
+- Analyze and optimize spec files and build scripts for complex build issues, complete version upgrade adaptation and dependency adjustments.
+- Perform source-level debugging (gdb/log analysis), fix runtime functional bugs and crash issues.
 
 ### Shadow GPGPU LLVM Toolchain Development
 
