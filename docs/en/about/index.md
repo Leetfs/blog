@@ -11,14 +11,16 @@ index: false
 
 **Passionate about open-source, technology, and equality.**
 
-A 20-year-old university student currently interning at the **Institute of Software, Chinese Academy of Sciences**, and an active member of **Project Trans**.Welcome to view my [resume](./resume) to learn more about me.Welcome to view my [resume](./resume) to learn more about me.
+A current university student, currently interning at the Institute of Software, Chinese Academy of Sciences, primarily focused on RISC-V, foundational software, and systems.Active in open-source projects such as Project Trans, travellings, and aboutTrans.
+
+Welcome to view my [resume](./resume) to learn more about me.
 
 ---
 
 ### 📫 Contact
 
 - 📧 Email: <lee@mtftm.com>
-- 🔑 PGP Key: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+- 🔑 PGP Key: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
 
 ---
 
