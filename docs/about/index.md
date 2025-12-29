@@ -11,7 +11,7 @@ index: false
 
 **热爱开源、技术与平等。**
 
-一名 20 岁的大学生，曾在**中国科学院软件研究所**实习，目前是 **Project Trans** 和 **开往 travellings** 的活跃成员。欢迎查看我的 [简历](./resume)，了解更多关于我的信息。
+一名在读大学生，目前在中国科学院软件研究所实习，主要关注 RISC-V、基础软件与系统方向。活跃于 Project Trans、开往 travellings 和 aboutTrans 等开源项目。欢迎查看我的 [简历](./resume)，了解更多我的信息。
 
 ---
 
