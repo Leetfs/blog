@@ -11,24 +11,26 @@ index: false
 
 **Passionate about open-source, technology, and equality.**
 
-A current university student, currently interning at the Institute of Software, Chinese Academy of Sciences, primarily focused on RISC-V, foundational software, and systems.Active in open-source projects such as Project Trans, travellings, and aboutTrans.Welcome to view my [resume](./resume) to learn more about me.
+A current university student, currently interning at the Institute of Software, Chinese Academy of Sciences, primarily focused on RISC-V, foundational software, and systems.Active in open-source projects such as Project Trans, travellings, and aboutTrans.
+
+欢迎查看我的 [简历](./resume)，了解更多我的信息。
 
 ---
 
-### 📫 Contact
+### 📫 联系我
 
-- 📧 Email: <lee@mtftm.com>
-- 🔑 PGP Key: [`16B6 8466 D702 DB58 D893 9F9F F524 9CF8 681F 623F`](https://keyserver.ubuntu.com/pks/lookup?search=16B68466D702DB58D8939F9FF5249CF8681F623F&fingerprint=on&op=index)
+- 📧 邮箱: <lee@mtftm.com>
+- 🔑 PGP 密钥: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
 
 ---
 
-### 🕹️ Recently played games
+### 🕹️ 最近玩过的游戏
 
 ![](https://raw.githubusercontent.com/Leetfs/Leetfs/main/metrics.plugin.steam.svg)
 
 ---
 
-### 📊 GitHub Stats
+### 📊 GitHub 统计
 
 <a href="https://github.com/Leetfs/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Leetfs&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews" width="49%" />
@@ -39,8 +41,8 @@ A current university student, currently interning at the Institute of Software, 
 
 ---
 
-### 🚀 Tech Stack
+### 🚀 技术栈
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+[![我的技能](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
 
 ---
