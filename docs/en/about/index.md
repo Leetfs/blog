@@ -11,7 +11,7 @@ index: false
 
 **Passionate about open-source, technology, and equality.**
 
-A 20-year-old university student currently interning at the **Institute of Software, Chinese Academy of Sciences**, and an active member of **Project Trans**.Welcome to view my [resume](./resume) to learn more about me.Welcome to view my [resume](./resume) to learn more about me.
+A current university student, currently interning at the Institute of Software, Chinese Academy of Sciences, primarily focused on RISC-V, foundational software, and systems.Active in open-source projects such as Project Trans, travellings, and aboutTrans.Welcome to view my [resume](./resume) to learn more about me.
 
 ---
 
