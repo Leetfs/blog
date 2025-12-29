@@ -13,24 +13,24 @@ index: false
 
 A current university student, currently interning at the Institute of Software, Chinese Academy of Sciences, primarily focused on RISC-V, foundational software, and systems.Active in open-source projects such as Project Trans, travellings, and aboutTrans.
 
-欢迎查看我的 [简历](./resume)，了解更多我的信息。
+Welcome to view my [resume](./resume) to learn more about me.
 
 ---
 
-### 📫 联系我
+### 📫 Contact
 
-- 📧 邮箱: <lee@mtftm.com>
-- 🔑 PGP 密钥: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
+- 📧 Email: <lee@mtftm.com>
+- 🔑 PGP Key: [`49DB D365 E8D1 8E4F B84F BC3F A997 7131 DCD8 593F`](https://keyserver.ubuntu.com/pks/lookup?search=49DBD365E8D18E4FB84FBC3FA9977131DCD8593F&fingerprint=on&op=index)
 
 ---
 
-### 🕹️ 最近玩过的游戏
+### 🕹️ Recently played games
 
 ![](https://raw.githubusercontent.com/Leetfs/Leetfs/main/metrics.plugin.steam.svg)
 
 ---
 
-### 📊 GitHub 统计
+### 📊 GitHub Stats
 
 <a href="https://github.com/Leetfs/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=Leetfs&show_icons=true&count_private=true&theme=transparent&hide_border=true&show=reviews" width="49%" />
@@ -41,8 +41,8 @@ A current university student, currently interning at the Institute of Software, 
 
 ---
 
-### 🚀 技术栈
+### 🚀 Tech Stack
 
-[![我的技能](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,unity,ae,au,ai,ps,pr,blender,c,cs,cpp,cloudflare,html,css,debian,docker,git,github,githubactions,react,linux,md,npm,pnpm,ubuntu,vue,vite,electron)](https://skillicons.dev)
 
 ---
