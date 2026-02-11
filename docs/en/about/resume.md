@@ -19,6 +19,14 @@ With experience in frontend development, CI/CD systems, and compiler development
 
 ## Project Experience
 
+### openEuler RISC-V SIG Package Maintainer
+
+_Institute of Software, Chinese Academy of Sciences_ | 2025.12 - Present
+
+- Maintain and build RPM packages on the openEuler RISC-V (riscv64) platform, identify and resolve cross-architecture build failures.
+- Analyze and optimize spec files and build scripts for complex build issues, complete version upgrade adaptation and dependency adjustments.
+- Perform source-level debugging (gdb/log analysis), fix runtime functional bugs and crash issues.
+
 ### Shadow GPGPU LLVM Toolchain Development
 
 _Institute of Software, Chinese Academy of Sciences_ | May 2025 - Present
