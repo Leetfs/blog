@@ -12,7 +12,7 @@ on:
       - 'package.json'
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 * * 1'
 
 jobs:
   s3-sync:
@@ -23,7 +23,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_KEY }}
       S3_BUCKET: lee-blog
       S3_ENDPOINT: https://s3.cstcloud.cn
-      URL_EXPIRES: 3000000  # 3000000 秒 ≈ 34.7 天
+      URL_EXPIRES: 604800  # 604800 秒 ≈ 7 天
 
     steps:
       - name: Checkout repository
