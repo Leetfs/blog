@@ -1,4 +1,7 @@
-# RISCV 64 glibc + systemd LFS 通关攻略
+---
+title: RISCV 64 glibc + systemd LFS 通关攻略
+author: Lee
+---
 
 ## 安装依赖
 
