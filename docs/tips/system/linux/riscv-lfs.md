@@ -539,7 +539,7 @@ qemu-system-riscv64 \
     -bios default \
     -kernel $LFS/sources/linux-6.6.10/arch/riscv/boot/Image \
     -drive file=$LFS/lfs-glibc-riscv64.img,format=raw,if=virtio \
-    -append "root=/dev/vda rw console=ttyS0 init=/usr/lib/systemd/systemd systemd.log_level=debug" \
+    -append "root=/dev/vda rw console=ttyS0 init=/usr/lib/systemd/systemd" \
     -nographic
 ```
 
