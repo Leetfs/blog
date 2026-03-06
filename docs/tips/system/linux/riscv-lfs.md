@@ -495,7 +495,7 @@ EOF
 
 ## 开机自启
 
-```bashj
+```bash
 # 创建 root 目录
 sudo mkdir -p $LFS/rootfs/root
 
