@@ -307,7 +307,7 @@ ninja -j$(nproc)
 DESTDIR=$LFS/rootfs ninja install
 ```
 
-## 登录配置
+## Login Configuration
 
 ```bash
 # Simple login script
