@@ -307,6 +307,8 @@ ninja -j$(nproc)
 DESTDIR=$LFS/rootfs ninja install
 ```
 
+## 登录配置
+
 ```bash
 # Simple login script
 cat << 'EOF' | sudo tee $LFS/rootfs/usr/bin/lfs-login
