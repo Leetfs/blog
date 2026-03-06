@@ -58,16 +58,8 @@ riscv64-unknown-linux-gnu-g++ --version
 需补齐根文件系统，否则会报错
 
 ```bash
-[    0.542911] Run /init as init process
 mount: mounting none on /proc failed: No such file or directory
 mount: mounting none on /sys failed: No such file or directory
-/init: line 4: can't create /dev/null: nonexistent directory
-[*] LFS RISC-V64 (musl) booted
-[*] Static BusyBox
-[*] Architecture: riscv64
-/init: line 11: can't open /dev/console: no such file
-[    0.662606] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00000100
-[    0.663233] CPU: 0 PID: 1 Comm: init Not tainted 6.6.10 #1
 ```
 
 解决方案：
