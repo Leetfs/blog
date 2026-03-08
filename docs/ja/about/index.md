@@ -32,8 +32,8 @@ index: false
 
 ### 📊 GitHub統計
 
-| [![Leetfs's GitHub stats](https://github-readme-stats-neon-nine-18.vercel.app/api?username=Leetfs&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true)](https://github.com/Leetfs) | [![Top Langs](https://github-readme-stats-neon-nine-18.vercel.app/api/top-langs/?username=Leetfs&layout=compact&theme=buefy&hide_border=true)](https://github.com/Leetfs) |
-| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [![LeetfsのGitHub統計](https://github-readme-stats-neon-nine-18.vercel.app/api?username=Leetfs&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true)](https://github.com/Leetfs) | [![トップ言語](https://github-readme-stats-neon-nine-18.vercel.app/api/top-langs/?username=Leetfs&layout=compact&theme=buefy&hide_border=true)](https://github.com/Leetfs) |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
 ---
 
