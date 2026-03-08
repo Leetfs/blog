@@ -32,8 +32,6 @@ index: false
 
 ### 📊 GitHub 统计
 
-### 📊 GitHub Stats
-
 | [![Leetfs's GitHub stats](https://github-readme-stats-neon-nine-18.vercel.app/api?username=Leetfs&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true)](https://github.com/Leetfs) | [![Top Langs](https://github-readme-stats-neon-nine-18.vercel.app/api/top-langs/?username=Leetfs&layout=compact&theme=buefy&hide_border=true)](https://github.com/Leetfs) |
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
