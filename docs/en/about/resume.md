@@ -19,7 +19,7 @@ With experience in frontend development, CI/CD systems, and compiler development
 
 ## Project Experience
 
-### openRuyi Linux distribution development
+### Linux 发行版开发
 
 _Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
