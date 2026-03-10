@@ -10,7 +10,7 @@ on:
   #     - '.github/workflows/deploy-to-server.yml'
   #     - '.github/workflows/deploy-to-server-and-s3.yml'
   #     - 'package.json'
-  # workflow_dispatch:
+  workflow_dispatch:
   # schedule:
   #   - cron: '0 0 * * 1'
 
