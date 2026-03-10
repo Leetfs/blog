@@ -19,7 +19,7 @@ With experience in frontend development, CI/CD systems, and compiler development
 
 ## Project Experience
 
-### Linux 发行版开发
+### Linux Distribution Development
 
 _Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
