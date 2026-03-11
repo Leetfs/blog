@@ -20,3 +20,9 @@ wsl --unregister Debian
 ```bash
 wsl --install -d Debian
 ```
+
+## 关闭系统
+
+```bash
+wsl --shutdown
+```
