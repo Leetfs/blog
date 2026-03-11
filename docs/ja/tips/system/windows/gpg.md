@@ -1,9 +1,9 @@
 ---
-title: 在 WSL 中优雅地调用 Windows gpg4win 进行 Git 签名
-author: Lee
+title: WSLでWindows gpg4winをエレガントに呼び出してGit署名を行う
+author: リー
 ---
 
-## 修改/添加文件
+## ファイルの変更/追加
 
 ```bash
 sudo vim /etc/wsl.conf
@@ -15,7 +15,7 @@ enabled=true
 appendWindowsPath=true
 ```
 
-## 执行
+## 実行
 
 ```bash
 git config --global gpg.program gpg.exe
