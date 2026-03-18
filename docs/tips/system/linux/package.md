@@ -42,7 +42,7 @@ podman run --rm -it -v /你的/RPM/路径/:/mnt:z system:amd64 /bin/bash
 podman run --rm -it -v /你的/RPM/路径/:/mnt:z system:riscv64 /bin/bash
 
 ls -F /mnt
-zypper install --allow-unsigned-rpm /mnt/*.rpm
+dnf install /mnt/*.rpm
 ```
 
 ## 如何将 raw 镜像导入 podman
