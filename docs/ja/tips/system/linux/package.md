@@ -38,11 +38,11 @@ rpm -qp --queryformat '%{ARCH}\n' libraw-0.22.0-1.or.riscv64.rpm
 ## podmanコンテナ内でテスト実行する
 
 ```bash
-podman run --rm -it -v /あなたの/RPM/パス/:/mnt:z system:amd64 /bin/bash
-podman run --rm -it -v /あなたの/RPM/パス/:/mnt:z system:riscv64 /bin/bash
+podman run --rm -it -v /你的/RPM/路径/:/mnt:z system:amd64 /bin/bash
+podman run --rm -it -v /你的/RPM/路径/:/mnt:z system:riscv64 /bin/bash
 
 ls -F /mnt
-zypper install --allow-unsigned-rpm /mnt/*.rpm
+dnf install /mnt/*.rpm
 ```
 
 ## rawイメージをpodmanにインポートする方法
