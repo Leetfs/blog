@@ -7,19 +7,18 @@ author: Lee
 
 **热爱开源、技术与平等。**
 
-具备前端开发、CI/CD 系统与编译器开发经验，熟悉 Linux 环境下的开发与调试，深度参与 RISC-V 生态与 GPGPU 工具链开发，喜欢做一些 _有意义_ 的事。
+具备前端开发、CI/CD 系统与 Linux 发行版开发经验，深度参与 RISC-V 生态建设。
 
 ## 技能
 
-- 编程语言：Python、JavaScript、C/C++、Groovy
+- 编程语言：Python、JavaScript、C/C++
 - 前端开发：Vue、React、Node.js、Electron
-- 后端与自动化：FastAPI、Jenkins Pipeline（Groovy）、CI/CD
+- 后端与自动化：FastAPI、CI/CD
 - 开发与运维工具：Docker、Git、Jenkins、Make、CMake
-- 系统与底层：Linux、LLVM
 
 ## 项目经历
 
-### Linux 发行版开发
+### openRuyi Linux 发行版开发
 
 _中国科学院软件研究所_ | 2026.03 - 至今
 
