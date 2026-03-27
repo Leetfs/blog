@@ -7,18 +7,18 @@ author: Lee
 
 **Passionate about open-source, technology, and equality.**\*\*
 
-具备前端开发、CI/CD 系统与 Linux 发行版开发经验，深度参与 RISC-V 生态建设。
+Experience in front-end development, CI/CD systems, and Linux distribution development, with deep involvement in the RISC-V ecosystem.
 
 ## Skills
 
-- 编程语言：Python、JavaScript、C/C++
+- Programming Languages: Python, JavaScript, C/C++
 - Front-end development: Vue, React, Node.js, Electron
-- 后端与自动化：FastAPI、CI/CD
+- Backend & Automation: FastAPI, CI/CD
 - Development and Operations Tools: Docker, Git, Jenkins, Make, CMake
 
 ## Project Experience
 
-### openRuyi Linux 发行版开发
+### openRuyi Linux distribution development
 
 _Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
