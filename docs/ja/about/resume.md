@@ -7,19 +7,18 @@ author: Lee
 
 **オープンソース、技術、平等を愛しています。**
 
-フロントエンド開発、CI/CDシステム、コンパイラ開発の経験があり、Linux環境での開発とデバッグに精通しています。RISC-VエコシステムとGPGPUツールチェーンの開発に深く関わり、"意味のある"ことをするのが好きです。
+具备前端开发、CI/CD 系统与 Linux 发行版开发经验，深度参与 RISC-V 生态建设。
 
 ## スキル
 
-- プログラミング言語：Python、JavaScript、C/C++、Groovy
+- 编程语言：Python、JavaScript、C/C++
 - フロントエンド開発：Vue、React、Node.js、Electron
-- バックエンドと自動化：FastAPI、Jenkins Pipeline（Groovy）、CI/CD
+- 后端与自动化：FastAPI、CI/CD
 - 開発と運用ツール：Docker、Git、Jenkins、Make、CMake
-- システムと低レベル：Linux、LLVM
 
 ## プロジェクト経験
 
-### Linuxディストリビューション開発
+### openRuyi Linux 发行版开发
 
 _中国科学院軟件研究所_ | 2026.03 - 現在
 
