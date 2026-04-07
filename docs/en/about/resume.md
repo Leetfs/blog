@@ -22,7 +22,8 @@ Experience in front-end development, CI/CD systems, and Linux distribution devel
 
 _Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
-- To be supplemented
+- 工作内容：待补充
+- 项目背景：openRuyi 是由中科院软件所主导的、面向 RISC-V 生态的高性能 Linux 发行版，受[央视新闻](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[中国日报](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学报](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)等主流媒体深度报道。
 
 ### Shadow GPGPU LLVM Toolchain Development
 
