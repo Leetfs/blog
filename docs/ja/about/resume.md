@@ -7,25 +7,23 @@ author: Lee
 
 **オープンソース、技術、平等を愛しています。**
 
-フロントエンド開発、CI/CDシステム、コンパイラ開発の経験があり、Linux環境での開発とデバッグに精通しています。RISC-VエコシステムとGPGPUツールチェーンの開発に深く関わり、"意味のある"ことをするのが好きです。
+フロントエンド開発、CI/CDシステム、Linuxディストリビューション開発の経験を有し、RISC-Vエコシステム構築に深く関与しています。
 
 ## スキル
 
-- プログラミング言語：Python、JavaScript、C/C++、Groovy
+- プログラミング言語：Python、JavaScript、C/C++
 - フロントエンド開発：Vue、React、Node.js、Electron
-- バックエンドと自動化：FastAPI、Jenkins Pipeline（Groovy）、CI/CD
+- バックエンドと自動化：FastAPI、CI/CD
 - 開発と運用ツール：Docker、Git、Jenkins、Make、CMake
-- システムと低レベル：Linux、LLVM
 
 ## プロジェクト経験
 
-### openEuler RISC-V SIG パッケージメンテナー（Package Maintainer）
+### openRuyi Linuxディストリビューション開発
 
-_中国科学院軟件研究所_ | 2025.12 - 現在
+_中国科学院軟件研究所_ | 2026.03 - 現在
 
-- openEuler RISC-V（riscv64）プラットフォームでRPMパッケージを保守・構築し、クロスアーキテクチャのビルド失敗問題を特定・解決する。
-- 複雑なビルド問題に対して、specファイルとビルドスクリプトを分析・最適化し、バージョンアップ対応と依存関係調整を完了する。
-- ソースコードレベルのデバッグ（gdb / ログ分析）を実施し、実行時の機能性バグとクラッシュ問題を修正する。
+- 業務内容：未記載
+- プロジェクト背景：openRuyiは中国科学院軟件研究所が主導する、RISC-Vエコシステム向けの高性能Linuxディストリビューションであり、[CCTVニュース](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[チャイナデイリー](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学報](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)などの主要メディアで深く報道されている。
 
 ### 乗影 GPGPU LLVM ツールチェーン開発
 

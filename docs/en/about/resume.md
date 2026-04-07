@@ -7,25 +7,23 @@ author: Lee
 
 **Passionate about open-source, technology, and equality.**\*\*
 
-With experience in frontend development, CI/CD systems, and compiler development, familiar with development and debugging in Linux environments, deeply involved in the RISC-V ecosystem and GPGPU toolchain development, enjoys doing _meaningful_ things.
+Experience in front-end development, CI/CD systems, and Linux distribution development, with deep involvement in the RISC-V ecosystem.
 
 ## Skills
 
-- Programming Languages: Python, JavaScript, C/C++, Groovy
+- Programming Languages: Python, JavaScript, C/C++
 - Front-end development: Vue, React, Node.js, Electron
-- Back-end & Automation: FastAPI, Jenkins Pipeline (Groovy), CI/CD
+- Backend & Automation: FastAPI, CI/CD
 - Development and Operations Tools: Docker, Git, Jenkins, Make, CMake
-- Systems and Low-Level: Linux, LLVM
 
 ## Project Experience
 
-### openEuler RISC-V SIG Package Maintainer
+### openRuyi Linux distribution development
 
-_Institute of Software, Chinese Academy of Sciences_ | 2025.12 - Present
+_Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
-- Maintain and build RPM packages on the openEuler RISC-V (riscv64) platform, identify and resolve cross-architecture build failures.
-- Analyze and optimize spec files and build scripts for complex build issues, complete version upgrade adaptation and dependency adjustments.
-- Perform source-level debugging (gdb/log analysis), fix runtime functional bugs and crash issues.
+- Work content: To be added
+- Project background: openRuyi is a high-performance Linux distribution for the RISC-V ecosystem, led by the Institute of Software, Chinese Academy of Sciences. It has been extensively covered by mainstream media such as [CCTV News](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml), [China Daily](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html), and [China Science Daily](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw).
 
 ### Shadow GPGPU LLVM Toolchain Development
 
