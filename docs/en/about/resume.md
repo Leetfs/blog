@@ -22,8 +22,8 @@ Experience in front-end development, CI/CD systems, and Linux distribution devel
 
 _Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
-- 独立完成 Amazon SageMaker SDK 在 RISC-V 生态的重构与适配，处理了复杂的 Namespace 冲突。
-- openRuyi 是由中科院软件所主导的、面向 RISC-V 生态的高性能 Linux 发行版，受[央视新闻](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[中国日报](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学报](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)等主流媒体深度报道。
+- Independently completed the refactoring and adaptation of the Amazon SageMaker SDK for the RISC-V ecosystem, handling complex namespace conflicts.
+- openRuyi is a high-performance Linux distribution for the RISC-V ecosystem, led by the Institute of Software, Chinese Academy of Sciences. It has been extensively covered by mainstream media such as [CCTV News](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml), [China Daily](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html), and [China Science Daily](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw).
 
 ### Shadow GPGPU LLVM Toolchain Development
 
