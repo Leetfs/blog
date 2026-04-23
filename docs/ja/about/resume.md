@@ -22,8 +22,8 @@ author: Lee
 
 _中国科学院軟件研究所_ | 2026.03 - 現在
 
-- 独立完成 Amazon SageMaker SDK 在 RISC-V 生态的重构与适配，处理了复杂的 Namespace 冲突。
-- openRuyi 是由中科院软件所主导的、面向 RISC-V 生态的高性能 Linux 发行版，受[央视新闻](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[中国日报](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学报](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)等主流媒体深度报道。
+- Amazon SageMaker SDK の RISC-V エコシステムへの再構築と適応を単独で完了し、複雑な Namespace の競合を処理しました。
+- openRuyi は、中科院ソフトウェア研究所が主導する、RISC-V エコシステム向けの高性能 Linux ディストリビューションです。[CCTV ニュース](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[China Daily](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学報](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)などの主要メディアで詳しく報道されています。
 
 ### 乗影 GPGPU LLVM ツールチェーン開発
 
