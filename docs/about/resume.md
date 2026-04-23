@@ -22,8 +22,8 @@ author: Lee
 
 _中国科学院软件研究所_ | 2026.03 - 至今
 
-- 工作内容：待补充
-- 项目背景：openRuyi 是由中科院软件所主导的、面向 RISC-V 生态的高性能 Linux 发行版，受[央视新闻](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[中国日报](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学报](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)等主流媒体深度报道。
+- 独立完成 Amazon SageMaker SDK 在 RISC-V 生态的重构与适配，处理了复杂的 Namespace 冲突。
+- openRuyi 是由中科院软件所主导的、面向 RISC-V 生态的高性能 Linux 发行版，受[央视新闻](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[中国日报](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学报](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)等主流媒体深度报道。
 
 ### 乘影 GPGPU LLVM 工具链开发
 
