@@ -11,10 +11,10 @@ author: Lee
 
 ## 技能
 
-- 编程语言：Python、JavaScript、C/C++
-- 前端开发：Vue、React、Node.js、Electron
-- 后端与自动化：FastAPI、CI/CD
-- 开发与运维工具：Docker、Git、Jenkins、Make、CMake
+- 编程语言： 熟练掌握 C/C++，熟悉 React、Vue 前端框架及 Electron 跨平台桌面端应用开发。
+- 系统开发： 深入理解 Linux 系统架构，具备独立构建 LFS (Linux From Scratch) 经验；熟悉 RISC-V 架构及底层工具链（包括 systemd、glibc 及 riscv64 交叉编译）。
+- 编译技术： 熟悉 LLVM 框架与代码生成流程，熟练使用 CMake 等构建工具。
+- 基础设施： 掌握 Jenkins、GitHub Actions 等 CI/CD 自动化流水线搭建，熟悉 Docker 容器与 Nginx 配置。
 
 ## 项目经历
 
@@ -23,7 +23,8 @@ author: Lee
 _中国科学院软件研究所_ | 2026.03 - 至今
 
 - 独立完成 Amazon SageMaker SDK 在 RISC-V 生态的重构与适配，处理了复杂的 Namespace 冲突。
-- openRuyi 是由中科院软件所主导的、面向 RISC-V 生态的高性能 Linux 发行版，受[央视新闻](https://tv.cctv.com/2026/03/27/VIDELKIq9YMnfdShqpRGcLC1260327.shtml)、[中国日报](https://www.chinadaily.com.cn/a/202603/26/WS69c54702a310d6866eb4016e.html)、[中国科学报](https://mp.weixin.qq.com/s/9gfXKer5EOkXSSKu8clOIw)等主流媒体深度报道。
+- 负责追踪上游 CVE 漏洞动态，通过向后移植安全补丁完成漏洞修复，并在 RISC-V 环境下进行严格的编译与回归测试，确保修复方案的稳定性。
+- 参与发行版创新工具的设计、研发和维护工作，为发行版基础设施引入自动化与 AI 能力。
 
 ### 乘影 GPGPU LLVM 工具链开发
 
