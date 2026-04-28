@@ -11,10 +11,10 @@ Experience in front-end development, CI/CD systems, and Linux distribution devel
 
 ## Skills
 
-- 编程语言： 熟练掌握 C/C++，熟悉 React、Vue 前端框架及 Electron 跨平台桌面端应用开发。
-- 系统开发： 深入理解 Linux 系统架构，具备独立构建 LFS (Linux From Scratch) 经验；熟悉 RISC-V 架构及底层工具链（包括 systemd、glibc 及 riscv64 交叉编译）。
-- 编译技术： 熟悉 LLVM 框架与代码生成流程，熟练使用 CMake 等构建工具。
-- 基础设施： 掌握 Jenkins、GitHub Actions 等 CI/CD 自动化流水线搭建，熟悉 Docker 容器与 Nginx 配置。
+- Programming Languages: Proficient in C/C++, familiar with React, Vue frontend frameworks and Electron cross-platform desktop application development.
+- System Development: Deep understanding of Linux system architecture, experience independently building LFS (Linux From Scratch); familiar with RISC-V architecture and underlying toolchains (including systemd, glibc, and riscv64 cross-compilation).
+- Compilation Technology: Familiar with LLVM framework and code generation flow, skilled in using CMake and other build tools.
+- Infrastructure: Proficient in setting up CI/CD automation pipelines such as Jenkins and GitHub Actions, familiar with Docker containers and Nginx configuration.
 
 ## Project Experience
 
@@ -23,8 +23,8 @@ Experience in front-end development, CI/CD systems, and Linux distribution devel
 _Institute of Software, Chinese Academy of Sciences_ | 2026.03 - Present
 
 - Independently completed the refactoring and adaptation of the Amazon SageMaker SDK for the RISC-V ecosystem, handling complex namespace conflicts.
-- 负责追踪上游 CVE 漏洞动态，通过向后移植安全补丁完成漏洞修复，并在 RISC-V 环境下进行严格的编译与回归测试，确保修复方案的稳定性。
-- 参与发行版创新工具的设计、研发和维护工作，为发行版基础设施引入自动化与 AI 能力。
+- Responsible for tracking upstream CVE vulnerability dynamics, performing vulnerability fixes through backporting security patches, and conducting rigorous compilation and regression testing in the RISC-V environment to ensure the stability of the fix.
+- Participate in the design, development, and maintenance of innovative distribution tools, introducing automation and AI capabilities to the distribution infrastructure.
 
 ### Shadow GPGPU LLVM Toolchain Development
 
