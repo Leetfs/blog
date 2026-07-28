@@ -283,9 +283,10 @@ const friends = [
 const personalLinks = [
   { label: "GitHub", monogram: "GH", detail: "Lee on GitHub", href: "https://github.com/Leetfs" },
   { label: "X", monogram: "X", detail: "Lee on X", href: "https://x.com/leetfs1" },
-  { label: "VRChat", monogram: "VRC", detail: "Display name: Lee", href: "https://vrchat.com/home/user/usr_cb43b2cb-6c62-422a-9d47-3b6237fc8048" },
+  { label: "VRChat", monogram: "VRC", detail: "Display name: Leetfs", href: "https://vrchat.com/home/user/usr_cb43b2cb-6c62-422a-9d47-3b6237fc8048" },
   { label: "Telegram", monogram: "TG", detail: "Lee on Telegram", href: "https://t.me/leetfs" },
   { label: "Email", monogram: "@", detail: "lee@mtftm.com", href: "mailto:lee@mtftm.com" },
+  { label: "Steam", monogram: "STM", detail: "Lee on Steam", href: "https://steamcommunity.com/profiles/76561199643388304/" },
 ] as const;
 
 const profileProjects = [
