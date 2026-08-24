@@ -273,7 +273,7 @@ const messages = {
 } as const;
 
 const friends = [
-  { name: "猫咕", description: { zh: "善良、纯粹的猫猫。", en: "A kind and genuine cat.", ja: "優しくて純粋な猫。" }, href: "https://github.com/lumigj", avatar: "/friends/lumi.PNG" },
+  { name: "猫卷", description: { zh: "善良的猫卷，春节的猫卷，乖孩子猫卷", en: "CatRoll Cattery", ja: "優しくて純粋な猫。" }, href: "https://github.com/lumigj", avatar: "/friends/lumi.PNG" },
   { name: "玲雨兰夜", description: { zh: "欢迎来到玲雨兰夜的个人站点。", en: "Welcome to Lingyu Lanye's personal site.", ja: "玲雨兰夜の個人サイトへようこそ。" }, href: "http://nhui.top/", avatar: "/friends/nhui.jpg" },
   { name: "香菜", description: { zh: "技术、生活与个人记录。", en: "Technology, life, and personal notes.", ja: "技術、生活、個人の記録。" }, href: "https://mdzz.pro/", avatar: "https://avatars.githubusercontent.com/u/85744569" },
   { name: "DokiDoki·大黄猫", description: { zh: "持续更新的网络杂货店。", en: "A continuously updated web variety store.", ja: "更新を続けるウェブ雑貨店。" }, href: "https://www.iacg.moe/", avatar: "https://www.iacg.moe/upload/cat.png" },
